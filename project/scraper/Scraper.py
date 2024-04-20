@@ -37,6 +37,15 @@ class Navegador:
             "TAG_NAME": By.TAG_NAME
         }
 
+    async def element_get_text(self, element, tag):
+        if element in self.locator:
+            try:
+                # Aguardar até que o elemento seja visível e, em seguida, retornar seu texto
+                element_text = self.wait.until(EC.visibility_of_element_located((self.locator[element], tag)))
+                return element_text
+            except TimeoutException:
+                print("Elemento não encontrado")     
+
     async def get(self, url):
         # await asyncio.sleep(0)
         self.driver.get(url)
@@ -56,7 +65,6 @@ class Navegador:
         return response    
     # Funcao para digitar no elemento           
     async def sendkeys(self, element, tag, keys):
-
     #  await asyncio.sleep(0)
         if element in self.locator:
             try:
@@ -72,6 +80,7 @@ class Navegador:
                 self.wait.until(EC.visibility_of_element_located((self.locator[element], tag))).click()
             except TimeoutException:    
                 print("Elemento não encontrado")
+
 
     async def get_table_element(self, element, tag):
         try:
