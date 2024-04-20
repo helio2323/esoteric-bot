@@ -1,5 +1,6 @@
 from flask import Flask
-from routes.routes import routes
+from scraper.routes import routes
+
 
 app = Flask(__name__)
 
