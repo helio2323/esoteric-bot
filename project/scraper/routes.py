@@ -2,8 +2,7 @@ from flask import Blueprint, jsonify
 #import check_profiles
 from bot import check_profiles, update_profile_infos, get_payments_profiles
 import asyncio
-from asyncio import create_task
-import aiohttp
+
 
 
 routes = Blueprint('routes', __name__)
@@ -33,10 +32,4 @@ async def createpayments(profileid, fechamento):
     result = await asyncio.gather(get_payments_profiles(profileid, fechamento))
 
     return jsonify({'message': 'Iniciando rota assíncrona'})
-
-@routes.route('/main_route', methods=['GET'])
-async def main_route():
-
-    result1 = app.test_client().get('/api/v1/rota1')  # Chama a primeira rota
-
-    return {'message': 'Iniciando rota assíncrona'}
+ 

@@ -25,8 +25,8 @@ class Navegador:
 
 
         # Inicializar o WebDriver do Chrome com as opções configuradas
-        #self.driver = webdriver.Remote(command_executor="http://localhost:4444/wd/hub", options=options)
-        self.driver = webdriver.Chrome(options=options)
+        self.driver = webdriver.Remote(command_executor="http://94.72.122.172:4444/wd/hub", options=options)
+        #self.driver = webdriver.Chrome(options=options)
         self.wait = WebDriverWait(self.driver, 10)
         self.by = By
         self.locator = {
