@@ -1,7 +1,10 @@
 from flask import Blueprint, jsonify
 #import check_profiles
-from bot import check_profiles
+from bot import check_profiles, update_profile_infos, get_payments_profiles
 import asyncio
+from asyncio import create_task
+import aiohttp
+
 
 routes = Blueprint('routes', __name__)
 
@@ -17,3 +20,23 @@ async def profile(profileid):
     return jsonify({'result': 'success'})
     #chama a funcao check_prfiles
 
+@routes.route('/profieinfos/<string:profileid>/<string:atualiza>', methods=['GET'])
+async def profileinfos(profileid, atualiza):
+
+    result = await asyncio.gather(update_profile_infos(profileid, atualiza))
+
+    return jsonify({'result': 'success'})
+
+@routes.route('/createpayments/<string:profileid>/<string:fechamento>', methods=['GET'])
+async def createpayments(profileid, fechamento):
+    # Define a função que será executada em segundo plano
+    result = await asyncio.gather(get_payments_profiles(profileid, fechamento))
+
+    return jsonify({'message': 'Iniciando rota assíncrona'})
+
+@routes.route('/main_route', methods=['GET'])
+async def main_route():
+
+    result1 = app.test_client().get('/api/v1/rota1')  # Chama a primeira rota
+
+    return {'message': 'Iniciando rota assíncrona'}

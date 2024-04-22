@@ -21,6 +21,8 @@ class Navegador:
         options.add_argument("--start-maximized")
         options.add_argument("--disable-notifications")
         options.add_argument("--disable-popup-blocking")
+        options.add_argument("--kiosk-printing")
+
 
         # Inicializar o WebDriver do Chrome com as opções configuradas
         #self.driver = webdriver.Remote(command_executor="http://localhost:4444/wd/hub", options=options)
@@ -36,6 +38,8 @@ class Navegador:
             "PARTIAL_LINK_TEXT": By.PARTIAL_LINK_TEXT,
             "TAG_NAME": By.TAG_NAME
         }
+    async def disable_alert(self):
+        self.driver.switch_to.alert.dismiss()
 
     async def element_get_text(self, element, tag):
         if element in self.locator:
@@ -115,15 +119,19 @@ class Navegador:
                     # Verifica se o valor não está vazio
                     if value:
                         row_data.append(value)
+                    else:
+                        row_data.append(None)
                     # Verifica se a célula contém uma tag de âncora (hiperlink)
                     link = cell.find('a')
                     if link:
                         # Se houver uma tag de âncora, adiciona o link (href) à lista de dados da linha
                         row_data.append(link.get('href'))
+                    else:
+                        row_data.append(None)
                 # Adiciona os dados da linha à lista de dados da tabela
                 if row_data:
                     table_data.append(row_data)
-            
+
             # Imprime os dados da tabela
             
             df = pd.DataFrame(table_data)
@@ -131,3 +139,5 @@ class Navegador:
 
             return df 
         
+
+                   
