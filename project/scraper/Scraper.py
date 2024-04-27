@@ -25,7 +25,7 @@ class Navegador:
 
 
         # Inicializar o WebDriver do Chrome com as opções configuradas
-        self.driver = webdriver.Remote(command_executor="http://94.72.122.172:4444/wd/hub", options=options)
+        self.driver = webdriver.Remote(command_executor="https://grid.consium.com.br/wd/hub", options=options)
         #self.driver = webdriver.Chrome(options=options)
         self.wait = WebDriverWait(self.driver, 10)
         self.by = By
@@ -58,7 +58,7 @@ class Navegador:
         self.driver.quit()   
 
     async def close_session(self, session_id):
-        grid_url = "http://localhost:4444/wd/hub"
+        grid_url = "https://grid.consium.com.br/wd/hub"
         session_url = f"{grid_url}/session/{session_id}"
         response = requests.delete(session_url)
         if response.status_code == 200:

@@ -19,7 +19,7 @@ async def profile(profileid):
     return jsonify({'result': 'success'})
     #chama a funcao check_prfiles
 
-@routes.route('/profieinfos/<string:profileid>/<string:atualiza>', methods=['GET'])
+@routes.route('/profileinfos/<string:profileid>/<string:atualiza>', methods=['GET'])
 async def profileinfos(profileid, atualiza):
 
     result = await asyncio.gather(update_profile_infos(profileid, atualiza))
