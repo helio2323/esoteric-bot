@@ -3,6 +3,19 @@ import pandas as pd
 import json
 
 from Scraper import Navegador
+
+def fechar_sessao_selenium_grid(session_id, grid_url='https://grid.consium.com.br/wd/hub'):
+    url = f"{grid_url}/session/{session_id}"
+    response = requests.delete(url)
+    if response.status_code == 200:
+        print(f"Sessão {session_id} fechada com sucesso!")
+    else:
+        print(f"Erro ao fechar a sessão {session_id}: {response.status_code} - {response.text}")
+
+# Exemplo de uso:
+
+
+
 # Faz Login
 async def login(user, password, url_site, navegador):
   
@@ -89,7 +102,7 @@ async def format_payments_table(site_id, navegador):
   
   return df
 async def get_sites(site_id):
-  url = "https://consium.com.br/version-test/api/1.1/obj/esoteric-site"
+  url = "https://consium.com.br/api/1.1/obj/esoteric-site"
   headers = {
       'Authorization': 'Bearer d523a04a372905b9eb07d90000bee51a',
       'Content-Type': 'application/json'
@@ -106,7 +119,7 @@ async def get_sites(site_id):
 
   return usuario, senha, url_site
 
-async def get_user_profiles(site_id, url_input='https://consium.com.br/version-test/api/1.1/obj/esoteric-perfis'):
+async def get_user_profiles(site_id, url_input='https://consium.com.br/api/1.1/obj/esoteric-perfis'):
     
     async def consulta_bd_api(cursor, limit):
         url = url_input
@@ -260,7 +273,7 @@ async def check_profiles(site_id):
             })
 
             print(json_row)
-            resp_ = await create_data_bubble(json_row, 'https://consium.com.br/version-test/api/1.1/obj/esoteric-perfis', 'create')
+            resp_ = await create_data_bubble(json_row, 'https://consium.com.br/api/1.1/obj/esoteric-perfis', 'create')
             
             if resp_.status_code == 400:
                 print('Verifique os dados que estao sendo imputados, tem inconsistencia')
@@ -271,7 +284,10 @@ async def check_profiles(site_id):
     await navegador.close() 
 
 async def update_profile_infos(site_id, atualiza_dados, ):
+
+
     navegador = Navegador()
+    session_id = navegador.get_session_id()
     json_data = await get_user_profiles(site_id)
     usuario, senha, url_site = await get_sites(site_id)
     await login(usuario, senha, url_site, navegador)
@@ -291,7 +307,7 @@ async def update_profile_infos(site_id, atualiza_dados, ):
                     dados_id = None
                 if dados_id != None:
                     print('Atualizando dados do perfil')
-                    url = f'https://consium.com.br/version-test/api/1.1/obj/esoteric-dadosperfis/{dados_id}' #esta pegando o ID do perfis mas precisa pegar do dadosperfis
+                    url = f'https://consium.com.br/api/1.1/obj/esoteric-dadosperfis/{dados_id}' #esta pegando o ID do perfis mas precisa pegar do dadosperfis
                     response = await create_data_bubble(json_input, url, 'update')
 
                     print('Resposta: ', response.status_code)
@@ -301,7 +317,7 @@ async def update_profile_infos(site_id, atualiza_dados, ):
             json_input = await get_profile_infos(navegador)              
 
             print('Inserindo dados do perfil')
-            url = 'https://consium.com.br/version-test/api/1.1/obj/esoteric-dadosperfis'
+            url = 'https://consium.com.br/api/1.1/obj/esoteric-dadosperfis'
             response = await create_data_bubble(json_input, url, 'create')
             dados_id = ''
             dados_id = response.json().get('id')
@@ -310,7 +326,7 @@ async def update_profile_infos(site_id, atualiza_dados, ):
             print(response.status_code)
             if response.status_code == 201:
                 print('Atualizando dados do perfil')
-                url = f'https://consium.com.br/version-test/api/1.1/obj/esoteric-perfis/{item["_id"]}'
+                url = f'https://consium.com.br/api/1.1/obj/esoteric-perfis/{item["_id"]}'
                 json_dados = json.dumps({"Dados": dados_id, "DadosPerfil": 'True'})
                 response_perfil = await create_data_bubble(json_dados, url, 'update')
 
@@ -327,95 +343,112 @@ async def update_profile_infos(site_id, atualiza_dados, ):
 async def get_payments_profiles(site_id, fechamento):
 
     navegador = Navegador()
-    json_data = await get_user_profiles(site_id)
-    usuario, senha, url_site = await get_sites(site_id)
-    await login(usuario, senha, url_site, navegador)
+    session_id = navegador.get_session_id()
 
-    url_fechamento = url_site + '/PG_Atendentes/Pg.Fechamento.php'
+    try:
+        json_data = await get_user_profiles(site_id)
+        usuario, senha, url_site = await get_sites(site_id)
+        await login(usuario, senha, url_site, navegador)
 
-    await navegador.get(url_fechamento)
+        url_fechamento = url_site + '/PG_Atendentes/Pg.Fechamento.php'
 
-    table = await format_payments_table(site_id, navegador)
+        await navegador.get(url_fechamento)
 
-    async def converter_credito_para_float(valor):
-        import re
+        table = await format_payments_table(site_id, navegador)
 
-        # Remover o prefixo 'R$ ' e substituir ',' por '.'
-        valor = valor.replace('R$ ', '').replace(',', '.')
+        async def converter_credito_para_float(valor):
+            import re
 
-        # Encontrar todos os números na string usando expressão regular
-        numeros = re.findall(r'\d+', valor)
+            # Remover o prefixo 'R$ ' e substituir ',' por '.'
+            valor = valor.replace('R$ ', '').replace(',', '.')
 
-        # Concatenar os números encontrados
-        valor_concatenado = ''.join(numeros)
-        valor_concatenado = float(valor_concatenado)
-        valor_concatenado = valor_concatenado / 100
-        try:
-            # Converter para float
-            return float(valor_concatenado)
-        except ValueError:
-            # Handle the case where the conversion fails
-            return None
+            # Encontrar todos os números na string usando expressão regular
+            numeros = re.findall(r'\d+', valor)
 
+            # Concatenar os números encontrados
+            valor_concatenado = ''.join(numeros)
+            valor_concatenado = float(valor_concatenado)
+            valor_concatenado = valor_concatenado / 100
+            try:
+                # Converter para float
+                return float(valor_concatenado)
+            except ValueError:
+                # Handle the case where the conversion fails
+                return None
 
-    for index, row in table.iterrows():
-    #coloca o id do site na coluna site
-        floatCredits = await converter_credito_para_float(row['Creditos'])
-        row['Creditos'] = floatCredits
+        #define o tamanho da tabela
+        table_size = len(table)
+        table_updated = 0
 
-    response_payments = await get_user_profiles(site_id, 'https://consium.com.br/version-test/api/1.1/obj/esoteric-pagamentos')
+        for index, row in table.iterrows():
+        #coloca o id do site na coluna site
+            floatCredits = await converter_credito_para_float(row['Creditos'])
+            row['Creditos'] = floatCredits
 
-    #redefinir table com somente 3 linhas de daos
+        response_payments = await get_user_profiles(site_id, 'https://consium.com.br/api/1.1/obj/esoteric-pagamentos')
 
-    for index, row in table.iterrows():
-        for obj in json_data:
-            if site_id in obj['SiteVinculado'] and obj['ID'] == row['ID']:
-                payment = True
-                try:
-                    dados_id = obj['Dados']
-                except:
-                    dados_id = None
-                for payments in response_payments:
-                    
-                    if payments['Perfil'] == obj['_id'] and payments['Fechamento'] == fechamento:
-                        payment = False
-                        #atualiza os dados do pagamento
+        #redefinir table com somente 3 linhas de daos
+
+        for index, row in table.iterrows():
+            for obj in json_data:
+                if site_id in obj['SiteVinculado'] and obj['ID'] == row['ID']:
+                    payment = True
+                    try:
+                        dados_id = obj['Dados']
+                    except:
+                        dados_id = None
+                    for payments in response_payments:
+                        if payments['Perfil'] == obj['_id'] and payments['Fechamento'] == fechamento:
+                            payment = False
+                            #atualiza os dados do pagamento
+                            json_payments = json.dumps({
+                                "Creditos": row['Creditos'],
+                                "Status": 'Pendente',
+                                "Site": obj['SiteVinculado'],
+                                "Favorecido": dados_id
+                            })
+
+                            url_payments = f'https://consium.com.br/api/1.1/obj/esoteric-pagamentos/{payments["_id"]}'
+                            response = await create_data_bubble(json_payments, url_payments, 'update')
+
+                            table_updated += 1
+                            print(table_size, table_updated)
+                            
+                            print(response.status_code)
+                    print('Checando', payment)    
+                    if payment == True:
+
                         json_payments = json.dumps({
+                            "Fechamento": fechamento,
                             "Creditos": row['Creditos'],
                             "Status": 'Pendente',
+                            "Perfil": obj['_id'],
                             "Site": obj['SiteVinculado'],
                             "Favorecido": dados_id
                         })
 
-                        url_payments = f'https://consium.com.br/version-test/api/1.1/obj/esoteric-pagamentos/{payments["_id"]}'
-                        response = await create_data_bubble(json_payments, url_payments, 'update')
-                        
+                        url_payments = f'https://consium.com.br/api/1.1/obj/esoteric-pagamentos'
+
+                        response = await create_data_bubble(json_payments, url_payments, 'create')
+
                         print(response.status_code)
-                print('Checando', payment)    
-                if payment == True:
 
-                    json_payments = json.dumps({
-                        "Fechamento": fechamento,
-                        "Creditos": row['Creditos'],
-                        "Status": 'Pendente',
-                        "Perfil": obj['_id'],
-                        "Site": obj['SiteVinculado'],
-                        "Favorecido": dados_id
-                    })
+                        table_updated += 1
+                        print(table_size, table_updated)
+                        #Realiza o cadastro dentro da tabela pagamentos
+                        #O pagamento deve ter o ano e mes de registro
 
-                    url_payments = f'https://consium.com.br/version-test/api/1.1/obj/esoteric-pagamentos'
-
-                    response = await create_data_bubble(json_payments, url_payments, 'create')
-
-                    print(response.status_code)
-                    #Realiza o cadastro dentro da tabela pagamentos
-                    #O pagamento deve ter o ano e mes de registro
-
-                    #Vincula o pagamento a um perfil
-                    ##print('Item already exists', obj['SiteVinculado'])
-                    #Caso o cadastro ja exista faz a atualizacao dos dados
-                    pass
-
+                        #Vincula o pagamento a um perfil
+                        ##print('Item already exists', obj['SiteVinculado'])
+                        #Caso o cadastro ja exista faz a atualizacao dos dados
+                        pass
+    except:
+        fechar_sessao_selenium_grid(session_id)    
+                        
     await navegador.click('XPATH', '/html/body/table/tbody/tr[1]/td/table/tbody/tr/th[2]/div/div/a[1]')
 
     await navegador.close()
+
+    print(table_updated, table_size)
+
+    return {"tablesize": table_size, "table_updated": table_updated, "status": 200}

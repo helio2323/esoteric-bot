@@ -38,6 +38,10 @@ class Navegador:
             "PARTIAL_LINK_TEXT": By.PARTIAL_LINK_TEXT,
             "TAG_NAME": By.TAG_NAME
         }
+
+    async def get_session_id (self):
+        return self.driver.session_id
+
     async def disable_alert(self):
         self.driver.switch_to.alert.dismiss()
 
