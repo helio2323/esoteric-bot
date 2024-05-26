@@ -25,8 +25,8 @@ class Navegador:
 
 
         # Inicializar o WebDriver do Chrome com as opções configuradas
-        self.driver = webdriver.Remote(command_executor="https://grid.consium.com.br/wd/hub", options=options)
-        #self.driver = webdriver.Chrome(options=options)
+        #self.driver = webdriver.Remote(command_executor="https://grid.consium.com.br/wd/hub", options=options)
+        self.driver = webdriver.Chrome(options=options)
         self.wait = WebDriverWait(self.driver, 10)
         self.by = By
         self.locator = {
@@ -52,7 +52,16 @@ class Navegador:
                 element_text = self.wait.until(EC.visibility_of_element_located((self.locator[element], tag)))
                 return element_text
             except TimeoutException:
-                print("Elemento não encontrado")     
+                print("Elemento não encontrado")   
+                  
+    async def get_elements(self, element, tag):
+        if element in self.locator:
+            try:
+                # Aguardar até que o elemento seja visível e, em seguida, retornar seu texto
+                elements = self.wait.until(EC.visibility_of_all_elements_located((self.locator[element], tag)))
+                return elements
+            except TimeoutException:
+                print("Elemento não encontrado")
 
     async def get(self, url):
         # await asyncio.sleep(0)

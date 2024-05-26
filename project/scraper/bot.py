@@ -2,6 +2,8 @@ import requests
 import pandas as pd
 import json
 
+BASE_URL = 'https://consium.com.br/api/1.1/obj/esoteric-actions'
+
 from Scraper import Navegador
 
 def fechar_sessao_selenium_grid(session_id, grid_url='https://grid.consium.com.br/wd/hub'):
@@ -165,21 +167,62 @@ async def get_user_profiles(site_id, url_input='https://consium.com.br/api/1.1/o
     
     return await fetch_all_data()
 
+async def get_profile_data(site_id, url_input='https://consium.com.br/api/1.1/obj/esoteric-dadosperfis'):
+    
+    async def consulta_bd_api(cursor, limit):
+        url = url_input
+        params ={
+            "cursor": cursor,
+            "limit": limit,
+        }
+        response = requests.get(url, params=params)
+        response_data = response.json()
+        return response_data
+    
+    async def define_cursor(response_data):
+        # Aqui, você pode implementar a lógica para determinar o próximo cursor.
+        # Por exemplo, se a API retornar o próximo cursor diretamente, você pode simplesmente retorná-lo.
+        # Caso contrário, você pode calcular o próximo cursor com base nos dados retornados ou em alguma lógica específica.
+        
+        # Se a API fornecer o próximo cursor diretamente:
+        next_cursor = response_data['response']['cursor'] + response_data['response']['count']
+        return next_cursor
+        
+        # Se você precisar de uma lógica mais complexa para determinar o próximo cursor:
+        # return None
+    
+    async def fetch_all_data():
+        cursor = 0
+        limit = 100
+        all_results = []
+        
+        while True:
+            response_data = await consulta_bd_api(cursor, limit)
+            results = response_data['response']['results']
+            all_results.extend(results)
+            
+            remaining = response_data['response']['remaining']
+            if remaining > 0:
+                cursor = await define_cursor(response_data)
+                if cursor is None:
+                    break
+            else:
+                break
+        
+        return all_results
+    
+    return await fetch_all_data()
 
 async def get_profile_infos(navegador):
+    
+    async def get_type(id_type):
+        element = await navegador.get_elements('ID', id_type)
 
-    element_dict_chave = {
-        "CPF": await navegador.element_get_text('XPATH', '/html/body/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr[6]/th/form/table/tbody/tr[29]/td[2]/input[@value="CPF"]'),
-        "CNPJ": await navegador.element_get_text('XPATH', '/html/body/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr[6]/th/form/table/tbody/tr[29]/td[2]/input[@value="CNPJ"]'),
-        "Telefone": await navegador.element_get_text('XPATH', '/html/body/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr[6]/th/form/table/tbody/tr[29]/td[2]/input[@value="Telefone"]'),
-        "E-mail": await navegador.element_get_text('XPATH', '/html/body/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr[6]/th/form/table/tbody/tr[29]/td[2]/input[@value="E-mail"]'),
-        "Chave Aleatória": await navegador.element_get_text('XPATH', '/html/body/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr[6]/th/form/table/tbody/tr[29]/td[2]/input[@value="Chave Aleatória"]')
-    }
+        for item in element:
+            if item.get_attribute('checked'):
+                Tipo_Chave = item.get_attribute('value')
+                return Tipo_Chave
 
-    elemet_dict_conta = {
-        "Conta Corrente": await navegador.element_get_text('XPATH', '/html/body/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr[6]/th/form/table/tbody/tr[38]/td[2]/input[1]'),
-        "Poupança": await navegador.element_get_text('XPATH', '/html/body/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr[6]/th/form/table/tbody/tr[38]/td[2]/input[2]')
-    }
     def remover_formatacao_cpf(cpf):
         # Remove caracteres indesejados
         cpf = cpf.replace(".", "").replace("-", "")
@@ -191,37 +234,25 @@ async def get_profile_infos(navegador):
         telefone = '+55' + telefone
         return telefone
 
-    def get_selected_element(element):
-        for key, value in element.items():
-            if value:
-                if value.is_selected():
-                    key_selected = key
-                    return key_selected
-                else:
-                    ...
-            else:
-                print(f"Nenhum elemento encontrado para '{key}'.")
+    if await get_type('Conta_Tipo') == 'C':
+        tp_conta = 'Corrente'
+    else:
+        tp_conta = 'Poupanca'
 
     element_chavepix = await navegador.element_get_text('ID', 'PIX')
     element_banco = await navegador.element_get_text('ID', 'Conta_Banco')
     element_agencia = await navegador.element_get_text('ID', 'Conta_Agencia')
     elemet_conta = await navegador.element_get_text('ID', 'Conta_Numero')
     element_favorecido = await navegador.element_get_text('ID', 'Conta_Favorecido')
-    element_tipodechave = get_selected_element(element_dict_chave)
-    element_tipodeconta = get_selected_element(elemet_dict_conta)
+    element_tipodechave = await get_type('PIXTipo')
+    element_tipodeconta = tp_conta
 
     chavepix = ''
 
-    try:
-        tipo_chave = element_tipodechave.encode('iso-8859-1').decode('utf-8')
-        tipo_conta = element_tipodeconta.encode('iso-8859-1').decode('utf-8')
-    except:
-        tipo_chave = element_tipodechave
-        tipo_conta = element_tipodeconta
     try:   
-        if tipo_chave == 'CPF':
+        if element_tipodechave == 'CPF':
             chavepix = remover_formatacao_cpf(element_chavepix.get_attribute("value"))
-        elif tipo_chave == 'Telefone':
+        elif element_tipodechave == 'Telefone':
             chavepix = remover_formatacao_telefone(element_chavepix.get_attribute("value"))
     except:
         chavepix = None
@@ -233,14 +264,37 @@ async def get_profile_infos(navegador):
         "Agencia": element_agencia.get_attribute("value"),
         "Conta": elemet_conta.get_attribute("value"),
         "Favorecido": element_favorecido.get_attribute("value"),
-        "TiposDeChaves": tipo_chave,
-        "TipoDeConta": tipo_conta,
+        "TiposDeChaves": element_tipodechave,
+        "TipoDeConta": element_tipodeconta,
                 
             })
     return json_input
 
+async def update_percent(action_id, percent):
+    if percent == 5 or percent == 10 or percent == 15 or percent == 20 or percent == 25 or percent == 30 or percent == 35 or percent == 40 or percent == 45 or percent == 50 or percent == 55 or percent == 60 or percent == 65 or percent == 70 or percent == 75 or percent == 80 or percent == 85 or percent == 90 or percent == 95 or percent == 100:
+        percent = int(percent)
+        url = f'{BASE_URL}/{action_id[0]}'
+        json_update = json.dumps({"Progresso": percent})
+        response = await create_data_bubble(json_update, url, 'update')
+        print(response.status_code)
+
+async def verf_infos_profile(user_id, json_input, present_data):
+
+    json_input_data = json.loads(json_input)
+
+    for chave, valor in json_input_data.items():
+        if valor != '':
+            if chave not in present_data:
+                
+                return 'False'
+            elif present_data[chave] != valor:
+                
+                return 'False'
+            else:
+                return 'True'
+
 #FUNCAO PRINCIPAL QUE VAI CHAMAR AS DEMAIS --------------------------------------------------------
-async def check_profiles(site_id):
+async def check_profiles(site_id, action_id=None):
     navegador = Navegador()
     
     import json
@@ -258,10 +312,20 @@ async def check_profiles(site_id):
 
     response_ids = [int(item['ID']) for item in response if item['SiteVinculado'] == site_id_to_match]
 
+
     for index, row in table.iterrows():
+
+        max_items = len(table)
+
+        percentage = int(index / max_items * 100)
+
         if int(row['ID']) in response_ids:
             print('Item already exists')
+            print(f'Progress: {percentage}%')
+            await update_percent(action_id, percentage)
         else:
+            print(f'Progress: {percentage}%')
+            await update_percent(action_id, percentage)
             print('Item nao existe')
             json_row = json.dumps({
             "ID": row['ID'],
@@ -283,67 +347,108 @@ async def check_profiles(site_id):
 
     await navegador.close() 
 
-async def update_profile_infos(site_id, atualiza_dados, ):
+async def update_profile_infos(site_id, atualiza_dados, action_id=None):
 
+    async def update_perc(action_id, percent):
+        if percent == 5 or percent == 10 or percent == 15 or percent == 20 or percent == 25 or percent == 30 or percent == 35 or percent == 40 or percent == 45 or percent == 50 or percent == 55 or percent == 60 or percent == 65 or percent == 70 or percent == 75 or percent == 80 or percent == 85 or percent == 90 or percent == 95 or percent == 100:
+            percent = int(percent)
+            url = f'{BASE_URL}/{action_id[0]}'
+            json_update = json.dumps({"Progresso": percent})
+            response = await create_data_bubble(json_update, url, 'update')
+            print(response.status_code)
 
+    #### ETAPA 1 ######
+
+    #Pegar a lista de perfisi do site la no bubble, precisa DEIXAR SOMENTE OS DADOS DO SITE QUE VAMOS VERIFICAR
+    profilesData = await get_user_profiles(site_id)
+    profilesData= [item for item in profilesData if item.get('SiteVinculado') == site_id]
+
+    print('---------------------------------------')
+    print(site_id, atualiza_dados, action_id)
+    print(f'Quantidade de perfis no site: {len(profilesData)}')
+    print('---------------------------------------')
+
+    #Pegar todos os dados dos perfis la no site do bubble, DEIXAR SOMENTE OS DADOS DO SITE QUE VAMOS VERIFICAR
+    detailsData = await get_profile_data(site_id)
+
+    #Definir variavel para fazer a contagem percentual do progresso
+
+    # inicar o navegador
     navegador = Navegador()
-    session_id = navegador.get_session_id()
-    json_data = await get_user_profiles(site_id)
+
+    #Fazer Login no site ESOTERICO
     usuario, senha, url_site = await get_sites(site_id)
     await login(usuario, senha, url_site, navegador)
 
-    for item in json_data:
-        url = f"{url_site}/PG_Atendentes/{item['Link']}"
-        if site_id == item['SiteVinculado']:
 
-          if item['DadosPerfil'] == True:
+    #### ETAP 2 ####
+
+    details_ids = {detail['_id'] for detail in detailsData}
+
+    max_count = len(profilesData)
+    countPercent = 0
+  
+    for profile in profilesData:
+
+        dados = profile.get('Dados')
+        
+        if dados in details_ids:
             if atualiza_dados == 'True':
-                
+                #print(f"Updating {dados} in detailsData")
+                url = f"{url_site}PG_Atendentes/{profile['Link']}"
+                #armazena em uma variavel a linha encontrada
+                itemDetail = next(item for item in detailsData if item['_id'] == dados)
+
+                #abre o navegador e acessa a url
                 await navegador.get(url)
-                json_input = await get_profile_infos(navegador)
-                try:
-                    dados_id = item["Dados"]
-                except:
-                    dados_id = None
-                if dados_id != None:
-                    print('Atualizando dados do perfil')
-                    url = f'https://consium.com.br/api/1.1/obj/esoteric-dadosperfis/{dados_id}' #esta pegando o ID do perfis mas precisa pegar do dadosperfis
-                    response = await create_data_bubble(json_input, url, 'update')
+                websiteProfileInfos = await get_profile_infos(navegador)
 
+                #verifica se os dados do perfil são iguais aos dados do detalhe
+                verf = await verf_infos_profile(dados, websiteProfileInfos, itemDetail)
+
+                if verf == 'False':
+                    url = f'https://consium.com.br/api/1.1/obj/esoteric-dadosperfis/{dados}'
+                    response = await create_data_bubble(websiteProfileInfos, url, 'update')
                     print('Resposta: ', response.status_code)
-          else:
-                
-            await navegador.get(url)
-            json_input = await get_profile_infos(navegador)              
+                    
+        else:
 
+            url = f"{url_site}PG_Atendentes/{profile['Link']}"
+
+            #abre o navegador e acessa a url
+            await navegador.get(url)
+            websiteProfileInfos = await get_profile_infos(navegador)
+            
             print('Inserindo dados do perfil')
             url = 'https://consium.com.br/api/1.1/obj/esoteric-dadosperfis'
-            response = await create_data_bubble(json_input, url, 'create')
-            dados_id = ''
+            response = await create_data_bubble(websiteProfileInfos, url, 'create')
             dados_id = response.json().get('id')
-            print(json_input)
-            #verificar se dados_id e diferente de vazio
             print(response.status_code)
+
             if response.status_code == 201:
                 print('Atualizando dados do perfil')
-                url = f'https://consium.com.br/api/1.1/obj/esoteric-perfis/{item["_id"]}'
+                url = f'https://consium.com.br/api/1.1/obj/esoteric-perfis/{profile["_id"]}'
                 json_dados = json.dumps({"Dados": dados_id, "DadosPerfil": 'True'})
                 response_perfil = await create_data_bubble(json_dados, url, 'update')
-
                 print('Resposta: ', response_perfil.status_code, response.status_code)
-
+        
+        countPercent += 1
+        percentage = int(countPercent / max_count * 100)
+        print(f'Progress: {percentage}%')
+        print(f'ACTION ID: {action_id}')
+        await update_perc(action_id, percentage)
 
     await navegador.click('XPATH', '/html/body/table/tbody/tr[1]/td/table/tbody/tr/th[2]/div/div/a[1]')
-
     await navegador.close()
 
     return {"status": 200}
 
 
+
 async def get_payments_profiles(site_id, fechamento):
 
     navegador = Navegador()
-    session_id = navegador.get_session_id()
+    session_id = await navegador.get_session_id()
 
     try:
         json_data = await get_user_profiles(site_id)

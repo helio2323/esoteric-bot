@@ -32,4 +32,4 @@ async def createpayments(profileid, fechamento):
     result = await asyncio.gather(get_payments_profiles(profileid, fechamento))
 
     return jsonify({'message': 'Iniciando rota assíncrona'})
- 
+
