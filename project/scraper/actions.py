@@ -45,7 +45,7 @@ async def process_action(item):
             print('Criando pagamentos')
             try:
                 await update_action(id, 'Em Andamento')
-                await get_payments_profiles(site, fechamento)
+                await get_payments_profiles(site, fechamento, id)
                 await update_action(id, 'Concluido')
             except:
                 await update_action(id, 'Erro!!!')

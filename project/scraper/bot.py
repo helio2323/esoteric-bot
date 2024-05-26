@@ -445,7 +445,7 @@ async def update_profile_infos(site_id, atualiza_dados, action_id=None):
 
 
 
-async def get_payments_profiles(site_id, fechamento):
+async def get_payments_profiles(site_id, fechamento, action_id=None):
 
     navegador = Navegador()
     session_id = await navegador.get_session_id()
@@ -494,7 +494,16 @@ async def get_payments_profiles(site_id, fechamento):
 
         #redefinir table com somente 3 linhas de daos
 
+        max_count = len(table)
+        countPercent = 0
+
         for index, row in table.iterrows():
+            countPercent += 1
+            percentage = int(countPercent / max_count * 100)
+            print(f'Progress: {percentage}%')
+            print(f'ACTION ID: {action_id}')
+            await update_percent(action_id, percentage)
+
             for obj in json_data:
                 if site_id in obj['SiteVinculado'] and obj['ID'] == row['ID']:
                     payment = True
