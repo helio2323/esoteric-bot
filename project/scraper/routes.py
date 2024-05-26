@@ -11,10 +11,10 @@ routes = Blueprint('routes', __name__)
 def hello():
     return jsonify({'hello': 'I can'})
 
-@routes.route('/profile/<string:profileid>', methods=['GET'])
-async def profile(profileid):
+@routes.route('/profile/<string:profileid>/<string:id>', methods=['GET'])
+async def profile(profileid, id):
 
-    result = await asyncio.gather(check_profiles(profileid))
+    result = await asyncio.gather(check_profiles(profileid, id))
 
     return jsonify({'result': 'success'})
     #chama a funcao check_prfiles

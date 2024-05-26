@@ -1,5 +1,6 @@
 import json
 from bot import check_profiles, update_profile_infos, get_payments_profiles, create_data_bubble, get_user_profiles
+import requests
 
 BASE_URL = 'https://consium.com.br/api/1.1/obj/esoteric-actions'
 

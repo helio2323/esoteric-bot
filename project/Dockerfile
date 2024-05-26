@@ -1,10 +1,12 @@
-FROM python:3.11.6
+FROM python:3.12.3
 
 RUN pip install --upgrade pip
 
 WORKDIR /ESOTERIC-BOT
 
 ADD . /ESOTERIC-BOT
+
+COPY requirements.txt .
 
 RUN pip install -r requirements.txt
 

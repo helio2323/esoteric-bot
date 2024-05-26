@@ -13,7 +13,7 @@ def periodic_check():
     while True:
         print("Periodic check")
         asyncio.run(action())
-        time.sleep(300)  # Aguardar 5 minutos (300 segundos)
+        time.sleep(5)  # Aguardar 5 minutos (300 segundos)
 
 app.register_blueprint(routes, url_prefix="/api/v1")
 
