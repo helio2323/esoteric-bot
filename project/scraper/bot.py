@@ -254,6 +254,8 @@ async def get_profile_infos(navegador):
             chavepix = remover_formatacao_cpf(element_chavepix.get_attribute("value"))
         elif element_tipodechave == 'Telefone':
             chavepix = remover_formatacao_telefone(element_chavepix.get_attribute("value"))
+        else:
+            chavepix = element_chavepix.get_attribute("value")
     except:
         chavepix = None
     print('Chave PIX: ', chavepix, 'ChaveNaoformatada: ', element_chavepix.get_attribute("value"))   
@@ -283,15 +285,17 @@ async def verf_infos_profile(user_id, json_input, present_data):
     json_input_data = json.loads(json_input)
 
     for chave, valor in json_input_data.items():
-        if valor != '':
-            if chave not in present_data:
-                
-                return 'False'
-            elif present_data[chave] != valor:
-                
-                return 'False'
-            else:
-                return 'True'
+        try:
+            if valor != '':
+                present_value = present_data[chave]
+                if chave not in present_data:
+                    
+                    return 'False'
+                elif present_data[chave] != valor:
+                    
+                    return 'False'
+        except:
+            continue
 
 #FUNCAO PRINCIPAL QUE VAI CHAMAR AS DEMAIS --------------------------------------------------------
 async def check_profiles(site_id, action_id=None):
@@ -393,7 +397,9 @@ async def update_profile_infos(site_id, atualiza_dados, action_id=None):
         dados = profile.get('Dados')
         
         if dados in details_ids:
-            if atualiza_dados == 'True':
+            if atualiza_dados[0] == 'True':
+                print('----------------------------------')
+                print(f'Dados serão atualizados ', atualiza_dados )
                 #print(f"Updating {dados} in detailsData")
                 url = f"{url_site}PG_Atendentes/{profile['Link']}"
                 #armazena em uma variavel a linha encontrada
@@ -467,18 +473,21 @@ async def get_payments_profiles(site_id, fechamento, action_id=None):
             # Remover o prefixo 'R$ ' e substituir ',' por '.'
             valor = valor.replace('R$ ', '').replace(',', '.')
 
-            # Encontrar todos os números na string usando expressão regular
-            numeros = re.findall(r'\d+', valor)
+            # Encontrar todos os números na string, incluindo sinal de negativo se presente
+            numeros = re.findall(r'-?\d+\.?\d*', valor)
 
-            # Concatenar os números encontrados
-            valor_concatenado = ''.join(numeros)
-            valor_concatenado = float(valor_concatenado)
-            valor_concatenado = valor_concatenado / 100
+            # Se não encontrar números, retorna None
+            if not numeros:
+                return None
+
+            # Pegar o primeiro número encontrado (assumindo que a string contém apenas um número válido)
+            valor_concatenado = numeros[0]
+
             try:
                 # Converter para float
                 return float(valor_concatenado)
             except ValueError:
-                # Handle the case where the conversion fails
+                # Se a conversão falhar, retorna None
                 return None
 
         #define o tamanho da tabela
