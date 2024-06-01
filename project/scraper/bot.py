@@ -469,9 +469,19 @@ async def get_payments_profiles(site_id, fechamento, action_id=None):
 
         async def converter_credito_para_float(valor):
             import re
+            # Remover o prefixo 'R$ ' e qualquer espaço adicional
+            valor = valor.replace('R$ ', '').strip()
 
-            # Remover o prefixo 'R$ ' e substituir ',' por '.'
-            valor = valor.replace('R$ ', '').replace(',', '.')
+            # Verificar se o valor tem separadores de milhares
+            if '.' in valor and ',' in valor:
+                # Remover pontos (separadores de milhares) e substituir vírgula (separador decimal) por ponto
+                valor = valor.replace('.', '').replace(',', '.')
+            elif '.' in valor and valor.count('.') == 1:
+                # Se o valor tem apenas um ponto, assumimos que é o separador decimal
+                pass
+            else:
+                # Se o valor tem apenas vírgula, substituí-la por ponto
+                valor = valor.replace(',', '.')
 
             # Encontrar todos os números na string, incluindo sinal de negativo se presente
             numeros = re.findall(r'-?\d+\.?\d*', valor)
