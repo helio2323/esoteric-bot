@@ -2,7 +2,7 @@ import json
 from bot import check_profiles, update_profile_infos, get_payments_profiles, create_data_bubble, get_user_profiles
 import requests
 
-BASE_URL = 'https://consium.com.br/api/1.1/obj/esoteric-actions'
+BASE_URL = 'https://talentai.com.br/api/1.1/obj/esoteric-actions'
 
 async def update_action(action_id, status):
     url = f'{BASE_URL}/{action_id[0]}'

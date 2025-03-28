@@ -71,7 +71,7 @@ class Navegador:
         self.driver.quit()   
 
     async def close_session(self, session_id):
-        grid_url = "https://grid.consium.com.br/wd/hub"
+        grid_url = "https://grid.talentai.com.br/wd/hub"
         session_url = f"{grid_url}/session/{session_id}"
         response = requests.delete(session_url)
         if response.status_code == 200:
