@@ -27,6 +27,18 @@ class Driver(BaseCase):
         self.options.add_argument("--disable-blink-features=AutomationControlled")
         self.options.add_argument("--no-sandbox")
         self.options.add_argument("--disable-dev-shm-usage")
+        self.options.add_argument("--disable-popup-blocking")
+        
+        # Adicionar preferências para controlar PDFs
+        prefs = {
+            "download.prompt_for_download": False,
+            "plugins.always_open_pdf_externally": False,
+            "download.open_pdf_in_system_viewer": False,
+            "download.default_directory": "/caminho/para/pasta/downloads"  # Substitua pelo caminho desejado
+        }
+        self.options.add_experimental_option("prefs", prefs)
+
+
         self.logger = Logger()
         
         # Remova ou comente a linha abaixo se não for usar o método add_extension para UC Mode
@@ -38,8 +50,8 @@ class Driver(BaseCase):
     def start_driver(self):
         if not self.driver:
             # Inicializar o driver do SeleniumBase com o modo UC e passando o diretório da extensão descompactada
-            self.driver = SeleniumBaseDriver(uc=True, extension_dir='./extensions/solver')
-            #self.driver = webdriver.Remote(command_executor="http://localhost:4444/wd/hub", options=self.options)
+            #self.driver = SeleniumBaseDriver(uc=True, extension_dir='./extensions/solver')
+            self.driver = webdriver.Remote(command_executor="http://localhost:4444/wd/hub", options=self.options)
             #self.driver.get("https://www.google.com")
             self.logger.log_info("Driver iniciado com sucesso")
         else:

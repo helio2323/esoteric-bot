@@ -6,6 +6,7 @@ load_dotenv()
 url: str = os.environ.get("SUPABASE_URL")
 key: str = os.environ.get("SUPABASE_KEY")
 supabase: Client = create_client(url, key)
+import requests
 
 class SupaConnect:
     def __init__(self):
@@ -48,6 +49,51 @@ class SupaConnect:
         controle_id = kwargs['controle_id']
 
         data = supabase.table("Esoteric-controler").update(payload).eq("id", controle_id).execute()
+
+        return data
+
+    def create_payments(self, **kwargs):
+
+        #insere uma lista de pagamentos
+        data = supabase.table("Esoteric-pagamentos").insert(kwargs['payload']).execute()
+        return data
+    
+    def get_payments(self, **kwargs):
+
+        fechamento = kwargs['fechamento']
+
+        data = supabase.table("Esoteric-pagamentos").select("*").match({"fechamento": fechamento, "site_id": kwargs['site_id']}).execute()
+
+        return data
+
+    def delte_all_payments(self, **kwargs):
+        payment_ids = []
+
+        fechamento = kwargs['fechamento']
+        site_id = kwargs['site_id']
+
+        fechamentos = self.get_payments(fechamento=fechamento, site_id=site_id)
+
+        for fechamento in fechamentos.data:
+            payment_ids.append(fechamento['id'])
+
+        #for fechamento in fechamentos.data:
+        supabase.table("Esoteric-pagamentos").delete().in_("id", payment_ids).execute()
+
+        
+        return 
+    
+    def get_controlers(self):
+        data = supabase.table("Esoteric_view").select("*").execute()
+        return data
+
+    def get_fechamentos(self):
+        data = supabase.table("Esoteric_fechamentos_sites_view").select("*").execute()
+        return data
+    
+    def update_fechamento(self, fechamento_id):
+
+        data = supabase.table("Esoteric-Fechamentos").update({"status": "Concluído"}).eq("id", fechamento_id).execute()
 
         return data
 

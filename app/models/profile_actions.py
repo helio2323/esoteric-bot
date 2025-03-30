@@ -18,7 +18,7 @@ class ProfileActions:
     def login(self, username, password, site_url):
 
         try:
-            self.driver.start_driver()
+            driver = self.driver.start_driver()
             self.driver.driver.get(site_url)
             time.sleep(1)
             self.driver.driver.find_element(By.ID, "FLogin").send_keys(username)
@@ -34,6 +34,7 @@ class ProfileActions:
     def enter_atendentes(self, site_url):
         try:
             self.driver.driver.get(site_url + '/PG_Atendentes')
+            self.driver.driver.find_element(By.XPATH, "/html/body/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr[4]/th/table/tbody/tr[1]/td[1]/a[2]/img").click()
             self.driver.driver.find_element(By.ID, "select").click()
             self.driver.driver.find_element(By.XPATH, "/html/body/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr[3]/th/table/tbody/tr/td[1]/select/option[9]").click()
 
@@ -175,7 +176,7 @@ class ProfileActions:
             "sitedescricao": self.driver.driver.find_element(By.ID, "SiteDescricao").get_attribute("value"),
             "id_site": site_id,
             "esoteric_site": esoteric_site,
-            "status": False
+            "status": True
         }
         return profile
 
@@ -199,7 +200,7 @@ class ProfileActions:
             try:
                 self.driver.get(site_url + "/PG_Atendentes/Pg.Edicao.php?Codigo=" + str(row['ID']))
 
-                time.sleep(0.5)
+                #time.sleep(0.5)
 
                 profile = self.get_profile_infos(site_id=row['ID'], esoteric_site=esoteric_site)
 
@@ -222,5 +223,3 @@ class ProfileActions:
 
         self.supa.controle_update(controle_id=controle, payload={'status': 'Concluído'})
         return profile_saved
-
-

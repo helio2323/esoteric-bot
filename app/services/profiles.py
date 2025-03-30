@@ -51,12 +51,17 @@ class Profiles:
 
         self.driver.stop_driver()
 
-        
-
+username = "automacao"
+password = "automacao558658"
+site_url = "https://www.cartasdotarot.com.br/gerencial_sOAx0HTihLMl/"
 
 username = "automacao"
 password = "automacaoautomacao"
 site_url = "https://rainhasmisticas.com.br/gerencial_kDsI6fjyPQnf/"
 
-profile = Profiles()
-profile.save_update_profiles(username=username, password=password, site_url=site_url, controle=7, esoteric_site=1)
+username = "automacao"
+password = "automacao558658"
+site_url = "https://www.ciganosdotarot.com/gerencial_iBefkAcRsZJC/"
+
+#profile = Profiles()
+#profile.save_update_profiles(username=username, password=password, site_url=site_url, controle=9, esoteric_site=1)

@@ -3595,3 +3595,4337 @@ INFO - Perfil 244 atualizado com sucesso!
 INFO - Total de perfis salvos: 0
 INFO - Total de perfis atualizados: 135
 INFO - Driver não está em execução
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Iniciando o processo de atualização dos perfis
+INFO - Fazendo login no site
+INFO - Driver iniciado com sucesso
+INFO - Capturando perfis para inserção/atualização no banco de dados
+INFO - Processando perfil 328
+INFO - Perfil 328 atualizado com sucesso!
+INFO - Processando perfil 346
+INFO - Perfil 346 atualizado com sucesso!
+INFO - Processando perfil 308
+INFO - Perfil 308 atualizado com sucesso!
+INFO - Processando perfil 409
+ERROR - Erro ao processar perfil 409: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=134.0.6998.165)
+Stacktrace:
+#0 0x5c39ea796ffa <unknown>
+#1 0x5c39ea255970 <unknown>
+#2 0x5c39ea229c45 <unknown>
+#3 0x5c39ea2d5a3e <unknown>
+#4 0x5c39ea2f309c <unknown>
+#5 0x5c39ea2cd063 <unknown>
+#6 0x5c39ea299328 <unknown>
+#7 0x5c39ea29a491 <unknown>
+#8 0x5c39ea75e42b <unknown>
+#9 0x5c39ea7622ec <unknown>
+#10 0x5c39ea745a22 <unknown>
+#11 0x5c39ea762e64 <unknown>
+#12 0x5c39ea729bef <unknown>
+#13 0x5c39ea785558 <unknown>
+#14 0x5c39ea785736 <unknown>
+#15 0x5c39ea795e76 <unknown>
+#16 0x711f4169caa4 <unknown>
+#17 0x711f41729c3c <unknown>
+
+INFO - Processando perfil 450
+ERROR - Erro ao processar perfil 450: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=134.0.6998.165)
+Stacktrace:
+#0 0x5c39ea796ffa <unknown>
+#1 0x5c39ea255970 <unknown>
+#2 0x5c39ea229c45 <unknown>
+#3 0x5c39ea2d5a3e <unknown>
+#4 0x5c39ea2f309c <unknown>
+#5 0x5c39ea2cd063 <unknown>
+#6 0x5c39ea299328 <unknown>
+#7 0x5c39ea29a491 <unknown>
+#8 0x5c39ea75e42b <unknown>
+#9 0x5c39ea7622ec <unknown>
+#10 0x5c39ea745a22 <unknown>
+#11 0x5c39ea762e64 <unknown>
+#12 0x5c39ea729bef <unknown>
+#13 0x5c39ea785558 <unknown>
+#14 0x5c39ea785736 <unknown>
+#15 0x5c39ea795e76 <unknown>
+#16 0x711f4169caa4 <unknown>
+#17 0x711f41729c3c <unknown>
+
+INFO - Processando perfil 268
+ERROR - Erro ao processar perfil 268: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=134.0.6998.165)
+Stacktrace:
+#0 0x5c39ea796ffa <unknown>
+#1 0x5c39ea255970 <unknown>
+#2 0x5c39ea229c45 <unknown>
+#3 0x5c39ea2d5a3e <unknown>
+#4 0x5c39ea2f309c <unknown>
+#5 0x5c39ea2cd063 <unknown>
+#6 0x5c39ea299328 <unknown>
+#7 0x5c39ea29a491 <unknown>
+#8 0x5c39ea75e42b <unknown>
+#9 0x5c39ea7622ec <unknown>
+#10 0x5c39ea745a22 <unknown>
+#11 0x5c39ea762e64 <unknown>
+#12 0x5c39ea729bef <unknown>
+#13 0x5c39ea785558 <unknown>
+#14 0x5c39ea785736 <unknown>
+#15 0x5c39ea795e76 <unknown>
+#16 0x711f4169caa4 <unknown>
+#17 0x711f41729c3c <unknown>
+
+INFO - Processando perfil 413
+ERROR - Erro ao processar perfil 413: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=134.0.6998.165)
+Stacktrace:
+#0 0x5c39ea796ffa <unknown>
+#1 0x5c39ea255970 <unknown>
+#2 0x5c39ea229c45 <unknown>
+#3 0x5c39ea2d5a3e <unknown>
+#4 0x5c39ea2f309c <unknown>
+#5 0x5c39ea2cd063 <unknown>
+#6 0x5c39ea299328 <unknown>
+#7 0x5c39ea29a491 <unknown>
+#8 0x5c39ea75e42b <unknown>
+#9 0x5c39ea7622ec <unknown>
+#10 0x5c39ea745a22 <unknown>
+#11 0x5c39ea762e64 <unknown>
+#12 0x5c39ea729bef <unknown>
+#13 0x5c39ea785558 <unknown>
+#14 0x5c39ea785736 <unknown>
+#15 0x5c39ea795e76 <unknown>
+#16 0x711f4169caa4 <unknown>
+#17 0x711f41729c3c <unknown>
+
+INFO - Processando perfil 343
+ERROR - Erro ao processar perfil 343: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=134.0.6998.165)
+Stacktrace:
+#0 0x5c39ea796ffa <unknown>
+#1 0x5c39ea255970 <unknown>
+#2 0x5c39ea229c45 <unknown>
+#3 0x5c39ea2d5a3e <unknown>
+#4 0x5c39ea2f309c <unknown>
+#5 0x5c39ea2cd063 <unknown>
+#6 0x5c39ea299328 <unknown>
+#7 0x5c39ea29a491 <unknown>
+#8 0x5c39ea75e42b <unknown>
+#9 0x5c39ea7622ec <unknown>
+#10 0x5c39ea745a22 <unknown>
+#11 0x5c39ea762e64 <unknown>
+#12 0x5c39ea729bef <unknown>
+#13 0x5c39ea785558 <unknown>
+#14 0x5c39ea785736 <unknown>
+#15 0x5c39ea795e76 <unknown>
+#16 0x711f4169caa4 <unknown>
+#17 0x711f41729c3c <unknown>
+
+INFO - Processando perfil 404
+INFO - Driver iniciado com sucesso
+INFO - Driver iniciado com sucesso
+INFO - Driver iniciado com sucesso
+INFO - Driver iniciado com sucesso
+INFO - Driver iniciado com sucesso
+INFO - Driver iniciado com sucesso
+INFO - Driver iniciado com sucesso
+INFO - Iniciando o processo de atualização dos perfis
+INFO - Fazendo login no site
+INFO - Driver iniciado com sucesso
+INFO - Capturando perfis para inserção/atualização no banco de dados
+INFO - Processando perfil 328
+INFO - Perfil 328 atualizado com sucesso!
+INFO - Processando perfil 346
+INFO - Perfil 346 atualizado com sucesso!
+INFO - Processando perfil 308
+INFO - Perfil 308 atualizado com sucesso!
+INFO - Processando perfil 409
+INFO - Perfil 409 atualizado com sucesso!
+INFO - Processando perfil 450
+INFO - Perfil 450 atualizado com sucesso!
+INFO - Processando perfil 268
+INFO - Perfil 268 atualizado com sucesso!
+INFO - Processando perfil 413
+INFO - Perfil 413 atualizado com sucesso!
+INFO - Processando perfil 343
+INFO - Perfil 343 atualizado com sucesso!
+INFO - Processando perfil 404
+INFO - Perfil 404 atualizado com sucesso!
+INFO - Processando perfil 232
+INFO - Perfil 232 atualizado com sucesso!
+INFO - Processando perfil 241
+INFO - Perfil 241 atualizado com sucesso!
+INFO - Processando perfil 336
+INFO - Perfil 336 atualizado com sucesso!
+INFO - Processando perfil 14
+INFO - Perfil 14 atualizado com sucesso!
+INFO - Processando perfil 256
+INFO - Perfil 256 atualizado com sucesso!
+INFO - Processando perfil 443
+INFO - Perfil 443 atualizado com sucesso!
+INFO - Processando perfil 86
+INFO - Perfil 86 atualizado com sucesso!
+INFO - Processando perfil 386
+INFO - Perfil 386 atualizado com sucesso!
+INFO - Processando perfil 385
+INFO - Perfil 385 atualizado com sucesso!
+INFO - Processando perfil 384
+INFO - Perfil 384 atualizado com sucesso!
+INFO - Processando perfil 360
+INFO - Perfil 360 atualizado com sucesso!
+INFO - Processando perfil 214
+INFO - Perfil 214 atualizado com sucesso!
+INFO - Processando perfil 231
+INFO - Perfil 231 atualizado com sucesso!
+INFO - Processando perfil 388
+INFO - Perfil 388 atualizado com sucesso!
+INFO - Processando perfil 353
+INFO - Perfil 353 atualizado com sucesso!
+INFO - Processando perfil 399
+INFO - Perfil 399 atualizado com sucesso!
+INFO - Processando perfil 218
+INFO - Perfil 218 atualizado com sucesso!
+INFO - Processando perfil 284
+INFO - Perfil 284 atualizado com sucesso!
+INFO - Processando perfil 349
+INFO - Perfil 349 atualizado com sucesso!
+INFO - Processando perfil 359
+INFO - Perfil 359 atualizado com sucesso!
+INFO - Processando perfil 315
+INFO - Perfil 315 atualizado com sucesso!
+INFO - Processando perfil 414
+INFO - Perfil 414 atualizado com sucesso!
+INFO - Processando perfil 362
+INFO - Perfil 362 atualizado com sucesso!
+INFO - Processando perfil 197
+INFO - Driver iniciado com sucesso
+INFO - Perfil 197 atualizado com sucesso!
+INFO - Processando perfil 198
+INFO - Perfil 198 atualizado com sucesso!
+INFO - Processando perfil 390
+INFO - Perfil 390 atualizado com sucesso!
+INFO - Processando perfil 321
+INFO - Perfil 321 atualizado com sucesso!
+INFO - Processando perfil 371
+INFO - Perfil 371 atualizado com sucesso!
+INFO - Processando perfil 230
+INFO - Perfil 230 atualizado com sucesso!
+INFO - Processando perfil 383
+INFO - Perfil 383 atualizado com sucesso!
+INFO - Processando perfil 423
+INFO - Perfil 423 atualizado com sucesso!
+INFO - Processando perfil 213
+INFO - Perfil 213 atualizado com sucesso!
+INFO - Processando perfil 417
+INFO - Perfil 417 atualizado com sucesso!
+INFO - Processando perfil 264
+INFO - Perfil 264 atualizado com sucesso!
+INFO - Processando perfil 422
+INFO - Perfil 422 atualizado com sucesso!
+INFO - Processando perfil 401
+INFO - Perfil 401 atualizado com sucesso!
+INFO - Processando perfil 396
+INFO - Perfil 396 atualizado com sucesso!
+INFO - Processando perfil 228
+INFO - Perfil 228 atualizado com sucesso!
+INFO - Processando perfil 372
+INFO - Perfil 372 atualizado com sucesso!
+INFO - Processando perfil 428
+INFO - Perfil 428 atualizado com sucesso!
+INFO - Processando perfil 400
+INFO - Perfil 400 atualizado com sucesso!
+INFO - Processando perfil 110
+INFO - Perfil 110 atualizado com sucesso!
+INFO - Processando perfil 340
+INFO - Perfil 340 atualizado com sucesso!
+INFO - Processando perfil 319
+INFO - Perfil 319 atualizado com sucesso!
+INFO - Processando perfil 441
+INFO - Perfil 441 atualizado com sucesso!
+INFO - Processando perfil 322
+INFO - Perfil 322 atualizado com sucesso!
+INFO - Processando perfil 444
+INFO - Perfil 444 atualizado com sucesso!
+INFO - Processando perfil 439
+INFO - Perfil 439 atualizado com sucesso!
+INFO - Processando perfil 339
+INFO - Perfil 339 atualizado com sucesso!
+INFO - Processando perfil 330
+INFO - Perfil 330 atualizado com sucesso!
+INFO - Processando perfil 208
+INFO - Perfil 208 atualizado com sucesso!
+INFO - Processando perfil 356
+INFO - Perfil 356 atualizado com sucesso!
+INFO - Processando perfil 415
+INFO - Perfil 415 atualizado com sucesso!
+INFO - Processando perfil 252
+INFO - Perfil 252 atualizado com sucesso!
+INFO - Processando perfil 289
+INFO - Perfil 289 atualizado com sucesso!
+INFO - Processando perfil 451
+INFO - Perfil 451 atualizado com sucesso!
+INFO - Processando perfil 431
+INFO - Perfil 431 atualizado com sucesso!
+INFO - Processando perfil 104
+INFO - Perfil 104 atualizado com sucesso!
+INFO - Processando perfil 425
+INFO - Perfil 425 atualizado com sucesso!
+INFO - Processando perfil 405
+INFO - Perfil 405 atualizado com sucesso!
+INFO - Processando perfil 403
+INFO - Perfil 403 atualizado com sucesso!
+INFO - Processando perfil 447
+ERROR - Erro ao processar perfil 447: {'code': '22001', 'details': None, 'hint': None, 'message': 'value too long for type character varying(20)'}
+INFO - Processando perfil 140
+INFO - Perfil 140 atualizado com sucesso!
+INFO - Processando perfil 436
+INFO - Perfil 436 atualizado com sucesso!
+INFO - Processando perfil 398
+INFO - Perfil 398 atualizado com sucesso!
+INFO - Processando perfil 442
+INFO - Perfil 442 atualizado com sucesso!
+INFO - Processando perfil 420
+INFO - Perfil 420 atualizado com sucesso!
+INFO - Processando perfil 92
+INFO - Perfil 92 atualizado com sucesso!
+INFO - Processando perfil 215
+INFO - Perfil 215 atualizado com sucesso!
+INFO - Processando perfil 10
+INFO - Perfil 10 atualizado com sucesso!
+INFO - Processando perfil 429
+INFO - Perfil 429 atualizado com sucesso!
+INFO - Processando perfil 350
+INFO - Perfil 350 atualizado com sucesso!
+INFO - Processando perfil 448
+INFO - Perfil 448 atualizado com sucesso!
+INFO - Processando perfil 435
+INFO - Perfil 435 atualizado com sucesso!
+INFO - Processando perfil 189
+INFO - Perfil 189 atualizado com sucesso!
+INFO - Processando perfil 434
+INFO - Perfil 434 atualizado com sucesso!
+INFO - Processando perfil 201
+INFO - Perfil 201 atualizado com sucesso!
+INFO - Processando perfil 247
+INFO - Perfil 247 atualizado com sucesso!
+INFO - Processando perfil 67
+INFO - Perfil 67 atualizado com sucesso!
+INFO - Processando perfil 357
+INFO - Perfil 357 atualizado com sucesso!
+INFO - Processando perfil 344
+INFO - Perfil 344 atualizado com sucesso!
+INFO - Processando perfil 367
+INFO - Perfil 367 atualizado com sucesso!
+INFO - Processando perfil 257
+INFO - Perfil 257 atualizado com sucesso!
+INFO - Processando perfil 70
+ERROR - Erro ao processar perfil 70: {'code': '22001', 'details': None, 'hint': None, 'message': 'value too long for type character varying(50)'}
+INFO - Processando perfil 368
+INFO - Perfil 368 atualizado com sucesso!
+INFO - Processando perfil 245
+INFO - Perfil 245 atualizado com sucesso!
+INFO - Processando perfil 427
+INFO - Perfil 427 atualizado com sucesso!
+INFO - Processando perfil 285
+INFO - Perfil 285 atualizado com sucesso!
+INFO - Processando perfil 446
+INFO - Perfil 446 atualizado com sucesso!
+INFO - Processando perfil 432
+INFO - Perfil 432 atualizado com sucesso!
+INFO - Processando perfil 433
+INFO - Perfil 433 atualizado com sucesso!
+INFO - Processando perfil 171
+INFO - Perfil 171 atualizado com sucesso!
+INFO - Processando perfil 419
+INFO - Perfil 419 atualizado com sucesso!
+INFO - Processando perfil 47
+INFO - Perfil 47 atualizado com sucesso!
+INFO - Processando perfil 449
+INFO - Perfil 449 atualizado com sucesso!
+INFO - Processando perfil 380
+INFO - Perfil 380 atualizado com sucesso!
+INFO - Processando perfil 320
+INFO - Perfil 320 atualizado com sucesso!
+INFO - Processando perfil 379
+INFO - Perfil 379 atualizado com sucesso!
+INFO - Processando perfil 335
+INFO - Perfil 335 atualizado com sucesso!
+INFO - Processando perfil 426
+INFO - Perfil 426 atualizado com sucesso!
+INFO - Processando perfil 311
+INFO - Perfil 311 atualizado com sucesso!
+INFO - Processando perfil 440
+INFO - Perfil 440 atualizado com sucesso!
+INFO - Processando perfil 424
+INFO - Perfil 424 atualizado com sucesso!
+INFO - Processando perfil 246
+INFO - Perfil 246 atualizado com sucesso!
+INFO - Processando perfil 412
+INFO - Perfil 412 atualizado com sucesso!
+INFO - Processando perfil 410
+INFO - Perfil 410 atualizado com sucesso!
+INFO - Processando perfil 312
+INFO - Perfil 312 atualizado com sucesso!
+INFO - Processando perfil 79
+INFO - Perfil 79 atualizado com sucesso!
+INFO - Processando perfil 421
+INFO - Perfil 421 atualizado com sucesso!
+INFO - Processando perfil 293
+INFO - Perfil 293 atualizado com sucesso!
+INFO - Processando perfil 135
+INFO - Perfil 135 atualizado com sucesso!
+INFO - Processando perfil 72
+INFO - Perfil 72 atualizado com sucesso!
+INFO - Processando perfil 73
+INFO - Perfil 73 atualizado com sucesso!
+INFO - Processando perfil 430
+INFO - Perfil 430 atualizado com sucesso!
+INFO - Processando perfil 389
+INFO - Perfil 389 atualizado com sucesso!
+INFO - Processando perfil 364
+INFO - Perfil 364 atualizado com sucesso!
+INFO - Processando perfil 217
+INFO - Perfil 217 atualizado com sucesso!
+INFO - Processando perfil 408
+INFO - Perfil 408 atualizado com sucesso!
+INFO - Processando perfil 418
+INFO - Perfil 418 atualizado com sucesso!
+INFO - Processando perfil 39
+INFO - Perfil 39 atualizado com sucesso!
+INFO - Processando perfil 416
+INFO - Perfil 416 atualizado com sucesso!
+INFO - Processando perfil 68
+INFO - Perfil 68 atualizado com sucesso!
+INFO - Processando perfil 437
+INFO - Perfil 437 atualizado com sucesso!
+INFO - Processando perfil 438
+INFO - Perfil 438 atualizado com sucesso!
+INFO - Processando perfil 407
+INFO - Perfil 407 atualizado com sucesso!
+INFO - Processando perfil 445
+INFO - Perfil 445 atualizado com sucesso!
+INFO - Processando perfil 46
+INFO - Perfil 46 atualizado com sucesso!
+INFO - Processando perfil 244
+INFO - Perfil 244 atualizado com sucesso!
+INFO - Total de perfis salvos: 0
+INFO - Total de perfis atualizados: 135
+INFO - Driver não está em execução
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Driver iniciado com sucesso
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Iniciando o processo de atualização dos perfis
+INFO - Fazendo login no site
+INFO - Driver iniciado com sucesso
+INFO - Capturando perfis para inserção/atualização no banco de dados
+INFO - Processando perfil 328
+INFO - Perfil 328 atualizado com sucesso!
+INFO - Processando perfil 346
+INFO - Perfil 346 atualizado com sucesso!
+INFO - Processando perfil 308
+INFO - Perfil 308 atualizado com sucesso!
+INFO - Processando perfil 409
+INFO - Perfil 409 atualizado com sucesso!
+INFO - Processando perfil 450
+INFO - Perfil 450 atualizado com sucesso!
+INFO - Processando perfil 268
+INFO - Perfil 268 atualizado com sucesso!
+INFO - Processando perfil 413
+INFO - Perfil 413 atualizado com sucesso!
+INFO - Processando perfil 343
+INFO - Perfil 343 atualizado com sucesso!
+INFO - Processando perfil 404
+INFO - Perfil 404 atualizado com sucesso!
+INFO - Processando perfil 232
+INFO - Perfil 232 atualizado com sucesso!
+INFO - Processando perfil 241
+INFO - Perfil 241 atualizado com sucesso!
+INFO - Processando perfil 336
+INFO - Perfil 336 atualizado com sucesso!
+INFO - Processando perfil 14
+INFO - Perfil 14 atualizado com sucesso!
+INFO - Processando perfil 256
+INFO - Perfil 256 atualizado com sucesso!
+INFO - Processando perfil 443
+INFO - Perfil 443 atualizado com sucesso!
+INFO - Processando perfil 86
+INFO - Perfil 86 atualizado com sucesso!
+INFO - Processando perfil 386
+INFO - Perfil 386 atualizado com sucesso!
+INFO - Processando perfil 385
+INFO - Perfil 385 atualizado com sucesso!
+INFO - Processando perfil 384
+INFO - Perfil 384 atualizado com sucesso!
+INFO - Processando perfil 360
+INFO - Perfil 360 atualizado com sucesso!
+INFO - Processando perfil 214
+INFO - Perfil 214 atualizado com sucesso!
+INFO - Processando perfil 231
+INFO - Perfil 231 atualizado com sucesso!
+INFO - Processando perfil 388
+INFO - Perfil 388 atualizado com sucesso!
+INFO - Processando perfil 353
+INFO - Perfil 353 atualizado com sucesso!
+INFO - Processando perfil 399
+INFO - Perfil 399 atualizado com sucesso!
+INFO - Processando perfil 218
+INFO - Perfil 218 atualizado com sucesso!
+INFO - Processando perfil 284
+INFO - Perfil 284 atualizado com sucesso!
+INFO - Processando perfil 349
+INFO - Perfil 349 atualizado com sucesso!
+INFO - Processando perfil 359
+INFO - Perfil 359 atualizado com sucesso!
+INFO - Processando perfil 315
+INFO - Perfil 315 atualizado com sucesso!
+INFO - Processando perfil 414
+INFO - Perfil 414 atualizado com sucesso!
+INFO - Processando perfil 362
+INFO - Perfil 362 atualizado com sucesso!
+INFO - Processando perfil 197
+INFO - Perfil 197 atualizado com sucesso!
+INFO - Processando perfil 198
+INFO - Perfil 198 atualizado com sucesso!
+INFO - Processando perfil 390
+INFO - Perfil 390 atualizado com sucesso!
+INFO - Processando perfil 321
+INFO - Perfil 321 atualizado com sucesso!
+INFO - Processando perfil 371
+INFO - Perfil 371 atualizado com sucesso!
+INFO - Processando perfil 230
+INFO - Perfil 230 atualizado com sucesso!
+INFO - Processando perfil 383
+INFO - Perfil 383 atualizado com sucesso!
+INFO - Processando perfil 423
+INFO - Perfil 423 atualizado com sucesso!
+INFO - Processando perfil 213
+INFO - Perfil 213 atualizado com sucesso!
+INFO - Processando perfil 417
+INFO - Perfil 417 atualizado com sucesso!
+INFO - Processando perfil 264
+INFO - Perfil 264 atualizado com sucesso!
+INFO - Processando perfil 422
+INFO - Perfil 422 atualizado com sucesso!
+INFO - Processando perfil 401
+INFO - Perfil 401 atualizado com sucesso!
+INFO - Processando perfil 396
+INFO - Perfil 396 atualizado com sucesso!
+INFO - Processando perfil 228
+INFO - Perfil 228 atualizado com sucesso!
+INFO - Processando perfil 372
+INFO - Perfil 372 atualizado com sucesso!
+INFO - Processando perfil 428
+INFO - Perfil 428 atualizado com sucesso!
+INFO - Processando perfil 400
+INFO - Perfil 400 atualizado com sucesso!
+INFO - Processando perfil 110
+INFO - Perfil 110 atualizado com sucesso!
+INFO - Processando perfil 340
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Perfil 340 atualizado com sucesso!
+INFO - Processando perfil 319
+INFO - Driver iniciado com sucesso
+INFO - Perfil 319 atualizado com sucesso!
+INFO - Processando perfil 441
+INFO - Perfil 441 atualizado com sucesso!
+INFO - Processando perfil 322
+INFO - Perfil 322 atualizado com sucesso!
+INFO - Processando perfil 444
+INFO - Perfil 444 atualizado com sucesso!
+INFO - Processando perfil 439
+INFO - Perfil 439 atualizado com sucesso!
+INFO - Processando perfil 339
+INFO - Perfil 339 atualizado com sucesso!
+INFO - Processando perfil 330
+INFO - Perfil 330 atualizado com sucesso!
+INFO - Processando perfil 208
+INFO - Perfil 208 atualizado com sucesso!
+INFO - Processando perfil 356
+INFO - Perfil 356 atualizado com sucesso!
+INFO - Processando perfil 415
+INFO - Perfil 415 atualizado com sucesso!
+INFO - Processando perfil 252
+INFO - Perfil 252 atualizado com sucesso!
+INFO - Processando perfil 289
+INFO - Perfil 289 atualizado com sucesso!
+INFO - Processando perfil 451
+INFO - Perfil 451 atualizado com sucesso!
+INFO - Processando perfil 431
+INFO - Perfil 431 atualizado com sucesso!
+INFO - Processando perfil 104
+INFO - Perfil 104 atualizado com sucesso!
+INFO - Processando perfil 425
+INFO - Perfil 425 atualizado com sucesso!
+INFO - Processando perfil 405
+INFO - Perfil 405 atualizado com sucesso!
+INFO - Processando perfil 403
+INFO - Perfil 403 atualizado com sucesso!
+INFO - Processando perfil 447
+ERROR - Erro ao processar perfil 447: {'code': '22001', 'details': None, 'hint': None, 'message': 'value too long for type character varying(20)'}
+INFO - Processando perfil 140
+INFO - Perfil 140 atualizado com sucesso!
+INFO - Processando perfil 436
+INFO - Perfil 436 atualizado com sucesso!
+INFO - Processando perfil 398
+INFO - Perfil 398 atualizado com sucesso!
+INFO - Processando perfil 442
+INFO - Perfil 442 atualizado com sucesso!
+INFO - Processando perfil 420
+INFO - Perfil 420 atualizado com sucesso!
+INFO - Processando perfil 92
+INFO - Perfil 92 atualizado com sucesso!
+INFO - Processando perfil 215
+INFO - Perfil 215 atualizado com sucesso!
+INFO - Processando perfil 10
+INFO - Perfil 10 atualizado com sucesso!
+INFO - Processando perfil 429
+INFO - Perfil 429 atualizado com sucesso!
+INFO - Processando perfil 350
+INFO - Perfil 350 atualizado com sucesso!
+INFO - Processando perfil 448
+INFO - Perfil 448 atualizado com sucesso!
+INFO - Processando perfil 435
+INFO - Perfil 435 atualizado com sucesso!
+INFO - Processando perfil 189
+INFO - Perfil 189 atualizado com sucesso!
+INFO - Processando perfil 434
+INFO - Perfil 434 atualizado com sucesso!
+INFO - Processando perfil 201
+INFO - Perfil 201 atualizado com sucesso!
+INFO - Processando perfil 247
+INFO - Perfil 247 atualizado com sucesso!
+INFO - Processando perfil 67
+INFO - Perfil 67 atualizado com sucesso!
+INFO - Processando perfil 357
+INFO - Perfil 357 atualizado com sucesso!
+INFO - Processando perfil 344
+INFO - Perfil 344 atualizado com sucesso!
+INFO - Processando perfil 367
+INFO - Perfil 367 atualizado com sucesso!
+INFO - Processando perfil 257
+INFO - Perfil 257 atualizado com sucesso!
+INFO - Processando perfil 70
+ERROR - Erro ao processar perfil 70: {'code': '22001', 'details': None, 'hint': None, 'message': 'value too long for type character varying(50)'}
+INFO - Processando perfil 368
+INFO - Perfil 368 atualizado com sucesso!
+INFO - Processando perfil 245
+INFO - Perfil 245 atualizado com sucesso!
+INFO - Processando perfil 427
+INFO - Perfil 427 atualizado com sucesso!
+INFO - Processando perfil 285
+INFO - Perfil 285 atualizado com sucesso!
+INFO - Processando perfil 446
+INFO - Perfil 446 atualizado com sucesso!
+INFO - Processando perfil 432
+INFO - Perfil 432 atualizado com sucesso!
+INFO - Processando perfil 433
+INFO - Perfil 433 atualizado com sucesso!
+INFO - Processando perfil 171
+INFO - Perfil 171 atualizado com sucesso!
+INFO - Processando perfil 419
+INFO - Perfil 419 atualizado com sucesso!
+INFO - Processando perfil 47
+INFO - Perfil 47 atualizado com sucesso!
+INFO - Processando perfil 449
+INFO - Perfil 449 atualizado com sucesso!
+INFO - Processando perfil 380
+INFO - Perfil 380 atualizado com sucesso!
+INFO - Processando perfil 320
+INFO - Perfil 320 atualizado com sucesso!
+INFO - Processando perfil 379
+INFO - Perfil 379 atualizado com sucesso!
+INFO - Processando perfil 335
+INFO - Perfil 335 atualizado com sucesso!
+INFO - Processando perfil 426
+INFO - Perfil 426 atualizado com sucesso!
+INFO - Processando perfil 311
+INFO - Perfil 311 atualizado com sucesso!
+INFO - Processando perfil 440
+INFO - Perfil 440 atualizado com sucesso!
+INFO - Processando perfil 424
+INFO - Perfil 424 atualizado com sucesso!
+INFO - Processando perfil 246
+INFO - Perfil 246 atualizado com sucesso!
+INFO - Processando perfil 412
+INFO - Perfil 412 atualizado com sucesso!
+INFO - Processando perfil 410
+INFO - Perfil 410 atualizado com sucesso!
+INFO - Processando perfil 312
+INFO - Perfil 312 atualizado com sucesso!
+INFO - Processando perfil 79
+INFO - Perfil 79 atualizado com sucesso!
+INFO - Processando perfil 421
+INFO - Perfil 421 atualizado com sucesso!
+INFO - Processando perfil 293
+INFO - Perfil 293 atualizado com sucesso!
+INFO - Processando perfil 135
+INFO - Perfil 135 atualizado com sucesso!
+INFO - Processando perfil 72
+INFO - Perfil 72 atualizado com sucesso!
+INFO - Processando perfil 73
+INFO - Perfil 73 atualizado com sucesso!
+INFO - Processando perfil 430
+INFO - Perfil 430 atualizado com sucesso!
+INFO - Processando perfil 389
+INFO - Perfil 389 atualizado com sucesso!
+INFO - Processando perfil 364
+INFO - Perfil 364 atualizado com sucesso!
+INFO - Processando perfil 217
+INFO - Perfil 217 atualizado com sucesso!
+INFO - Processando perfil 408
+INFO - Perfil 408 atualizado com sucesso!
+INFO - Processando perfil 418
+INFO - Perfil 418 atualizado com sucesso!
+INFO - Processando perfil 39
+INFO - Perfil 39 atualizado com sucesso!
+INFO - Processando perfil 416
+INFO - Perfil 416 atualizado com sucesso!
+INFO - Processando perfil 68
+INFO - Perfil 68 atualizado com sucesso!
+INFO - Processando perfil 437
+INFO - Perfil 437 atualizado com sucesso!
+INFO - Processando perfil 438
+INFO - Perfil 438 atualizado com sucesso!
+INFO - Processando perfil 407
+INFO - Perfil 407 atualizado com sucesso!
+INFO - Processando perfil 445
+INFO - Perfil 445 atualizado com sucesso!
+INFO - Processando perfil 46
+INFO - Perfil 46 atualizado com sucesso!
+INFO - Processando perfil 244
+INFO - Perfil 244 atualizado com sucesso!
+INFO - Total de perfis salvos: 0
+INFO - Total de perfis atualizados: 135
+INFO - Driver não está em execução
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Driver iniciado com sucesso
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Iniciando o processo de atualização dos perfis
+INFO - Fazendo login no site
+INFO - Driver iniciado com sucesso
+INFO - Capturando perfis para inserção/atualização no banco de dados
+INFO - Processando perfil 328
+INFO - Perfil 328 atualizado com sucesso!
+INFO - Processando perfil 346
+INFO - Perfil 346 atualizado com sucesso!
+INFO - Processando perfil 308
+INFO - Perfil 308 atualizado com sucesso!
+INFO - Processando perfil 409
+INFO - Perfil 409 atualizado com sucesso!
+INFO - Processando perfil 450
+INFO - Perfil 450 atualizado com sucesso!
+INFO - Processando perfil 268
+INFO - Perfil 268 atualizado com sucesso!
+INFO - Processando perfil 413
+INFO - Perfil 413 atualizado com sucesso!
+INFO - Processando perfil 343
+INFO - Perfil 343 atualizado com sucesso!
+INFO - Processando perfil 404
+INFO - Perfil 404 atualizado com sucesso!
+INFO - Processando perfil 232
+INFO - Perfil 232 atualizado com sucesso!
+INFO - Processando perfil 241
+INFO - Perfil 241 atualizado com sucesso!
+INFO - Processando perfil 336
+INFO - Perfil 336 atualizado com sucesso!
+INFO - Processando perfil 14
+INFO - Perfil 14 atualizado com sucesso!
+INFO - Processando perfil 256
+INFO - Perfil 256 atualizado com sucesso!
+INFO - Processando perfil 443
+INFO - Perfil 443 atualizado com sucesso!
+INFO - Processando perfil 86
+INFO - Perfil 86 atualizado com sucesso!
+INFO - Processando perfil 386
+INFO - Perfil 386 atualizado com sucesso!
+INFO - Processando perfil 385
+INFO - Perfil 385 atualizado com sucesso!
+INFO - Processando perfil 384
+INFO - Perfil 384 atualizado com sucesso!
+INFO - Processando perfil 360
+INFO - Perfil 360 atualizado com sucesso!
+INFO - Processando perfil 214
+INFO - Perfil 214 atualizado com sucesso!
+INFO - Processando perfil 231
+INFO - Perfil 231 atualizado com sucesso!
+INFO - Processando perfil 388
+INFO - Perfil 388 atualizado com sucesso!
+INFO - Processando perfil 353
+INFO - Perfil 353 atualizado com sucesso!
+INFO - Processando perfil 399
+INFO - Perfil 399 atualizado com sucesso!
+INFO - Processando perfil 218
+INFO - Perfil 218 atualizado com sucesso!
+INFO - Processando perfil 284
+INFO - Perfil 284 atualizado com sucesso!
+INFO - Processando perfil 349
+INFO - Perfil 349 atualizado com sucesso!
+INFO - Processando perfil 359
+INFO - Perfil 359 atualizado com sucesso!
+INFO - Processando perfil 315
+INFO - Perfil 315 atualizado com sucesso!
+INFO - Processando perfil 414
+INFO - Perfil 414 atualizado com sucesso!
+INFO - Processando perfil 362
+INFO - Perfil 362 atualizado com sucesso!
+INFO - Processando perfil 197
+INFO - Perfil 197 atualizado com sucesso!
+INFO - Processando perfil 198
+INFO - Perfil 198 atualizado com sucesso!
+INFO - Processando perfil 390
+INFO - Perfil 390 atualizado com sucesso!
+INFO - Processando perfil 321
+INFO - Perfil 321 atualizado com sucesso!
+INFO - Processando perfil 371
+INFO - Perfil 371 atualizado com sucesso!
+INFO - Processando perfil 230
+INFO - Perfil 230 atualizado com sucesso!
+INFO - Processando perfil 383
+INFO - Perfil 383 atualizado com sucesso!
+INFO - Processando perfil 423
+INFO - Perfil 423 atualizado com sucesso!
+INFO - Processando perfil 213
+INFO - Perfil 213 atualizado com sucesso!
+INFO - Processando perfil 417
+INFO - Perfil 417 atualizado com sucesso!
+INFO - Processando perfil 264
+INFO - Perfil 264 atualizado com sucesso!
+INFO - Processando perfil 422
+INFO - Perfil 422 atualizado com sucesso!
+INFO - Processando perfil 401
+INFO - Perfil 401 atualizado com sucesso!
+INFO - Processando perfil 396
+INFO - Perfil 396 atualizado com sucesso!
+INFO - Processando perfil 228
+INFO - Perfil 228 atualizado com sucesso!
+INFO - Processando perfil 372
+INFO - Perfil 372 atualizado com sucesso!
+INFO - Processando perfil 428
+INFO - Perfil 428 atualizado com sucesso!
+INFO - Processando perfil 400
+INFO - Perfil 400 atualizado com sucesso!
+INFO - Processando perfil 110
+INFO - Perfil 110 atualizado com sucesso!
+INFO - Processando perfil 340
+INFO - Perfil 340 atualizado com sucesso!
+INFO - Processando perfil 319
+INFO - Perfil 319 atualizado com sucesso!
+INFO - Processando perfil 441
+INFO - Perfil 441 atualizado com sucesso!
+INFO - Processando perfil 322
+INFO - Perfil 322 atualizado com sucesso!
+INFO - Processando perfil 444
+INFO - Perfil 444 atualizado com sucesso!
+INFO - Processando perfil 439
+INFO - Perfil 439 atualizado com sucesso!
+INFO - Processando perfil 339
+INFO - Perfil 339 atualizado com sucesso!
+INFO - Processando perfil 330
+INFO - Perfil 330 atualizado com sucesso!
+INFO - Processando perfil 208
+INFO - Perfil 208 atualizado com sucesso!
+INFO - Processando perfil 356
+INFO - Perfil 356 atualizado com sucesso!
+INFO - Processando perfil 415
+INFO - Perfil 415 atualizado com sucesso!
+INFO - Processando perfil 252
+INFO - Perfil 252 atualizado com sucesso!
+INFO - Processando perfil 289
+INFO - Perfil 289 atualizado com sucesso!
+INFO - Processando perfil 451
+INFO - Perfil 451 atualizado com sucesso!
+INFO - Processando perfil 431
+INFO - Perfil 431 atualizado com sucesso!
+INFO - Processando perfil 104
+INFO - Perfil 104 atualizado com sucesso!
+INFO - Processando perfil 425
+INFO - Perfil 425 atualizado com sucesso!
+INFO - Processando perfil 405
+INFO - Perfil 405 atualizado com sucesso!
+INFO - Processando perfil 403
+INFO - Perfil 403 atualizado com sucesso!
+INFO - Processando perfil 447
+ERROR - Erro ao processar perfil 447: {'code': '22001', 'details': None, 'hint': None, 'message': 'value too long for type character varying(20)'}
+INFO - Processando perfil 140
+INFO - Perfil 140 atualizado com sucesso!
+INFO - Processando perfil 436
+INFO - Perfil 436 atualizado com sucesso!
+INFO - Processando perfil 398
+INFO - Perfil 398 atualizado com sucesso!
+INFO - Processando perfil 442
+INFO - Perfil 442 atualizado com sucesso!
+INFO - Processando perfil 420
+INFO - Perfil 420 atualizado com sucesso!
+INFO - Processando perfil 92
+INFO - Perfil 92 atualizado com sucesso!
+INFO - Processando perfil 215
+INFO - Perfil 215 atualizado com sucesso!
+INFO - Processando perfil 10
+INFO - Perfil 10 atualizado com sucesso!
+INFO - Processando perfil 429
+INFO - Perfil 429 atualizado com sucesso!
+INFO - Processando perfil 350
+INFO - Perfil 350 atualizado com sucesso!
+INFO - Processando perfil 448
+INFO - Perfil 448 atualizado com sucesso!
+INFO - Processando perfil 435
+INFO - Perfil 435 atualizado com sucesso!
+INFO - Processando perfil 189
+INFO - Perfil 189 atualizado com sucesso!
+INFO - Processando perfil 434
+INFO - Perfil 434 atualizado com sucesso!
+INFO - Processando perfil 201
+INFO - Perfil 201 atualizado com sucesso!
+INFO - Processando perfil 247
+INFO - Perfil 247 atualizado com sucesso!
+INFO - Processando perfil 67
+INFO - Perfil 67 atualizado com sucesso!
+INFO - Processando perfil 357
+INFO - Perfil 357 atualizado com sucesso!
+INFO - Processando perfil 344
+INFO - Perfil 344 atualizado com sucesso!
+INFO - Processando perfil 367
+INFO - Perfil 367 atualizado com sucesso!
+INFO - Processando perfil 257
+INFO - Perfil 257 atualizado com sucesso!
+INFO - Processando perfil 70
+ERROR - Erro ao processar perfil 70: {'code': '22001', 'details': None, 'hint': None, 'message': 'value too long for type character varying(50)'}
+INFO - Processando perfil 368
+INFO - Perfil 368 atualizado com sucesso!
+INFO - Processando perfil 245
+INFO - Perfil 245 atualizado com sucesso!
+INFO - Processando perfil 427
+INFO - Perfil 427 atualizado com sucesso!
+INFO - Processando perfil 285
+INFO - Perfil 285 atualizado com sucesso!
+INFO - Processando perfil 446
+INFO - Perfil 446 atualizado com sucesso!
+INFO - Processando perfil 432
+INFO - Perfil 432 atualizado com sucesso!
+INFO - Processando perfil 433
+INFO - Perfil 433 atualizado com sucesso!
+INFO - Processando perfil 171
+INFO - Perfil 171 atualizado com sucesso!
+INFO - Processando perfil 419
+INFO - Perfil 419 atualizado com sucesso!
+INFO - Processando perfil 47
+INFO - Perfil 47 atualizado com sucesso!
+INFO - Processando perfil 449
+INFO - Perfil 449 atualizado com sucesso!
+INFO - Processando perfil 380
+INFO - Perfil 380 atualizado com sucesso!
+INFO - Processando perfil 320
+INFO - Perfil 320 atualizado com sucesso!
+INFO - Processando perfil 379
+INFO - Perfil 379 atualizado com sucesso!
+INFO - Processando perfil 335
+INFO - Perfil 335 atualizado com sucesso!
+INFO - Processando perfil 426
+INFO - Perfil 426 atualizado com sucesso!
+INFO - Processando perfil 311
+INFO - Perfil 311 atualizado com sucesso!
+INFO - Processando perfil 440
+INFO - Perfil 440 atualizado com sucesso!
+INFO - Processando perfil 424
+INFO - Perfil 424 atualizado com sucesso!
+INFO - Processando perfil 246
+INFO - Perfil 246 atualizado com sucesso!
+INFO - Processando perfil 412
+INFO - Perfil 412 atualizado com sucesso!
+INFO - Processando perfil 410
+INFO - Perfil 410 atualizado com sucesso!
+INFO - Processando perfil 312
+INFO - Perfil 312 atualizado com sucesso!
+INFO - Processando perfil 79
+INFO - Perfil 79 atualizado com sucesso!
+INFO - Processando perfil 421
+INFO - Perfil 421 atualizado com sucesso!
+INFO - Processando perfil 293
+INFO - Perfil 293 atualizado com sucesso!
+INFO - Processando perfil 135
+INFO - Perfil 135 atualizado com sucesso!
+INFO - Processando perfil 72
+INFO - Perfil 72 atualizado com sucesso!
+INFO - Processando perfil 73
+INFO - Perfil 73 atualizado com sucesso!
+INFO - Processando perfil 430
+INFO - Perfil 430 atualizado com sucesso!
+INFO - Processando perfil 389
+INFO - Perfil 389 atualizado com sucesso!
+INFO - Processando perfil 364
+INFO - Perfil 364 atualizado com sucesso!
+INFO - Processando perfil 217
+INFO - Perfil 217 atualizado com sucesso!
+INFO - Processando perfil 408
+INFO - Perfil 408 atualizado com sucesso!
+INFO - Processando perfil 418
+INFO - Perfil 418 atualizado com sucesso!
+INFO - Processando perfil 39
+INFO - Perfil 39 atualizado com sucesso!
+INFO - Processando perfil 416
+INFO - Perfil 416 atualizado com sucesso!
+INFO - Processando perfil 68
+INFO - Perfil 68 atualizado com sucesso!
+INFO - Processando perfil 437
+INFO - Perfil 437 atualizado com sucesso!
+INFO - Processando perfil 438
+INFO - Perfil 438 atualizado com sucesso!
+INFO - Processando perfil 407
+INFO - Perfil 407 atualizado com sucesso!
+INFO - Processando perfil 445
+INFO - Perfil 445 atualizado com sucesso!
+INFO - Processando perfil 46
+INFO - Perfil 46 atualizado com sucesso!
+INFO - Processando perfil 244
+INFO - Perfil 244 atualizado com sucesso!
+INFO - Total de perfis salvos: 0
+INFO - Total de perfis atualizados: 135
+INFO - Driver não está em execução
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Iniciando o processo de atualização dos perfis
+INFO - Fazendo login no site
+INFO - Driver iniciado com sucesso
+INFO - Capturando perfis para inserção/atualização no banco de dados
+INFO - Processando perfil 328
+INFO - Perfil 328 salvo com sucesso!
+INFO - Processando perfil 346
+INFO - Perfil 346 salvo com sucesso!
+INFO - Processando perfil 308
+INFO - Perfil 308 salvo com sucesso!
+INFO - Processando perfil 409
+INFO - Perfil 409 salvo com sucesso!
+INFO - Processando perfil 450
+INFO - Perfil 450 salvo com sucesso!
+INFO - Processando perfil 268
+INFO - Perfil 268 salvo com sucesso!
+INFO - Processando perfil 413
+INFO - Perfil 413 salvo com sucesso!
+INFO - Processando perfil 343
+INFO - Perfil 343 salvo com sucesso!
+INFO - Processando perfil 404
+INFO - Perfil 404 salvo com sucesso!
+INFO - Processando perfil 232
+INFO - Perfil 232 salvo com sucesso!
+INFO - Processando perfil 241
+INFO - Perfil 241 salvo com sucesso!
+INFO - Processando perfil 336
+INFO - Perfil 336 salvo com sucesso!
+INFO - Processando perfil 14
+INFO - Perfil 14 salvo com sucesso!
+INFO - Processando perfil 256
+INFO - Perfil 256 salvo com sucesso!
+INFO - Processando perfil 443
+INFO - Perfil 443 salvo com sucesso!
+INFO - Processando perfil 86
+INFO - Perfil 86 salvo com sucesso!
+INFO - Processando perfil 386
+INFO - Perfil 386 salvo com sucesso!
+INFO - Processando perfil 385
+INFO - Perfil 385 salvo com sucesso!
+INFO - Processando perfil 384
+INFO - Perfil 384 salvo com sucesso!
+INFO - Processando perfil 360
+INFO - Perfil 360 salvo com sucesso!
+INFO - Processando perfil 214
+INFO - Perfil 214 salvo com sucesso!
+INFO - Processando perfil 231
+INFO - Perfil 231 salvo com sucesso!
+INFO - Processando perfil 388
+INFO - Perfil 388 salvo com sucesso!
+INFO - Processando perfil 353
+INFO - Perfil 353 salvo com sucesso!
+INFO - Processando perfil 399
+INFO - Perfil 399 salvo com sucesso!
+INFO - Processando perfil 218
+INFO - Perfil 218 salvo com sucesso!
+INFO - Processando perfil 284
+INFO - Perfil 284 salvo com sucesso!
+INFO - Processando perfil 349
+INFO - Perfil 349 salvo com sucesso!
+INFO - Processando perfil 359
+INFO - Perfil 359 salvo com sucesso!
+INFO - Processando perfil 315
+INFO - Perfil 315 salvo com sucesso!
+INFO - Processando perfil 414
+INFO - Perfil 414 salvo com sucesso!
+INFO - Processando perfil 362
+INFO - Perfil 362 salvo com sucesso!
+INFO - Processando perfil 197
+INFO - Perfil 197 salvo com sucesso!
+INFO - Processando perfil 198
+INFO - Perfil 198 salvo com sucesso!
+INFO - Processando perfil 390
+INFO - Perfil 390 salvo com sucesso!
+INFO - Processando perfil 321
+INFO - Perfil 321 salvo com sucesso!
+INFO - Processando perfil 371
+INFO - Perfil 371 salvo com sucesso!
+INFO - Processando perfil 230
+INFO - Perfil 230 salvo com sucesso!
+INFO - Processando perfil 383
+INFO - Perfil 383 salvo com sucesso!
+INFO - Processando perfil 423
+INFO - Perfil 423 salvo com sucesso!
+INFO - Processando perfil 213
+INFO - Perfil 213 salvo com sucesso!
+INFO - Processando perfil 417
+INFO - Perfil 417 salvo com sucesso!
+INFO - Processando perfil 264
+INFO - Perfil 264 salvo com sucesso!
+INFO - Processando perfil 422
+INFO - Perfil 422 salvo com sucesso!
+INFO - Processando perfil 401
+INFO - Perfil 401 salvo com sucesso!
+INFO - Processando perfil 396
+INFO - Perfil 396 salvo com sucesso!
+INFO - Processando perfil 228
+INFO - Perfil 228 salvo com sucesso!
+INFO - Processando perfil 372
+INFO - Perfil 372 salvo com sucesso!
+INFO - Processando perfil 428
+INFO - Perfil 428 salvo com sucesso!
+INFO - Processando perfil 400
+INFO - Perfil 400 salvo com sucesso!
+INFO - Processando perfil 110
+INFO - Perfil 110 salvo com sucesso!
+INFO - Processando perfil 340
+INFO - Perfil 340 salvo com sucesso!
+INFO - Processando perfil 319
+INFO - Perfil 319 salvo com sucesso!
+INFO - Processando perfil 441
+INFO - Perfil 441 salvo com sucesso!
+INFO - Processando perfil 322
+INFO - Perfil 322 salvo com sucesso!
+INFO - Processando perfil 444
+INFO - Perfil 444 salvo com sucesso!
+INFO - Processando perfil 439
+INFO - Perfil 439 salvo com sucesso!
+INFO - Processando perfil 339
+INFO - Perfil 339 salvo com sucesso!
+INFO - Processando perfil 330
+INFO - Perfil 330 salvo com sucesso!
+INFO - Processando perfil 208
+INFO - Perfil 208 salvo com sucesso!
+INFO - Processando perfil 356
+INFO - Perfil 356 salvo com sucesso!
+INFO - Processando perfil 415
+INFO - Perfil 415 salvo com sucesso!
+INFO - Processando perfil 252
+INFO - Perfil 252 salvo com sucesso!
+INFO - Processando perfil 289
+INFO - Perfil 289 salvo com sucesso!
+INFO - Processando perfil 451
+INFO - Perfil 451 salvo com sucesso!
+INFO - Processando perfil 431
+INFO - Perfil 431 salvo com sucesso!
+INFO - Processando perfil 104
+INFO - Perfil 104 salvo com sucesso!
+INFO - Processando perfil 425
+INFO - Perfil 425 salvo com sucesso!
+INFO - Processando perfil 405
+INFO - Perfil 405 salvo com sucesso!
+INFO - Processando perfil 403
+INFO - Perfil 403 salvo com sucesso!
+INFO - Processando perfil 447
+ERROR - Erro ao processar perfil 447: {'code': '22001', 'details': None, 'hint': None, 'message': 'value too long for type character varying(20)'}
+INFO - Processando perfil 140
+INFO - Perfil 140 salvo com sucesso!
+INFO - Processando perfil 436
+INFO - Perfil 436 salvo com sucesso!
+INFO - Processando perfil 398
+INFO - Perfil 398 salvo com sucesso!
+INFO - Processando perfil 442
+INFO - Perfil 442 salvo com sucesso!
+INFO - Processando perfil 420
+INFO - Perfil 420 salvo com sucesso!
+INFO - Processando perfil 92
+INFO - Perfil 92 salvo com sucesso!
+INFO - Processando perfil 215
+INFO - Perfil 215 salvo com sucesso!
+INFO - Processando perfil 10
+INFO - Perfil 10 salvo com sucesso!
+INFO - Processando perfil 429
+INFO - Perfil 429 salvo com sucesso!
+INFO - Processando perfil 350
+INFO - Perfil 350 salvo com sucesso!
+INFO - Processando perfil 448
+INFO - Perfil 448 salvo com sucesso!
+INFO - Processando perfil 435
+INFO - Perfil 435 salvo com sucesso!
+INFO - Processando perfil 189
+INFO - Perfil 189 salvo com sucesso!
+INFO - Processando perfil 434
+INFO - Perfil 434 salvo com sucesso!
+INFO - Processando perfil 201
+INFO - Perfil 201 salvo com sucesso!
+INFO - Processando perfil 247
+INFO - Perfil 247 salvo com sucesso!
+INFO - Processando perfil 67
+INFO - Perfil 67 salvo com sucesso!
+INFO - Processando perfil 357
+INFO - Perfil 357 salvo com sucesso!
+INFO - Processando perfil 344
+INFO - Perfil 344 salvo com sucesso!
+INFO - Processando perfil 367
+INFO - Perfil 367 salvo com sucesso!
+INFO - Processando perfil 257
+INFO - Perfil 257 salvo com sucesso!
+INFO - Processando perfil 70
+ERROR - Erro ao processar perfil 70: {'code': '22001', 'details': None, 'hint': None, 'message': 'value too long for type character varying(50)'}
+INFO - Processando perfil 368
+INFO - Perfil 368 salvo com sucesso!
+INFO - Processando perfil 245
+INFO - Perfil 245 salvo com sucesso!
+INFO - Processando perfil 427
+INFO - Perfil 427 salvo com sucesso!
+INFO - Processando perfil 285
+INFO - Perfil 285 salvo com sucesso!
+INFO - Processando perfil 446
+INFO - Perfil 446 salvo com sucesso!
+INFO - Processando perfil 432
+INFO - Perfil 432 salvo com sucesso!
+INFO - Processando perfil 433
+INFO - Perfil 433 salvo com sucesso!
+INFO - Processando perfil 171
+INFO - Perfil 171 salvo com sucesso!
+INFO - Processando perfil 419
+INFO - Perfil 419 salvo com sucesso!
+INFO - Processando perfil 47
+INFO - Perfil 47 salvo com sucesso!
+INFO - Processando perfil 449
+INFO - Perfil 449 salvo com sucesso!
+INFO - Processando perfil 380
+INFO - Perfil 380 salvo com sucesso!
+INFO - Processando perfil 320
+INFO - Perfil 320 salvo com sucesso!
+INFO - Processando perfil 379
+INFO - Perfil 379 salvo com sucesso!
+INFO - Processando perfil 335
+INFO - Perfil 335 salvo com sucesso!
+INFO - Processando perfil 426
+INFO - Perfil 426 salvo com sucesso!
+INFO - Processando perfil 311
+INFO - Perfil 311 salvo com sucesso!
+INFO - Processando perfil 440
+INFO - Perfil 440 salvo com sucesso!
+INFO - Processando perfil 424
+INFO - Perfil 424 salvo com sucesso!
+INFO - Processando perfil 246
+INFO - Perfil 246 salvo com sucesso!
+INFO - Processando perfil 412
+INFO - Perfil 412 salvo com sucesso!
+INFO - Processando perfil 410
+INFO - Perfil 410 salvo com sucesso!
+INFO - Processando perfil 312
+INFO - Perfil 312 salvo com sucesso!
+INFO - Processando perfil 79
+INFO - Perfil 79 salvo com sucesso!
+INFO - Processando perfil 421
+INFO - Perfil 421 salvo com sucesso!
+INFO - Processando perfil 293
+INFO - Perfil 293 salvo com sucesso!
+INFO - Processando perfil 135
+INFO - Perfil 135 salvo com sucesso!
+INFO - Processando perfil 72
+INFO - Perfil 72 salvo com sucesso!
+INFO - Processando perfil 73
+INFO - Perfil 73 salvo com sucesso!
+INFO - Processando perfil 430
+INFO - Perfil 430 salvo com sucesso!
+INFO - Processando perfil 389
+INFO - Perfil 389 salvo com sucesso!
+INFO - Processando perfil 364
+INFO - Perfil 364 salvo com sucesso!
+INFO - Processando perfil 217
+INFO - Perfil 217 salvo com sucesso!
+INFO - Processando perfil 408
+INFO - Perfil 408 salvo com sucesso!
+INFO - Processando perfil 418
+INFO - Perfil 418 salvo com sucesso!
+INFO - Processando perfil 39
+INFO - Perfil 39 salvo com sucesso!
+INFO - Processando perfil 416
+INFO - Perfil 416 salvo com sucesso!
+INFO - Processando perfil 68
+INFO - Perfil 68 salvo com sucesso!
+INFO - Processando perfil 437
+INFO - Perfil 437 salvo com sucesso!
+INFO - Processando perfil 438
+INFO - Perfil 438 salvo com sucesso!
+INFO - Processando perfil 407
+INFO - Perfil 407 salvo com sucesso!
+INFO - Processando perfil 445
+INFO - Perfil 445 salvo com sucesso!
+INFO - Processando perfil 46
+INFO - Perfil 46 salvo com sucesso!
+INFO - Processando perfil 244
+INFO - Perfil 244 salvo com sucesso!
+INFO - Total de perfis salvos: 135
+INFO - Total de perfis atualizados: 0
+INFO - Driver não está em execução
+INFO - Iniciando o processo de atualização dos perfis
+INFO - Fazendo login no site
+INFO - Driver iniciado com sucesso
+INFO - Capturando perfis para inserção/atualização no banco de dados
+INFO - Processando perfil 328
+INFO - Perfil 328 atualizado com sucesso!
+INFO - Processando perfil 346
+INFO - Perfil 346 atualizado com sucesso!
+INFO - Processando perfil 308
+INFO - Perfil 308 atualizado com sucesso!
+INFO - Processando perfil 409
+INFO - Perfil 409 atualizado com sucesso!
+INFO - Processando perfil 450
+INFO - Perfil 450 atualizado com sucesso!
+INFO - Processando perfil 268
+INFO - Perfil 268 atualizado com sucesso!
+INFO - Processando perfil 413
+INFO - Perfil 413 atualizado com sucesso!
+INFO - Processando perfil 343
+INFO - Perfil 343 atualizado com sucesso!
+INFO - Processando perfil 404
+INFO - Perfil 404 atualizado com sucesso!
+INFO - Processando perfil 232
+INFO - Perfil 232 atualizado com sucesso!
+INFO - Processando perfil 241
+INFO - Perfil 241 atualizado com sucesso!
+INFO - Processando perfil 336
+INFO - Perfil 336 atualizado com sucesso!
+INFO - Processando perfil 14
+INFO - Perfil 14 atualizado com sucesso!
+INFO - Processando perfil 256
+INFO - Perfil 256 atualizado com sucesso!
+INFO - Processando perfil 443
+INFO - Perfil 443 atualizado com sucesso!
+INFO - Processando perfil 86
+INFO - Perfil 86 atualizado com sucesso!
+INFO - Processando perfil 386
+INFO - Perfil 386 atualizado com sucesso!
+INFO - Processando perfil 385
+INFO - Perfil 385 atualizado com sucesso!
+INFO - Processando perfil 384
+INFO - Perfil 384 atualizado com sucesso!
+INFO - Processando perfil 360
+INFO - Perfil 360 atualizado com sucesso!
+INFO - Processando perfil 214
+INFO - Perfil 214 atualizado com sucesso!
+INFO - Processando perfil 231
+INFO - Perfil 231 atualizado com sucesso!
+INFO - Processando perfil 388
+INFO - Perfil 388 atualizado com sucesso!
+INFO - Processando perfil 353
+INFO - Perfil 353 atualizado com sucesso!
+INFO - Processando perfil 399
+INFO - Perfil 399 atualizado com sucesso!
+INFO - Processando perfil 218
+INFO - Perfil 218 atualizado com sucesso!
+INFO - Processando perfil 284
+INFO - Perfil 284 atualizado com sucesso!
+INFO - Processando perfil 349
+INFO - Perfil 349 atualizado com sucesso!
+INFO - Processando perfil 359
+INFO - Perfil 359 atualizado com sucesso!
+INFO - Processando perfil 315
+INFO - Perfil 315 atualizado com sucesso!
+INFO - Processando perfil 414
+INFO - Perfil 414 atualizado com sucesso!
+INFO - Processando perfil 362
+INFO - Perfil 362 atualizado com sucesso!
+INFO - Processando perfil 197
+INFO - Perfil 197 atualizado com sucesso!
+INFO - Processando perfil 198
+INFO - Perfil 198 atualizado com sucesso!
+INFO - Processando perfil 390
+INFO - Perfil 390 atualizado com sucesso!
+INFO - Processando perfil 321
+INFO - Perfil 321 atualizado com sucesso!
+INFO - Processando perfil 371
+INFO - Perfil 371 atualizado com sucesso!
+INFO - Processando perfil 230
+INFO - Perfil 230 atualizado com sucesso!
+INFO - Processando perfil 383
+INFO - Perfil 383 atualizado com sucesso!
+INFO - Processando perfil 423
+INFO - Perfil 423 atualizado com sucesso!
+INFO - Processando perfil 213
+INFO - Perfil 213 atualizado com sucesso!
+INFO - Processando perfil 417
+INFO - Perfil 417 atualizado com sucesso!
+INFO - Processando perfil 264
+INFO - Perfil 264 atualizado com sucesso!
+INFO - Processando perfil 422
+INFO - Perfil 422 atualizado com sucesso!
+INFO - Processando perfil 401
+INFO - Perfil 401 atualizado com sucesso!
+INFO - Processando perfil 396
+INFO - Perfil 396 atualizado com sucesso!
+INFO - Processando perfil 228
+INFO - Perfil 228 atualizado com sucesso!
+INFO - Processando perfil 372
+INFO - Perfil 372 atualizado com sucesso!
+INFO - Processando perfil 428
+INFO - Perfil 428 atualizado com sucesso!
+INFO - Processando perfil 400
+INFO - Perfil 400 atualizado com sucesso!
+INFO - Processando perfil 110
+INFO - Perfil 110 atualizado com sucesso!
+INFO - Processando perfil 340
+INFO - Perfil 340 atualizado com sucesso!
+INFO - Processando perfil 319
+INFO - Perfil 319 atualizado com sucesso!
+INFO - Processando perfil 441
+INFO - Perfil 441 atualizado com sucesso!
+INFO - Processando perfil 322
+INFO - Perfil 322 atualizado com sucesso!
+INFO - Processando perfil 444
+INFO - Perfil 444 atualizado com sucesso!
+INFO - Processando perfil 439
+INFO - Perfil 439 atualizado com sucesso!
+INFO - Processando perfil 339
+INFO - Perfil 339 atualizado com sucesso!
+INFO - Processando perfil 330
+INFO - Perfil 330 atualizado com sucesso!
+INFO - Processando perfil 208
+INFO - Perfil 208 atualizado com sucesso!
+INFO - Processando perfil 356
+INFO - Perfil 356 atualizado com sucesso!
+INFO - Processando perfil 415
+INFO - Perfil 415 atualizado com sucesso!
+INFO - Processando perfil 252
+INFO - Perfil 252 atualizado com sucesso!
+INFO - Processando perfil 289
+INFO - Perfil 289 atualizado com sucesso!
+INFO - Processando perfil 451
+INFO - Perfil 451 atualizado com sucesso!
+INFO - Processando perfil 431
+INFO - Perfil 431 atualizado com sucesso!
+INFO - Processando perfil 104
+INFO - Perfil 104 atualizado com sucesso!
+INFO - Processando perfil 425
+INFO - Perfil 425 atualizado com sucesso!
+INFO - Processando perfil 405
+INFO - Perfil 405 atualizado com sucesso!
+INFO - Processando perfil 403
+INFO - Perfil 403 atualizado com sucesso!
+INFO - Processando perfil 447
+ERROR - Erro ao processar perfil 447: {'code': '22001', 'details': None, 'hint': None, 'message': 'value too long for type character varying(20)'}
+INFO - Processando perfil 140
+INFO - Perfil 140 atualizado com sucesso!
+INFO - Processando perfil 436
+INFO - Perfil 436 atualizado com sucesso!
+INFO - Processando perfil 398
+INFO - Perfil 398 atualizado com sucesso!
+INFO - Processando perfil 442
+INFO - Perfil 442 atualizado com sucesso!
+INFO - Processando perfil 420
+INFO - Perfil 420 atualizado com sucesso!
+INFO - Processando perfil 92
+INFO - Perfil 92 atualizado com sucesso!
+INFO - Processando perfil 215
+INFO - Perfil 215 atualizado com sucesso!
+INFO - Processando perfil 10
+INFO - Perfil 10 atualizado com sucesso!
+INFO - Processando perfil 429
+INFO - Perfil 429 atualizado com sucesso!
+INFO - Processando perfil 350
+INFO - Perfil 350 atualizado com sucesso!
+INFO - Processando perfil 448
+INFO - Perfil 448 atualizado com sucesso!
+INFO - Processando perfil 435
+INFO - Perfil 435 atualizado com sucesso!
+INFO - Processando perfil 189
+INFO - Perfil 189 atualizado com sucesso!
+INFO - Processando perfil 434
+INFO - Perfil 434 atualizado com sucesso!
+INFO - Processando perfil 201
+INFO - Perfil 201 atualizado com sucesso!
+INFO - Processando perfil 247
+INFO - Perfil 247 atualizado com sucesso!
+INFO - Processando perfil 67
+INFO - Perfil 67 atualizado com sucesso!
+INFO - Processando perfil 357
+INFO - Perfil 357 atualizado com sucesso!
+INFO - Processando perfil 344
+INFO - Perfil 344 atualizado com sucesso!
+INFO - Processando perfil 367
+INFO - Perfil 367 atualizado com sucesso!
+INFO - Processando perfil 257
+INFO - Perfil 257 atualizado com sucesso!
+INFO - Processando perfil 70
+ERROR - Erro ao processar perfil 70: {'code': '22001', 'details': None, 'hint': None, 'message': 'value too long for type character varying(50)'}
+INFO - Processando perfil 368
+INFO - Perfil 368 atualizado com sucesso!
+INFO - Processando perfil 245
+INFO - Perfil 245 atualizado com sucesso!
+INFO - Processando perfil 427
+INFO - Perfil 427 atualizado com sucesso!
+INFO - Processando perfil 285
+INFO - Perfil 285 atualizado com sucesso!
+INFO - Processando perfil 446
+INFO - Perfil 446 atualizado com sucesso!
+INFO - Processando perfil 432
+INFO - Perfil 432 atualizado com sucesso!
+INFO - Processando perfil 433
+INFO - Perfil 433 atualizado com sucesso!
+INFO - Processando perfil 171
+INFO - Perfil 171 atualizado com sucesso!
+INFO - Processando perfil 419
+INFO - Perfil 419 atualizado com sucesso!
+INFO - Processando perfil 47
+INFO - Perfil 47 atualizado com sucesso!
+INFO - Processando perfil 449
+INFO - Perfil 449 atualizado com sucesso!
+INFO - Processando perfil 380
+INFO - Perfil 380 atualizado com sucesso!
+INFO - Processando perfil 320
+INFO - Perfil 320 atualizado com sucesso!
+INFO - Processando perfil 379
+INFO - Perfil 379 atualizado com sucesso!
+INFO - Processando perfil 335
+INFO - Perfil 335 atualizado com sucesso!
+INFO - Processando perfil 426
+INFO - Perfil 426 atualizado com sucesso!
+INFO - Processando perfil 311
+INFO - Perfil 311 atualizado com sucesso!
+INFO - Processando perfil 440
+INFO - Perfil 440 atualizado com sucesso!
+INFO - Processando perfil 424
+INFO - Perfil 424 atualizado com sucesso!
+INFO - Processando perfil 246
+INFO - Perfil 246 atualizado com sucesso!
+INFO - Processando perfil 412
+INFO - Perfil 412 atualizado com sucesso!
+INFO - Processando perfil 410
+INFO - Perfil 410 atualizado com sucesso!
+INFO - Processando perfil 312
+INFO - Perfil 312 atualizado com sucesso!
+INFO - Processando perfil 79
+INFO - Perfil 79 atualizado com sucesso!
+INFO - Processando perfil 421
+INFO - Perfil 421 atualizado com sucesso!
+INFO - Processando perfil 293
+INFO - Perfil 293 atualizado com sucesso!
+INFO - Processando perfil 135
+INFO - Perfil 135 atualizado com sucesso!
+INFO - Processando perfil 72
+INFO - Perfil 72 atualizado com sucesso!
+INFO - Processando perfil 73
+INFO - Perfil 73 atualizado com sucesso!
+INFO - Processando perfil 430
+INFO - Perfil 430 atualizado com sucesso!
+INFO - Processando perfil 389
+INFO - Perfil 389 atualizado com sucesso!
+INFO - Processando perfil 364
+INFO - Perfil 364 atualizado com sucesso!
+INFO - Processando perfil 217
+INFO - Perfil 217 atualizado com sucesso!
+INFO - Processando perfil 408
+INFO - Perfil 408 atualizado com sucesso!
+INFO - Processando perfil 418
+INFO - Perfil 418 atualizado com sucesso!
+INFO - Processando perfil 39
+INFO - Perfil 39 atualizado com sucesso!
+INFO - Processando perfil 416
+INFO - Perfil 416 atualizado com sucesso!
+INFO - Processando perfil 68
+INFO - Perfil 68 atualizado com sucesso!
+INFO - Processando perfil 437
+INFO - Perfil 437 atualizado com sucesso!
+INFO - Processando perfil 438
+INFO - Perfil 438 atualizado com sucesso!
+INFO - Processando perfil 407
+INFO - Perfil 407 atualizado com sucesso!
+INFO - Processando perfil 445
+INFO - Perfil 445 atualizado com sucesso!
+INFO - Processando perfil 46
+INFO - Perfil 46 atualizado com sucesso!
+INFO - Processando perfil 244
+INFO - Perfil 244 atualizado com sucesso!
+INFO - Total de perfis salvos: 0
+INFO - Total de perfis atualizados: 135
+INFO - Driver não está em execução
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Pagamento 4 inserido no banco de dados
+INFO - Pagamento 5 inserido no banco de dados
+INFO - Pagamento 6 inserido no banco de dados
+INFO - Pagamento 7 inserido no banco de dados
+INFO - Pagamento 8 inserido no banco de dados
+INFO - Pagamento 9 inserido no banco de dados
+INFO - Pagamento 10 inserido no banco de dados
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Pagamento 11 inserido no banco de dados
+INFO - Pagamento 12 inserido no banco de dados
+INFO - Pagamento 13 inserido no banco de dados
+INFO - Pagamento 14 inserido no banco de dados
+INFO - Pagamento 15 inserido no banco de dados
+INFO - Pagamento 16 inserido no banco de dados
+INFO - Pagamento 17 inserido no banco de dados
+INFO - Iniciando o processo de atualização dos perfis
+INFO - Fazendo login no site
+INFO - Driver iniciado com sucesso
+INFO - Capturando perfis para inserção/atualização no banco de dados
+INFO - Processando perfil 328
+INFO - Perfil 328 atualizado com sucesso!
+INFO - Processando perfil 346
+INFO - Perfil 346 atualizado com sucesso!
+INFO - Processando perfil 308
+INFO - Perfil 308 atualizado com sucesso!
+INFO - Processando perfil 409
+INFO - Perfil 409 atualizado com sucesso!
+INFO - Processando perfil 450
+INFO - Perfil 450 atualizado com sucesso!
+INFO - Processando perfil 268
+INFO - Perfil 268 atualizado com sucesso!
+INFO - Processando perfil 413
+INFO - Perfil 413 atualizado com sucesso!
+INFO - Processando perfil 343
+INFO - Perfil 343 atualizado com sucesso!
+INFO - Processando perfil 404
+INFO - Perfil 404 atualizado com sucesso!
+INFO - Processando perfil 232
+INFO - Perfil 232 atualizado com sucesso!
+INFO - Processando perfil 241
+INFO - Perfil 241 atualizado com sucesso!
+INFO - Processando perfil 336
+INFO - Perfil 336 atualizado com sucesso!
+INFO - Processando perfil 14
+INFO - Perfil 14 atualizado com sucesso!
+INFO - Processando perfil 256
+INFO - Perfil 256 atualizado com sucesso!
+INFO - Processando perfil 443
+INFO - Perfil 443 atualizado com sucesso!
+INFO - Processando perfil 86
+INFO - Perfil 86 atualizado com sucesso!
+INFO - Processando perfil 386
+INFO - Perfil 386 atualizado com sucesso!
+INFO - Processando perfil 385
+INFO - Perfil 385 atualizado com sucesso!
+INFO - Processando perfil 384
+INFO - Perfil 384 atualizado com sucesso!
+INFO - Processando perfil 360
+INFO - Perfil 360 atualizado com sucesso!
+INFO - Processando perfil 214
+INFO - Perfil 214 atualizado com sucesso!
+INFO - Processando perfil 231
+INFO - Perfil 231 atualizado com sucesso!
+INFO - Processando perfil 388
+INFO - Perfil 388 atualizado com sucesso!
+INFO - Processando perfil 353
+INFO - Perfil 353 atualizado com sucesso!
+INFO - Processando perfil 399
+INFO - Perfil 399 atualizado com sucesso!
+INFO - Processando perfil 218
+INFO - Perfil 218 atualizado com sucesso!
+INFO - Processando perfil 284
+INFO - Perfil 284 atualizado com sucesso!
+INFO - Processando perfil 349
+INFO - Perfil 349 atualizado com sucesso!
+INFO - Processando perfil 359
+INFO - Perfil 359 atualizado com sucesso!
+INFO - Processando perfil 315
+INFO - Perfil 315 atualizado com sucesso!
+INFO - Processando perfil 414
+INFO - Perfil 414 atualizado com sucesso!
+INFO - Processando perfil 362
+INFO - Perfil 362 atualizado com sucesso!
+INFO - Processando perfil 197
+INFO - Perfil 197 atualizado com sucesso!
+INFO - Processando perfil 198
+INFO - Perfil 198 atualizado com sucesso!
+INFO - Processando perfil 390
+INFO - Perfil 390 atualizado com sucesso!
+INFO - Processando perfil 321
+INFO - Perfil 321 atualizado com sucesso!
+INFO - Processando perfil 371
+INFO - Perfil 371 atualizado com sucesso!
+INFO - Processando perfil 230
+INFO - Perfil 230 atualizado com sucesso!
+INFO - Processando perfil 383
+INFO - Perfil 383 atualizado com sucesso!
+INFO - Processando perfil 423
+INFO - Perfil 423 atualizado com sucesso!
+INFO - Processando perfil 213
+INFO - Perfil 213 atualizado com sucesso!
+INFO - Processando perfil 417
+INFO - Perfil 417 atualizado com sucesso!
+INFO - Processando perfil 264
+INFO - Perfil 264 atualizado com sucesso!
+INFO - Processando perfil 422
+INFO - Perfil 422 atualizado com sucesso!
+INFO - Processando perfil 401
+INFO - Perfil 401 atualizado com sucesso!
+INFO - Processando perfil 396
+INFO - Perfil 396 atualizado com sucesso!
+INFO - Processando perfil 228
+INFO - Perfil 228 atualizado com sucesso!
+INFO - Processando perfil 372
+INFO - Perfil 372 atualizado com sucesso!
+INFO - Processando perfil 428
+INFO - Perfil 428 atualizado com sucesso!
+INFO - Processando perfil 400
+INFO - Perfil 400 atualizado com sucesso!
+INFO - Processando perfil 110
+INFO - Perfil 110 atualizado com sucesso!
+INFO - Processando perfil 340
+INFO - Perfil 340 atualizado com sucesso!
+INFO - Processando perfil 319
+INFO - Perfil 319 atualizado com sucesso!
+INFO - Processando perfil 441
+INFO - Perfil 441 atualizado com sucesso!
+INFO - Processando perfil 322
+INFO - Perfil 322 atualizado com sucesso!
+INFO - Processando perfil 444
+INFO - Perfil 444 atualizado com sucesso!
+INFO - Processando perfil 439
+INFO - Perfil 439 atualizado com sucesso!
+INFO - Processando perfil 339
+INFO - Perfil 339 atualizado com sucesso!
+INFO - Processando perfil 330
+INFO - Perfil 330 atualizado com sucesso!
+INFO - Processando perfil 208
+INFO - Perfil 208 atualizado com sucesso!
+INFO - Processando perfil 356
+INFO - Perfil 356 atualizado com sucesso!
+INFO - Processando perfil 415
+INFO - Perfil 415 atualizado com sucesso!
+INFO - Processando perfil 252
+INFO - Perfil 252 atualizado com sucesso!
+INFO - Processando perfil 289
+INFO - Perfil 289 atualizado com sucesso!
+INFO - Processando perfil 451
+INFO - Perfil 451 atualizado com sucesso!
+INFO - Processando perfil 431
+INFO - Perfil 431 atualizado com sucesso!
+INFO - Processando perfil 104
+INFO - Perfil 104 atualizado com sucesso!
+INFO - Processando perfil 425
+INFO - Perfil 425 atualizado com sucesso!
+INFO - Processando perfil 405
+INFO - Perfil 405 atualizado com sucesso!
+INFO - Processando perfil 403
+INFO - Perfil 403 atualizado com sucesso!
+INFO - Processando perfil 447
+ERROR - Erro ao processar perfil 447: {'code': '22001', 'details': None, 'hint': None, 'message': 'value too long for type character varying(20)'}
+INFO - Processando perfil 140
+INFO - Perfil 140 atualizado com sucesso!
+INFO - Processando perfil 436
+INFO - Perfil 436 atualizado com sucesso!
+INFO - Processando perfil 398
+INFO - Perfil 398 atualizado com sucesso!
+INFO - Processando perfil 442
+INFO - Perfil 442 atualizado com sucesso!
+INFO - Processando perfil 420
+INFO - Perfil 420 atualizado com sucesso!
+INFO - Processando perfil 92
+INFO - Perfil 92 atualizado com sucesso!
+INFO - Processando perfil 215
+INFO - Perfil 215 atualizado com sucesso!
+INFO - Processando perfil 10
+INFO - Perfil 10 atualizado com sucesso!
+INFO - Processando perfil 429
+INFO - Perfil 429 atualizado com sucesso!
+INFO - Processando perfil 350
+INFO - Perfil 350 atualizado com sucesso!
+INFO - Processando perfil 448
+INFO - Perfil 448 atualizado com sucesso!
+INFO - Processando perfil 435
+INFO - Perfil 435 atualizado com sucesso!
+INFO - Processando perfil 189
+INFO - Perfil 189 atualizado com sucesso!
+INFO - Processando perfil 434
+INFO - Perfil 434 atualizado com sucesso!
+INFO - Processando perfil 201
+INFO - Perfil 201 atualizado com sucesso!
+INFO - Processando perfil 247
+INFO - Perfil 247 atualizado com sucesso!
+INFO - Processando perfil 67
+INFO - Perfil 67 atualizado com sucesso!
+INFO - Processando perfil 357
+INFO - Perfil 357 atualizado com sucesso!
+INFO - Processando perfil 344
+INFO - Perfil 344 atualizado com sucesso!
+INFO - Processando perfil 367
+INFO - Perfil 367 atualizado com sucesso!
+INFO - Processando perfil 257
+INFO - Perfil 257 atualizado com sucesso!
+INFO - Processando perfil 70
+ERROR - Erro ao processar perfil 70: {'code': '22001', 'details': None, 'hint': None, 'message': 'value too long for type character varying(50)'}
+INFO - Processando perfil 368
+INFO - Perfil 368 atualizado com sucesso!
+INFO - Processando perfil 245
+INFO - Perfil 245 atualizado com sucesso!
+INFO - Processando perfil 427
+INFO - Perfil 427 atualizado com sucesso!
+INFO - Processando perfil 285
+INFO - Perfil 285 atualizado com sucesso!
+INFO - Processando perfil 446
+INFO - Perfil 446 atualizado com sucesso!
+INFO - Processando perfil 432
+INFO - Perfil 432 atualizado com sucesso!
+INFO - Processando perfil 433
+INFO - Perfil 433 atualizado com sucesso!
+INFO - Processando perfil 171
+INFO - Perfil 171 atualizado com sucesso!
+INFO - Processando perfil 419
+INFO - Perfil 419 atualizado com sucesso!
+INFO - Processando perfil 47
+INFO - Perfil 47 atualizado com sucesso!
+INFO - Processando perfil 449
+INFO - Perfil 449 atualizado com sucesso!
+INFO - Processando perfil 380
+INFO - Perfil 380 atualizado com sucesso!
+INFO - Processando perfil 320
+INFO - Perfil 320 atualizado com sucesso!
+INFO - Processando perfil 379
+INFO - Perfil 379 atualizado com sucesso!
+INFO - Processando perfil 335
+INFO - Perfil 335 atualizado com sucesso!
+INFO - Processando perfil 426
+INFO - Perfil 426 atualizado com sucesso!
+INFO - Processando perfil 311
+INFO - Perfil 311 atualizado com sucesso!
+INFO - Processando perfil 440
+INFO - Perfil 440 atualizado com sucesso!
+INFO - Processando perfil 424
+INFO - Perfil 424 atualizado com sucesso!
+INFO - Processando perfil 246
+INFO - Perfil 246 atualizado com sucesso!
+INFO - Processando perfil 412
+INFO - Perfil 412 atualizado com sucesso!
+INFO - Processando perfil 410
+INFO - Perfil 410 atualizado com sucesso!
+INFO - Processando perfil 312
+INFO - Perfil 312 atualizado com sucesso!
+INFO - Processando perfil 79
+INFO - Perfil 79 atualizado com sucesso!
+INFO - Processando perfil 421
+INFO - Perfil 421 atualizado com sucesso!
+INFO - Processando perfil 293
+INFO - Perfil 293 atualizado com sucesso!
+INFO - Processando perfil 135
+INFO - Perfil 135 atualizado com sucesso!
+INFO - Processando perfil 72
+INFO - Perfil 72 atualizado com sucesso!
+INFO - Processando perfil 73
+INFO - Perfil 73 atualizado com sucesso!
+INFO - Processando perfil 430
+INFO - Perfil 430 atualizado com sucesso!
+INFO - Processando perfil 389
+INFO - Perfil 389 atualizado com sucesso!
+INFO - Processando perfil 364
+INFO - Perfil 364 atualizado com sucesso!
+INFO - Processando perfil 217
+INFO - Perfil 217 atualizado com sucesso!
+INFO - Processando perfil 408
+INFO - Perfil 408 atualizado com sucesso!
+INFO - Processando perfil 418
+INFO - Perfil 418 atualizado com sucesso!
+INFO - Processando perfil 39
+INFO - Perfil 39 atualizado com sucesso!
+INFO - Processando perfil 416
+INFO - Perfil 416 atualizado com sucesso!
+INFO - Processando perfil 68
+INFO - Perfil 68 atualizado com sucesso!
+INFO - Processando perfil 437
+INFO - Perfil 437 atualizado com sucesso!
+INFO - Processando perfil 438
+INFO - Perfil 438 atualizado com sucesso!
+INFO - Processando perfil 407
+INFO - Perfil 407 atualizado com sucesso!
+INFO - Processando perfil 445
+INFO - Perfil 445 atualizado com sucesso!
+INFO - Processando perfil 46
+INFO - Perfil 46 atualizado com sucesso!
+INFO - Processando perfil 244
+INFO - Perfil 244 atualizado com sucesso!
+INFO - Total de perfis salvos: 0
+INFO - Total de perfis atualizados: 135
+INFO - Driver não está em execução
+INFO - Iniciando o processo de atualização dos perfis
+INFO - Fazendo login no site
+INFO - Driver iniciado com sucesso
+INFO - Capturando perfis para inserção/atualização no banco de dados
+INFO - Processando perfil 10
+INFO - Perfil 10 atualizado com sucesso!
+INFO - Processando perfil 14
+INFO - Perfil 14 atualizado com sucesso!
+INFO - Processando perfil 39
+INFO - Perfil 39 atualizado com sucesso!
+INFO - Processando perfil 46
+INFO - Perfil 46 atualizado com sucesso!
+INFO - Processando perfil 47
+INFO - Perfil 47 atualizado com sucesso!
+INFO - Processando perfil 67
+INFO - Perfil 67 atualizado com sucesso!
+INFO - Processando perfil 68
+INFO - Perfil 68 atualizado com sucesso!
+INFO - Processando perfil 70
+ERROR - Erro ao processar perfil 70: {'code': '22001', 'details': None, 'hint': None, 'message': 'value too long for type character varying(50)'}
+INFO - Iniciando o processo de atualização dos perfis
+INFO - Fazendo login no site
+INFO - Driver iniciado com sucesso
+INFO - Capturando perfis para inserção/atualização no banco de dados
+INFO - Processando perfil 10
+INFO - Perfil 10 atualizado com sucesso!
+INFO - Processando perfil 14
+INFO - Perfil 14 atualizado com sucesso!
+INFO - Processando perfil 39
+INFO - Perfil 39 atualizado com sucesso!
+INFO - Processando perfil 46
+INFO - Perfil 46 atualizado com sucesso!
+INFO - Processando perfil 47
+INFO - Perfil 47 atualizado com sucesso!
+INFO - Processando perfil 67
+INFO - Perfil 67 atualizado com sucesso!
+INFO - Processando perfil 68
+INFO - Perfil 68 atualizado com sucesso!
+INFO - Processando perfil 70
+INFO - Perfil 70 salvo com sucesso!
+INFO - Processando perfil 72
+INFO - Perfil 72 atualizado com sucesso!
+INFO - Processando perfil 73
+INFO - Perfil 73 atualizado com sucesso!
+INFO - Processando perfil 79
+INFO - Perfil 79 atualizado com sucesso!
+INFO - Processando perfil 86
+INFO - Perfil 86 atualizado com sucesso!
+INFO - Processando perfil 92
+INFO - Perfil 92 atualizado com sucesso!
+INFO - Processando perfil 104
+INFO - Perfil 104 atualizado com sucesso!
+INFO - Processando perfil 110
+INFO - Perfil 110 atualizado com sucesso!
+INFO - Processando perfil 135
+INFO - Perfil 135 atualizado com sucesso!
+INFO - Processando perfil 140
+INFO - Perfil 140 atualizado com sucesso!
+INFO - Processando perfil 171
+INFO - Perfil 171 atualizado com sucesso!
+INFO - Processando perfil 189
+INFO - Perfil 189 atualizado com sucesso!
+INFO - Processando perfil 197
+INFO - Perfil 197 atualizado com sucesso!
+INFO - Processando perfil 198
+INFO - Perfil 198 atualizado com sucesso!
+INFO - Processando perfil 201
+INFO - Perfil 201 atualizado com sucesso!
+INFO - Processando perfil 208
+INFO - Perfil 208 atualizado com sucesso!
+INFO - Processando perfil 213
+INFO - Perfil 213 atualizado com sucesso!
+INFO - Processando perfil 214
+INFO - Perfil 214 atualizado com sucesso!
+INFO - Processando perfil 215
+INFO - Perfil 215 atualizado com sucesso!
+INFO - Processando perfil 217
+INFO - Perfil 217 atualizado com sucesso!
+INFO - Processando perfil 218
+INFO - Perfil 218 atualizado com sucesso!
+INFO - Processando perfil 228
+INFO - Perfil 228 atualizado com sucesso!
+INFO - Processando perfil 230
+INFO - Perfil 230 atualizado com sucesso!
+INFO - Processando perfil 231
+INFO - Perfil 231 atualizado com sucesso!
+INFO - Processando perfil 232
+INFO - Perfil 232 atualizado com sucesso!
+INFO - Processando perfil 241
+INFO - Perfil 241 atualizado com sucesso!
+INFO - Processando perfil 244
+INFO - Perfil 244 atualizado com sucesso!
+INFO - Processando perfil 245
+INFO - Perfil 245 atualizado com sucesso!
+INFO - Processando perfil 246
+INFO - Perfil 246 atualizado com sucesso!
+INFO - Processando perfil 247
+INFO - Perfil 247 atualizado com sucesso!
+INFO - Processando perfil 252
+INFO - Perfil 252 atualizado com sucesso!
+INFO - Processando perfil 256
+INFO - Perfil 256 atualizado com sucesso!
+INFO - Processando perfil 257
+INFO - Perfil 257 atualizado com sucesso!
+INFO - Processando perfil 264
+INFO - Perfil 264 atualizado com sucesso!
+INFO - Processando perfil 268
+INFO - Perfil 268 atualizado com sucesso!
+INFO - Processando perfil 284
+INFO - Perfil 284 atualizado com sucesso!
+INFO - Processando perfil 285
+INFO - Perfil 285 atualizado com sucesso!
+INFO - Processando perfil 289
+INFO - Perfil 289 atualizado com sucesso!
+INFO - Processando perfil 293
+INFO - Perfil 293 atualizado com sucesso!
+INFO - Processando perfil 308
+INFO - Perfil 308 atualizado com sucesso!
+INFO - Processando perfil 311
+INFO - Perfil 311 atualizado com sucesso!
+INFO - Processando perfil 312
+INFO - Perfil 312 atualizado com sucesso!
+INFO - Processando perfil 315
+INFO - Perfil 315 atualizado com sucesso!
+INFO - Processando perfil 319
+INFO - Perfil 319 atualizado com sucesso!
+INFO - Processando perfil 320
+INFO - Perfil 320 atualizado com sucesso!
+INFO - Processando perfil 321
+INFO - Perfil 321 atualizado com sucesso!
+INFO - Processando perfil 322
+INFO - Perfil 322 atualizado com sucesso!
+INFO - Processando perfil 328
+INFO - Perfil 328 atualizado com sucesso!
+INFO - Processando perfil 330
+INFO - Perfil 330 atualizado com sucesso!
+INFO - Processando perfil 335
+INFO - Perfil 335 atualizado com sucesso!
+INFO - Processando perfil 336
+INFO - Perfil 336 atualizado com sucesso!
+INFO - Processando perfil 339
+INFO - Perfil 339 atualizado com sucesso!
+INFO - Processando perfil 340
+INFO - Perfil 340 atualizado com sucesso!
+INFO - Processando perfil 343
+INFO - Perfil 343 atualizado com sucesso!
+INFO - Processando perfil 344
+INFO - Perfil 344 atualizado com sucesso!
+INFO - Processando perfil 346
+INFO - Perfil 346 atualizado com sucesso!
+INFO - Processando perfil 349
+INFO - Perfil 349 atualizado com sucesso!
+INFO - Processando perfil 350
+INFO - Perfil 350 atualizado com sucesso!
+INFO - Processando perfil 353
+INFO - Perfil 353 atualizado com sucesso!
+INFO - Processando perfil 356
+INFO - Perfil 356 atualizado com sucesso!
+INFO - Processando perfil 357
+INFO - Perfil 357 atualizado com sucesso!
+INFO - Processando perfil 359
+INFO - Perfil 359 atualizado com sucesso!
+INFO - Processando perfil 360
+INFO - Perfil 360 atualizado com sucesso!
+INFO - Processando perfil 362
+INFO - Perfil 362 atualizado com sucesso!
+INFO - Processando perfil 364
+INFO - Perfil 364 atualizado com sucesso!
+INFO - Processando perfil 367
+INFO - Perfil 367 atualizado com sucesso!
+INFO - Processando perfil 368
+INFO - Perfil 368 atualizado com sucesso!
+INFO - Processando perfil 371
+INFO - Perfil 371 atualizado com sucesso!
+INFO - Processando perfil 372
+INFO - Perfil 372 atualizado com sucesso!
+INFO - Processando perfil 379
+INFO - Perfil 379 atualizado com sucesso!
+INFO - Processando perfil 380
+INFO - Perfil 380 atualizado com sucesso!
+INFO - Processando perfil 383
+INFO - Perfil 383 atualizado com sucesso!
+INFO - Processando perfil 384
+INFO - Perfil 384 atualizado com sucesso!
+INFO - Processando perfil 385
+INFO - Perfil 385 atualizado com sucesso!
+INFO - Processando perfil 386
+INFO - Perfil 386 atualizado com sucesso!
+INFO - Processando perfil 388
+INFO - Perfil 388 atualizado com sucesso!
+INFO - Processando perfil 389
+INFO - Perfil 389 atualizado com sucesso!
+INFO - Processando perfil 390
+INFO - Perfil 390 atualizado com sucesso!
+INFO - Processando perfil 396
+INFO - Perfil 396 atualizado com sucesso!
+INFO - Processando perfil 398
+INFO - Perfil 398 atualizado com sucesso!
+INFO - Processando perfil 399
+INFO - Perfil 399 atualizado com sucesso!
+INFO - Processando perfil 400
+INFO - Perfil 400 atualizado com sucesso!
+INFO - Processando perfil 401
+INFO - Perfil 401 atualizado com sucesso!
+INFO - Processando perfil 403
+INFO - Perfil 403 atualizado com sucesso!
+INFO - Processando perfil 404
+INFO - Perfil 404 atualizado com sucesso!
+INFO - Processando perfil 405
+INFO - Perfil 405 atualizado com sucesso!
+INFO - Processando perfil 407
+INFO - Perfil 407 atualizado com sucesso!
+INFO - Processando perfil 408
+INFO - Perfil 408 atualizado com sucesso!
+INFO - Processando perfil 409
+INFO - Perfil 409 atualizado com sucesso!
+INFO - Processando perfil 410
+INFO - Perfil 410 atualizado com sucesso!
+INFO - Processando perfil 412
+INFO - Perfil 412 atualizado com sucesso!
+INFO - Processando perfil 413
+INFO - Perfil 413 atualizado com sucesso!
+INFO - Processando perfil 414
+INFO - Perfil 414 atualizado com sucesso!
+INFO - Processando perfil 415
+INFO - Perfil 415 atualizado com sucesso!
+INFO - Processando perfil 416
+INFO - Perfil 416 atualizado com sucesso!
+INFO - Processando perfil 417
+INFO - Perfil 417 atualizado com sucesso!
+INFO - Processando perfil 418
+INFO - Perfil 418 atualizado com sucesso!
+INFO - Processando perfil 419
+INFO - Perfil 419 atualizado com sucesso!
+INFO - Processando perfil 420
+INFO - Perfil 420 atualizado com sucesso!
+INFO - Processando perfil 421
+INFO - Perfil 421 atualizado com sucesso!
+INFO - Processando perfil 422
+INFO - Perfil 422 atualizado com sucesso!
+INFO - Processando perfil 423
+INFO - Perfil 423 atualizado com sucesso!
+INFO - Processando perfil 424
+INFO - Perfil 424 atualizado com sucesso!
+INFO - Processando perfil 425
+INFO - Perfil 425 atualizado com sucesso!
+INFO - Processando perfil 426
+INFO - Perfil 426 atualizado com sucesso!
+INFO - Processando perfil 427
+INFO - Perfil 427 atualizado com sucesso!
+INFO - Processando perfil 428
+INFO - Perfil 428 atualizado com sucesso!
+INFO - Processando perfil 429
+INFO - Perfil 429 atualizado com sucesso!
+INFO - Processando perfil 430
+INFO - Perfil 430 atualizado com sucesso!
+INFO - Processando perfil 431
+INFO - Perfil 431 atualizado com sucesso!
+INFO - Processando perfil 432
+INFO - Perfil 432 atualizado com sucesso!
+INFO - Processando perfil 433
+INFO - Perfil 433 atualizado com sucesso!
+INFO - Processando perfil 434
+INFO - Perfil 434 atualizado com sucesso!
+INFO - Processando perfil 435
+INFO - Perfil 435 atualizado com sucesso!
+INFO - Processando perfil 436
+INFO - Perfil 436 atualizado com sucesso!
+INFO - Processando perfil 437
+INFO - Perfil 437 atualizado com sucesso!
+INFO - Processando perfil 438
+INFO - Perfil 438 atualizado com sucesso!
+INFO - Processando perfil 439
+INFO - Perfil 439 atualizado com sucesso!
+INFO - Processando perfil 440
+INFO - Perfil 440 atualizado com sucesso!
+INFO - Processando perfil 441
+INFO - Perfil 441 atualizado com sucesso!
+INFO - Processando perfil 442
+INFO - Perfil 442 atualizado com sucesso!
+INFO - Processando perfil 443
+INFO - Perfil 443 atualizado com sucesso!
+INFO - Processando perfil 444
+INFO - Perfil 444 atualizado com sucesso!
+INFO - Processando perfil 445
+INFO - Perfil 445 atualizado com sucesso!
+INFO - Processando perfil 446
+INFO - Perfil 446 atualizado com sucesso!
+INFO - Processando perfil 447
+INFO - Perfil 447 salvo com sucesso!
+INFO - Processando perfil 448
+INFO - Perfil 448 atualizado com sucesso!
+INFO - Processando perfil 449
+INFO - Perfil 449 atualizado com sucesso!
+INFO - Processando perfil 450
+INFO - Perfil 450 atualizado com sucesso!
+INFO - Processando perfil 451
+INFO - Perfil 451 atualizado com sucesso!
+INFO - Total de perfis salvos: 2
+INFO - Total de perfis atualizados: 135
+INFO - Driver não está em execução
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Pagamento 18 inserido no banco de dados
+INFO - Pagamento 19 inserido no banco de dados
+INFO - Pagamento 20 inserido no banco de dados
+INFO - Pagamento 21 inserido no banco de dados
+INFO - Pagamento 22 inserido no banco de dados
+INFO - Pagamento 23 inserido no banco de dados
+INFO - Pagamento 24 inserido no banco de dados
+INFO - Pagamento 25 inserido no banco de dados
+INFO - Pagamento 26 inserido no banco de dados
+INFO - Pagamento 27 inserido no banco de dados
+INFO - Pagamento 28 inserido no banco de dados
+INFO - Pagamento 29 inserido no banco de dados
+INFO - Pagamento 30 inserido no banco de dados
+INFO - Pagamento 31 inserido no banco de dados
+INFO - Pagamento 32 inserido no banco de dados
+INFO - Pagamento 33 inserido no banco de dados
+INFO - Pagamento 34 inserido no banco de dados
+INFO - Pagamento 35 inserido no banco de dados
+INFO - Pagamento 36 inserido no banco de dados
+INFO - Pagamento 37 inserido no banco de dados
+INFO - Pagamento 38 inserido no banco de dados
+INFO - Pagamento 39 inserido no banco de dados
+INFO - Pagamento 40 inserido no banco de dados
+INFO - Pagamento 41 inserido no banco de dados
+INFO - Pagamento 42 inserido no banco de dados
+INFO - Pagamento 43 inserido no banco de dados
+INFO - Pagamento 44 inserido no banco de dados
+INFO - Pagamento 45 inserido no banco de dados
+INFO - Pagamento 46 inserido no banco de dados
+INFO - Pagamento 47 inserido no banco de dados
+INFO - Pagamento 48 inserido no banco de dados
+INFO - Pagamento 49 inserido no banco de dados
+INFO - Pagamento 50 inserido no banco de dados
+INFO - Pagamento 51 inserido no banco de dados
+INFO - Pagamento 52 inserido no banco de dados
+INFO - Pagamento 53 inserido no banco de dados
+INFO - Pagamento 54 inserido no banco de dados
+INFO - Pagamento 55 inserido no banco de dados
+INFO - Pagamento 56 inserido no banco de dados
+INFO - Pagamento 57 inserido no banco de dados
+INFO - Pagamento 58 inserido no banco de dados
+INFO - Pagamento 59 inserido no banco de dados
+INFO - Pagamento 60 inserido no banco de dados
+INFO - Pagamento 61 inserido no banco de dados
+INFO - Pagamento 62 inserido no banco de dados
+INFO - Pagamento 63 inserido no banco de dados
+INFO - Pagamento 64 inserido no banco de dados
+INFO - Pagamento 65 inserido no banco de dados
+INFO - Pagamento 66 inserido no banco de dados
+INFO - Pagamento 67 inserido no banco de dados
+INFO - Pagamento 68 inserido no banco de dados
+INFO - Pagamento 69 inserido no banco de dados
+INFO - Pagamento 70 inserido no banco de dados
+INFO - Pagamento 71 inserido no banco de dados
+INFO - Pagamento 72 inserido no banco de dados
+INFO - Pagamento 73 inserido no banco de dados
+INFO - Pagamento 74 inserido no banco de dados
+INFO - Pagamento 75 inserido no banco de dados
+INFO - Pagamento 76 inserido no banco de dados
+INFO - Pagamento 77 inserido no banco de dados
+INFO - Pagamento 78 inserido no banco de dados
+INFO - Pagamento 79 inserido no banco de dados
+INFO - Pagamento 80 inserido no banco de dados
+INFO - Pagamento 81 inserido no banco de dados
+INFO - Pagamento 82 inserido no banco de dados
+INFO - Pagamento 83 inserido no banco de dados
+INFO - Pagamento 84 inserido no banco de dados
+INFO - Pagamento 85 inserido no banco de dados
+INFO - Pagamento 86 inserido no banco de dados
+INFO - Pagamento 87 inserido no banco de dados
+INFO - Pagamento 88 inserido no banco de dados
+INFO - Pagamento 89 inserido no banco de dados
+INFO - Pagamento 90 inserido no banco de dados
+INFO - Pagamento 91 inserido no banco de dados
+INFO - Pagamento 92 inserido no banco de dados
+INFO - Pagamento 93 inserido no banco de dados
+INFO - Pagamento 94 inserido no banco de dados
+INFO - Pagamento 95 inserido no banco de dados
+INFO - Pagamento 96 inserido no banco de dados
+INFO - Pagamento 97 inserido no banco de dados
+INFO - Pagamento 98 inserido no banco de dados
+INFO - Pagamento 99 inserido no banco de dados
+INFO - Pagamento 100 inserido no banco de dados
+INFO - Pagamento 101 inserido no banco de dados
+INFO - Pagamento 102 inserido no banco de dados
+INFO - Pagamento 103 inserido no banco de dados
+INFO - Pagamento 104 inserido no banco de dados
+INFO - Pagamento 105 inserido no banco de dados
+INFO - Pagamento 106 inserido no banco de dados
+INFO - Pagamento 107 inserido no banco de dados
+INFO - Pagamento 108 inserido no banco de dados
+INFO - Pagamento 109 inserido no banco de dados
+INFO - Pagamento 110 inserido no banco de dados
+INFO - Pagamento 111 inserido no banco de dados
+INFO - Pagamento 112 inserido no banco de dados
+INFO - Pagamento 113 inserido no banco de dados
+INFO - Pagamento 114 inserido no banco de dados
+INFO - Pagamento 115 inserido no banco de dados
+INFO - Pagamento 116 inserido no banco de dados
+INFO - Pagamento 117 inserido no banco de dados
+INFO - Pagamento 118 inserido no banco de dados
+INFO - Pagamento 119 inserido no banco de dados
+INFO - Pagamento 120 inserido no banco de dados
+INFO - Pagamento 121 inserido no banco de dados
+INFO - Pagamento 122 inserido no banco de dados
+INFO - Pagamento 123 inserido no banco de dados
+INFO - Pagamento 124 inserido no banco de dados
+INFO - Pagamento 125 inserido no banco de dados
+INFO - Pagamento 126 inserido no banco de dados
+INFO - Pagamento 127 inserido no banco de dados
+INFO - Pagamento 128 inserido no banco de dados
+INFO - Pagamento 129 inserido no banco de dados
+INFO - Pagamento 130 inserido no banco de dados
+INFO - Pagamento 131 inserido no banco de dados
+INFO - Pagamento 132 inserido no banco de dados
+INFO - Pagamento 133 inserido no banco de dados
+INFO - Pagamento 134 inserido no banco de dados
+INFO - Pagamento 135 inserido no banco de dados
+INFO - Pagamento 136 inserido no banco de dados
+INFO - Pagamento 137 inserido no banco de dados
+INFO - Pagamento 138 inserido no banco de dados
+INFO - Pagamento 139 inserido no banco de dados
+INFO - Pagamento 140 inserido no banco de dados
+INFO - Pagamento 141 inserido no banco de dados
+INFO - Pagamento 142 inserido no banco de dados
+INFO - Pagamento 143 inserido no banco de dados
+INFO - Pagamento 144 inserido no banco de dados
+INFO - Pagamento 145 inserido no banco de dados
+INFO - Pagamento 146 inserido no banco de dados
+INFO - Pagamento 147 inserido no banco de dados
+INFO - Pagamento 148 inserido no banco de dados
+INFO - Pagamento 149 inserido no banco de dados
+INFO - Pagamento 150 inserido no banco de dados
+INFO - Pagamento 151 inserido no banco de dados
+INFO - Pagamento 152 inserido no banco de dados
+INFO - Pagamento 153 inserido no banco de dados
+INFO - Pagamento 154 inserido no banco de dados
+INFO - Driver encerrado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Pagamento 155 inserido no banco de dados
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Pagamento 159 inserido no banco de dados
+INFO - Driver encerrado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Pagamento 296 inserido no banco de dados
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Pagamento 433 inserido no banco de dados
+INFO - Driver encerrado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Pagamento 570 inserido no banco de dados
+INFO - Driver encerrado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Pagamento 707 inserido no banco de dados
+INFO - Driver encerrado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Pagamento 834 inserido no banco de dados
+INFO - Driver encerrado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Pagamento 961 inserido no banco de dados
+INFO - Driver encerrado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Pagamento 1088 inserido no banco de dados
+INFO - Driver encerrado com sucesso
+INFO - Iniciando o processo de atualização dos perfis
+INFO - Fazendo login no site
+INFO - Driver iniciado com sucesso
+INFO - Capturando perfis para inserção/atualização no banco de dados
+INFO - Processando perfil 10
+INFO - Perfil 10 atualizado com sucesso!
+INFO - Processando perfil 14
+INFO - Perfil 14 atualizado com sucesso!
+INFO - Processando perfil 39
+INFO - Perfil 39 atualizado com sucesso!
+INFO - Processando perfil 46
+INFO - Perfil 46 atualizado com sucesso!
+INFO - Processando perfil 47
+INFO - Perfil 47 atualizado com sucesso!
+INFO - Processando perfil 67
+INFO - Perfil 67 atualizado com sucesso!
+INFO - Processando perfil 68
+INFO - Perfil 68 atualizado com sucesso!
+INFO - Processando perfil 70
+INFO - Perfil 70 atualizado com sucesso!
+INFO - Processando perfil 72
+INFO - Perfil 72 atualizado com sucesso!
+INFO - Processando perfil 73
+INFO - Perfil 73 atualizado com sucesso!
+INFO - Processando perfil 79
+INFO - Perfil 79 atualizado com sucesso!
+INFO - Processando perfil 86
+INFO - Perfil 86 atualizado com sucesso!
+INFO - Processando perfil 92
+INFO - Perfil 92 atualizado com sucesso!
+INFO - Processando perfil 104
+INFO - Perfil 104 atualizado com sucesso!
+INFO - Processando perfil 110
+INFO - Perfil 110 atualizado com sucesso!
+INFO - Processando perfil 135
+INFO - Perfil 135 atualizado com sucesso!
+INFO - Processando perfil 140
+INFO - Perfil 140 atualizado com sucesso!
+INFO - Processando perfil 171
+INFO - Perfil 171 atualizado com sucesso!
+INFO - Processando perfil 189
+INFO - Perfil 189 atualizado com sucesso!
+INFO - Processando perfil 197
+INFO - Perfil 197 atualizado com sucesso!
+INFO - Processando perfil 198
+INFO - Perfil 198 atualizado com sucesso!
+INFO - Processando perfil 201
+INFO - Perfil 201 atualizado com sucesso!
+INFO - Processando perfil 208
+INFO - Perfil 208 atualizado com sucesso!
+INFO - Processando perfil 213
+INFO - Perfil 213 atualizado com sucesso!
+INFO - Processando perfil 214
+INFO - Perfil 214 atualizado com sucesso!
+INFO - Processando perfil 215
+INFO - Perfil 215 atualizado com sucesso!
+INFO - Processando perfil 217
+INFO - Perfil 217 atualizado com sucesso!
+INFO - Processando perfil 218
+INFO - Perfil 218 atualizado com sucesso!
+INFO - Processando perfil 228
+INFO - Perfil 228 atualizado com sucesso!
+INFO - Processando perfil 230
+INFO - Perfil 230 atualizado com sucesso!
+INFO - Processando perfil 231
+INFO - Perfil 231 atualizado com sucesso!
+INFO - Processando perfil 232
+INFO - Perfil 232 atualizado com sucesso!
+INFO - Processando perfil 241
+INFO - Perfil 241 atualizado com sucesso!
+INFO - Processando perfil 244
+INFO - Perfil 244 atualizado com sucesso!
+INFO - Processando perfil 245
+INFO - Perfil 245 atualizado com sucesso!
+INFO - Processando perfil 246
+INFO - Perfil 246 atualizado com sucesso!
+INFO - Processando perfil 247
+INFO - Perfil 247 atualizado com sucesso!
+INFO - Processando perfil 252
+INFO - Perfil 252 atualizado com sucesso!
+INFO - Processando perfil 256
+INFO - Perfil 256 atualizado com sucesso!
+INFO - Processando perfil 257
+INFO - Perfil 257 atualizado com sucesso!
+INFO - Processando perfil 264
+INFO - Perfil 264 atualizado com sucesso!
+INFO - Processando perfil 268
+INFO - Perfil 268 atualizado com sucesso!
+INFO - Processando perfil 284
+INFO - Perfil 284 atualizado com sucesso!
+INFO - Processando perfil 285
+INFO - Perfil 285 atualizado com sucesso!
+INFO - Processando perfil 289
+INFO - Perfil 289 atualizado com sucesso!
+INFO - Processando perfil 293
+INFO - Perfil 293 atualizado com sucesso!
+INFO - Processando perfil 308
+INFO - Perfil 308 atualizado com sucesso!
+INFO - Processando perfil 311
+INFO - Perfil 311 atualizado com sucesso!
+INFO - Processando perfil 312
+INFO - Perfil 312 atualizado com sucesso!
+INFO - Processando perfil 315
+INFO - Perfil 315 atualizado com sucesso!
+INFO - Processando perfil 319
+INFO - Perfil 319 atualizado com sucesso!
+INFO - Processando perfil 320
+INFO - Perfil 320 atualizado com sucesso!
+INFO - Processando perfil 321
+INFO - Perfil 321 atualizado com sucesso!
+INFO - Processando perfil 322
+INFO - Perfil 322 atualizado com sucesso!
+INFO - Processando perfil 328
+INFO - Perfil 328 atualizado com sucesso!
+INFO - Processando perfil 330
+INFO - Perfil 330 atualizado com sucesso!
+INFO - Processando perfil 335
+INFO - Perfil 335 atualizado com sucesso!
+INFO - Processando perfil 336
+INFO - Perfil 336 atualizado com sucesso!
+INFO - Processando perfil 339
+INFO - Perfil 339 atualizado com sucesso!
+INFO - Processando perfil 340
+INFO - Perfil 340 atualizado com sucesso!
+INFO - Processando perfil 343
+INFO - Perfil 343 atualizado com sucesso!
+INFO - Processando perfil 344
+INFO - Perfil 344 atualizado com sucesso!
+INFO - Processando perfil 346
+INFO - Perfil 346 atualizado com sucesso!
+INFO - Processando perfil 349
+INFO - Perfil 349 atualizado com sucesso!
+INFO - Processando perfil 350
+INFO - Perfil 350 atualizado com sucesso!
+INFO - Processando perfil 353
+INFO - Perfil 353 atualizado com sucesso!
+INFO - Processando perfil 356
+INFO - Perfil 356 atualizado com sucesso!
+INFO - Processando perfil 357
+INFO - Perfil 357 atualizado com sucesso!
+INFO - Processando perfil 359
+INFO - Perfil 359 atualizado com sucesso!
+INFO - Processando perfil 360
+INFO - Perfil 360 atualizado com sucesso!
+INFO - Processando perfil 362
+INFO - Perfil 362 atualizado com sucesso!
+INFO - Processando perfil 364
+INFO - Perfil 364 atualizado com sucesso!
+INFO - Processando perfil 367
+INFO - Perfil 367 atualizado com sucesso!
+INFO - Processando perfil 368
+INFO - Perfil 368 atualizado com sucesso!
+INFO - Processando perfil 371
+INFO - Perfil 371 atualizado com sucesso!
+INFO - Processando perfil 372
+INFO - Perfil 372 atualizado com sucesso!
+INFO - Processando perfil 379
+INFO - Perfil 379 atualizado com sucesso!
+INFO - Processando perfil 380
+INFO - Perfil 380 atualizado com sucesso!
+INFO - Processando perfil 383
+INFO - Perfil 383 atualizado com sucesso!
+INFO - Processando perfil 384
+INFO - Perfil 384 atualizado com sucesso!
+INFO - Processando perfil 385
+INFO - Perfil 385 atualizado com sucesso!
+INFO - Processando perfil 386
+INFO - Perfil 386 atualizado com sucesso!
+INFO - Processando perfil 388
+INFO - Perfil 388 atualizado com sucesso!
+INFO - Processando perfil 389
+INFO - Perfil 389 atualizado com sucesso!
+INFO - Processando perfil 390
+INFO - Perfil 390 atualizado com sucesso!
+INFO - Processando perfil 396
+INFO - Perfil 396 atualizado com sucesso!
+INFO - Processando perfil 398
+INFO - Perfil 398 atualizado com sucesso!
+INFO - Processando perfil 399
+INFO - Perfil 399 atualizado com sucesso!
+INFO - Processando perfil 400
+INFO - Perfil 400 atualizado com sucesso!
+INFO - Processando perfil 401
+INFO - Perfil 401 atualizado com sucesso!
+INFO - Processando perfil 403
+INFO - Perfil 403 atualizado com sucesso!
+INFO - Processando perfil 404
+INFO - Perfil 404 atualizado com sucesso!
+INFO - Processando perfil 405
+INFO - Perfil 405 atualizado com sucesso!
+INFO - Processando perfil 407
+INFO - Perfil 407 atualizado com sucesso!
+INFO - Processando perfil 408
+INFO - Perfil 408 atualizado com sucesso!
+INFO - Processando perfil 409
+INFO - Perfil 409 atualizado com sucesso!
+INFO - Processando perfil 410
+INFO - Perfil 410 atualizado com sucesso!
+INFO - Processando perfil 412
+INFO - Perfil 412 atualizado com sucesso!
+INFO - Processando perfil 413
+INFO - Perfil 413 atualizado com sucesso!
+INFO - Processando perfil 414
+INFO - Perfil 414 atualizado com sucesso!
+INFO - Processando perfil 415
+INFO - Perfil 415 atualizado com sucesso!
+INFO - Processando perfil 416
+INFO - Perfil 416 atualizado com sucesso!
+INFO - Processando perfil 417
+INFO - Perfil 417 atualizado com sucesso!
+INFO - Processando perfil 418
+INFO - Perfil 418 atualizado com sucesso!
+INFO - Processando perfil 419
+INFO - Perfil 419 atualizado com sucesso!
+INFO - Processando perfil 420
+INFO - Perfil 420 atualizado com sucesso!
+INFO - Processando perfil 421
+INFO - Perfil 421 atualizado com sucesso!
+INFO - Processando perfil 422
+INFO - Perfil 422 atualizado com sucesso!
+INFO - Processando perfil 423
+INFO - Perfil 423 atualizado com sucesso!
+INFO - Processando perfil 424
+INFO - Perfil 424 atualizado com sucesso!
+INFO - Processando perfil 425
+INFO - Perfil 425 atualizado com sucesso!
+INFO - Processando perfil 426
+INFO - Perfil 426 atualizado com sucesso!
+INFO - Processando perfil 427
+INFO - Perfil 427 atualizado com sucesso!
+INFO - Processando perfil 428
+INFO - Perfil 428 atualizado com sucesso!
+INFO - Processando perfil 429
+INFO - Perfil 429 atualizado com sucesso!
+INFO - Processando perfil 430
+INFO - Perfil 430 atualizado com sucesso!
+INFO - Processando perfil 431
+INFO - Perfil 431 atualizado com sucesso!
+INFO - Processando perfil 432
+INFO - Perfil 432 atualizado com sucesso!
+INFO - Processando perfil 433
+INFO - Perfil 433 atualizado com sucesso!
+INFO - Processando perfil 434
+INFO - Perfil 434 atualizado com sucesso!
+INFO - Processando perfil 435
+INFO - Perfil 435 atualizado com sucesso!
+INFO - Processando perfil 436
+INFO - Perfil 436 atualizado com sucesso!
+INFO - Processando perfil 437
+INFO - Perfil 437 atualizado com sucesso!
+INFO - Processando perfil 438
+INFO - Perfil 438 atualizado com sucesso!
+INFO - Processando perfil 439
+INFO - Perfil 439 atualizado com sucesso!
+INFO - Processando perfil 440
+INFO - Perfil 440 atualizado com sucesso!
+INFO - Processando perfil 441
+INFO - Perfil 441 atualizado com sucesso!
+INFO - Processando perfil 442
+INFO - Perfil 442 atualizado com sucesso!
+INFO - Processando perfil 443
+INFO - Perfil 443 atualizado com sucesso!
+INFO - Processando perfil 444
+INFO - Perfil 444 atualizado com sucesso!
+INFO - Processando perfil 445
+INFO - Perfil 445 atualizado com sucesso!
+INFO - Processando perfil 446
+INFO - Perfil 446 atualizado com sucesso!
+INFO - Processando perfil 447
+INFO - Perfil 447 atualizado com sucesso!
+INFO - Processando perfil 448
+INFO - Perfil 448 atualizado com sucesso!
+INFO - Processando perfil 449
+INFO - Perfil 449 atualizado com sucesso!
+INFO - Processando perfil 450
+INFO - Perfil 450 atualizado com sucesso!
+INFO - Processando perfil 451
+INFO - Perfil 451 atualizado com sucesso!
+INFO - Total de perfis salvos: 0
+INFO - Total de perfis atualizados: 137
+INFO - Driver não está em execução
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Pagamento 1215 inserido no banco de dados
+INFO - Driver encerrado com sucesso
+INFO - Iniciando o processo de atualização dos perfis
+INFO - Fazendo login no site
+INFO - Driver iniciado com sucesso
+INFO - Capturando perfis para inserção/atualização no banco de dados
+INFO - Processando perfil 10
+INFO - Perfil 10 atualizado com sucesso!
+INFO - Processando perfil 14
+INFO - Perfil 14 atualizado com sucesso!
+INFO - Processando perfil 39
+INFO - Perfil 39 atualizado com sucesso!
+INFO - Processando perfil 46
+INFO - Perfil 46 atualizado com sucesso!
+INFO - Processando perfil 47
+INFO - Perfil 47 atualizado com sucesso!
+INFO - Processando perfil 67
+INFO - Perfil 67 atualizado com sucesso!
+INFO - Processando perfil 68
+INFO - Perfil 68 atualizado com sucesso!
+INFO - Processando perfil 70
+INFO - Perfil 70 atualizado com sucesso!
+INFO - Processando perfil 72
+INFO - Perfil 72 atualizado com sucesso!
+INFO - Processando perfil 73
+INFO - Perfil 73 atualizado com sucesso!
+INFO - Processando perfil 79
+INFO - Perfil 79 atualizado com sucesso!
+INFO - Processando perfil 86
+INFO - Perfil 86 atualizado com sucesso!
+INFO - Processando perfil 92
+INFO - Perfil 92 atualizado com sucesso!
+INFO - Processando perfil 104
+INFO - Perfil 104 atualizado com sucesso!
+INFO - Processando perfil 110
+INFO - Perfil 110 atualizado com sucesso!
+INFO - Processando perfil 135
+INFO - Perfil 135 atualizado com sucesso!
+INFO - Processando perfil 140
+INFO - Perfil 140 atualizado com sucesso!
+INFO - Processando perfil 171
+INFO - Perfil 171 atualizado com sucesso!
+INFO - Processando perfil 189
+INFO - Perfil 189 atualizado com sucesso!
+INFO - Processando perfil 197
+INFO - Perfil 197 atualizado com sucesso!
+INFO - Processando perfil 198
+INFO - Perfil 198 atualizado com sucesso!
+INFO - Processando perfil 201
+INFO - Perfil 201 atualizado com sucesso!
+INFO - Processando perfil 208
+INFO - Perfil 208 atualizado com sucesso!
+INFO - Processando perfil 213
+INFO - Perfil 213 atualizado com sucesso!
+INFO - Processando perfil 214
+INFO - Perfil 214 atualizado com sucesso!
+INFO - Processando perfil 215
+INFO - Perfil 215 atualizado com sucesso!
+INFO - Processando perfil 217
+INFO - Perfil 217 atualizado com sucesso!
+INFO - Processando perfil 218
+INFO - Perfil 218 atualizado com sucesso!
+INFO - Processando perfil 228
+INFO - Perfil 228 atualizado com sucesso!
+INFO - Processando perfil 230
+INFO - Perfil 230 atualizado com sucesso!
+INFO - Processando perfil 231
+INFO - Perfil 231 atualizado com sucesso!
+INFO - Processando perfil 232
+INFO - Perfil 232 atualizado com sucesso!
+INFO - Processando perfil 241
+INFO - Perfil 241 atualizado com sucesso!
+INFO - Processando perfil 244
+INFO - Perfil 244 atualizado com sucesso!
+INFO - Processando perfil 245
+INFO - Perfil 245 atualizado com sucesso!
+INFO - Processando perfil 246
+INFO - Perfil 246 atualizado com sucesso!
+INFO - Processando perfil 247
+INFO - Perfil 247 atualizado com sucesso!
+INFO - Processando perfil 252
+INFO - Perfil 252 atualizado com sucesso!
+INFO - Processando perfil 256
+INFO - Perfil 256 atualizado com sucesso!
+INFO - Processando perfil 257
+INFO - Perfil 257 atualizado com sucesso!
+INFO - Processando perfil 264
+INFO - Perfil 264 atualizado com sucesso!
+INFO - Processando perfil 268
+INFO - Perfil 268 atualizado com sucesso!
+INFO - Processando perfil 284
+INFO - Perfil 284 atualizado com sucesso!
+INFO - Processando perfil 285
+INFO - Perfil 285 atualizado com sucesso!
+INFO - Processando perfil 289
+INFO - Perfil 289 atualizado com sucesso!
+INFO - Processando perfil 293
+INFO - Perfil 293 atualizado com sucesso!
+INFO - Processando perfil 308
+INFO - Perfil 308 atualizado com sucesso!
+INFO - Processando perfil 311
+INFO - Perfil 311 atualizado com sucesso!
+INFO - Processando perfil 312
+INFO - Perfil 312 atualizado com sucesso!
+INFO - Processando perfil 315
+INFO - Perfil 315 atualizado com sucesso!
+INFO - Processando perfil 319
+INFO - Perfil 319 atualizado com sucesso!
+INFO - Processando perfil 320
+INFO - Perfil 320 atualizado com sucesso!
+INFO - Processando perfil 321
+INFO - Perfil 321 atualizado com sucesso!
+INFO - Processando perfil 322
+INFO - Perfil 322 atualizado com sucesso!
+INFO - Processando perfil 328
+INFO - Perfil 328 atualizado com sucesso!
+INFO - Processando perfil 330
+INFO - Perfil 330 atualizado com sucesso!
+INFO - Processando perfil 335
+INFO - Perfil 335 atualizado com sucesso!
+INFO - Processando perfil 336
+INFO - Perfil 336 atualizado com sucesso!
+INFO - Processando perfil 339
+INFO - Perfil 339 atualizado com sucesso!
+INFO - Processando perfil 340
+INFO - Perfil 340 atualizado com sucesso!
+INFO - Processando perfil 343
+INFO - Perfil 343 atualizado com sucesso!
+INFO - Processando perfil 344
+INFO - Perfil 344 atualizado com sucesso!
+INFO - Processando perfil 346
+INFO - Perfil 346 atualizado com sucesso!
+INFO - Processando perfil 349
+INFO - Perfil 349 atualizado com sucesso!
+INFO - Processando perfil 350
+INFO - Perfil 350 atualizado com sucesso!
+INFO - Processando perfil 353
+INFO - Perfil 353 atualizado com sucesso!
+INFO - Processando perfil 356
+INFO - Perfil 356 atualizado com sucesso!
+INFO - Processando perfil 357
+INFO - Perfil 357 atualizado com sucesso!
+INFO - Processando perfil 359
+INFO - Perfil 359 atualizado com sucesso!
+INFO - Processando perfil 360
+INFO - Perfil 360 atualizado com sucesso!
+INFO - Processando perfil 362
+INFO - Perfil 362 atualizado com sucesso!
+INFO - Processando perfil 364
+INFO - Perfil 364 atualizado com sucesso!
+INFO - Processando perfil 367
+INFO - Perfil 367 atualizado com sucesso!
+INFO - Processando perfil 368
+INFO - Perfil 368 atualizado com sucesso!
+INFO - Processando perfil 371
+INFO - Perfil 371 atualizado com sucesso!
+INFO - Processando perfil 372
+INFO - Perfil 372 atualizado com sucesso!
+INFO - Processando perfil 379
+INFO - Perfil 379 atualizado com sucesso!
+INFO - Processando perfil 380
+INFO - Perfil 380 atualizado com sucesso!
+INFO - Processando perfil 383
+INFO - Perfil 383 atualizado com sucesso!
+INFO - Processando perfil 384
+INFO - Perfil 384 atualizado com sucesso!
+INFO - Processando perfil 385
+INFO - Perfil 385 atualizado com sucesso!
+INFO - Processando perfil 386
+INFO - Perfil 386 atualizado com sucesso!
+INFO - Processando perfil 388
+INFO - Perfil 388 atualizado com sucesso!
+INFO - Processando perfil 389
+INFO - Perfil 389 atualizado com sucesso!
+INFO - Processando perfil 390
+INFO - Perfil 390 atualizado com sucesso!
+INFO - Processando perfil 396
+INFO - Perfil 396 atualizado com sucesso!
+INFO - Processando perfil 398
+INFO - Perfil 398 atualizado com sucesso!
+INFO - Processando perfil 399
+INFO - Perfil 399 atualizado com sucesso!
+INFO - Processando perfil 400
+INFO - Perfil 400 atualizado com sucesso!
+INFO - Processando perfil 401
+INFO - Perfil 401 atualizado com sucesso!
+INFO - Processando perfil 403
+INFO - Perfil 403 atualizado com sucesso!
+INFO - Processando perfil 404
+INFO - Perfil 404 atualizado com sucesso!
+INFO - Processando perfil 405
+INFO - Perfil 405 atualizado com sucesso!
+INFO - Processando perfil 407
+INFO - Perfil 407 atualizado com sucesso!
+INFO - Processando perfil 408
+INFO - Perfil 408 atualizado com sucesso!
+INFO - Processando perfil 409
+INFO - Perfil 409 atualizado com sucesso!
+INFO - Processando perfil 410
+INFO - Perfil 410 atualizado com sucesso!
+INFO - Processando perfil 412
+INFO - Perfil 412 atualizado com sucesso!
+INFO - Processando perfil 413
+INFO - Perfil 413 atualizado com sucesso!
+INFO - Processando perfil 414
+INFO - Perfil 414 atualizado com sucesso!
+INFO - Processando perfil 415
+INFO - Perfil 415 atualizado com sucesso!
+INFO - Processando perfil 416
+INFO - Perfil 416 atualizado com sucesso!
+INFO - Processando perfil 417
+INFO - Perfil 417 atualizado com sucesso!
+INFO - Processando perfil 418
+INFO - Perfil 418 atualizado com sucesso!
+INFO - Processando perfil 419
+INFO - Perfil 419 atualizado com sucesso!
+INFO - Processando perfil 420
+INFO - Perfil 420 atualizado com sucesso!
+INFO - Processando perfil 421
+INFO - Perfil 421 atualizado com sucesso!
+INFO - Processando perfil 422
+INFO - Perfil 422 atualizado com sucesso!
+INFO - Processando perfil 423
+INFO - Perfil 423 atualizado com sucesso!
+INFO - Processando perfil 424
+INFO - Perfil 424 atualizado com sucesso!
+INFO - Processando perfil 425
+INFO - Perfil 425 atualizado com sucesso!
+INFO - Processando perfil 426
+INFO - Perfil 426 atualizado com sucesso!
+INFO - Processando perfil 427
+INFO - Perfil 427 atualizado com sucesso!
+INFO - Processando perfil 428
+INFO - Perfil 428 atualizado com sucesso!
+INFO - Processando perfil 429
+INFO - Perfil 429 atualizado com sucesso!
+INFO - Processando perfil 430
+INFO - Perfil 430 atualizado com sucesso!
+INFO - Processando perfil 431
+INFO - Perfil 431 atualizado com sucesso!
+INFO - Processando perfil 432
+INFO - Perfil 432 atualizado com sucesso!
+INFO - Processando perfil 433
+INFO - Perfil 433 atualizado com sucesso!
+INFO - Processando perfil 434
+INFO - Perfil 434 atualizado com sucesso!
+INFO - Processando perfil 435
+INFO - Perfil 435 atualizado com sucesso!
+INFO - Processando perfil 436
+INFO - Perfil 436 atualizado com sucesso!
+INFO - Processando perfil 437
+INFO - Perfil 437 atualizado com sucesso!
+INFO - Processando perfil 438
+INFO - Perfil 438 atualizado com sucesso!
+INFO - Processando perfil 439
+INFO - Perfil 439 atualizado com sucesso!
+INFO - Processando perfil 440
+INFO - Perfil 440 atualizado com sucesso!
+INFO - Processando perfil 441
+INFO - Perfil 441 atualizado com sucesso!
+INFO - Processando perfil 442
+INFO - Perfil 442 atualizado com sucesso!
+INFO - Processando perfil 443
+INFO - Perfil 443 atualizado com sucesso!
+INFO - Processando perfil 444
+INFO - Perfil 444 atualizado com sucesso!
+INFO - Processando perfil 445
+INFO - Perfil 445 atualizado com sucesso!
+INFO - Processando perfil 446
+INFO - Perfil 446 atualizado com sucesso!
+INFO - Processando perfil 447
+INFO - Perfil 447 atualizado com sucesso!
+INFO - Processando perfil 448
+INFO - Perfil 448 atualizado com sucesso!
+INFO - Processando perfil 449
+INFO - Perfil 449 atualizado com sucesso!
+INFO - Processando perfil 450
+INFO - Perfil 450 atualizado com sucesso!
+INFO - Processando perfil 451
+INFO - Perfil 451 atualizado com sucesso!
+INFO - Total de perfis salvos: 0
+INFO - Total de perfis atualizados: 137
+INFO - Driver não está em execução
+INFO - Iniciando o processo de atualização dos perfis
+INFO - Fazendo login no site
+INFO - Driver iniciado com sucesso
+INFO - Capturando perfis para inserção/atualização no banco de dados
+INFO - Processando perfil 15
+INFO - Perfil 15 salvo com sucesso!
+INFO - Processando perfil 18
+INFO - Perfil 18 salvo com sucesso!
+INFO - Processando perfil 19
+INFO - Perfil 19 salvo com sucesso!
+INFO - Processando perfil 23
+INFO - Perfil 23 salvo com sucesso!
+INFO - Processando perfil 26
+INFO - Perfil 26 salvo com sucesso!
+INFO - Processando perfil 28
+INFO - Perfil 28 salvo com sucesso!
+INFO - Processando perfil 29
+INFO - Perfil 29 salvo com sucesso!
+INFO - Processando perfil 32
+INFO - Perfil 32 salvo com sucesso!
+INFO - Processando perfil 56
+INFO - Perfil 56 salvo com sucesso!
+INFO - Processando perfil 58
+INFO - Perfil 58 salvo com sucesso!
+INFO - Processando perfil 60
+INFO - Perfil 60 salvo com sucesso!
+INFO - Processando perfil 71
+INFO - Perfil 71 salvo com sucesso!
+INFO - Processando perfil 78
+INFO - Perfil 78 salvo com sucesso!
+INFO - Processando perfil 100
+INFO - Perfil 100 salvo com sucesso!
+INFO - Processando perfil 102
+INFO - Perfil 102 salvo com sucesso!
+INFO - Processando perfil 112
+INFO - Perfil 112 salvo com sucesso!
+INFO - Processando perfil 134
+INFO - Perfil 134 salvo com sucesso!
+INFO - Processando perfil 144
+INFO - Perfil 144 salvo com sucesso!
+INFO - Processando perfil 156
+INFO - Perfil 156 salvo com sucesso!
+INFO - Processando perfil 157
+INFO - Perfil 157 salvo com sucesso!
+INFO - Processando perfil 160
+INFO - Perfil 160 salvo com sucesso!
+INFO - Processando perfil 164
+INFO - Perfil 164 salvo com sucesso!
+INFO - Processando perfil 167
+INFO - Perfil 167 salvo com sucesso!
+INFO - Processando perfil 178
+INFO - Perfil 178 salvo com sucesso!
+INFO - Processando perfil 191
+INFO - Perfil 191 salvo com sucesso!
+INFO - Processando perfil 194
+INFO - Perfil 194 salvo com sucesso!
+INFO - Processando perfil 199
+INFO - Perfil 199 salvo com sucesso!
+INFO - Processando perfil 201
+INFO - Perfil 201 atualizado com sucesso!
+INFO - Processando perfil 202
+INFO - Perfil 202 salvo com sucesso!
+INFO - Processando perfil 204
+INFO - Perfil 204 salvo com sucesso!
+INFO - Processando perfil 205
+INFO - Perfil 205 salvo com sucesso!
+INFO - Processando perfil 211
+INFO - Perfil 211 salvo com sucesso!
+INFO - Processando perfil 212
+INFO - Perfil 212 salvo com sucesso!
+INFO - Processando perfil 218
+INFO - Perfil 218 atualizado com sucesso!
+INFO - Processando perfil 221
+INFO - Perfil 221 salvo com sucesso!
+INFO - Processando perfil 228
+INFO - Perfil 228 atualizado com sucesso!
+INFO - Processando perfil 229
+INFO - Perfil 229 salvo com sucesso!
+INFO - Processando perfil 230
+INFO - Perfil 230 atualizado com sucesso!
+INFO - Processando perfil 231
+INFO - Perfil 231 atualizado com sucesso!
+INFO - Processando perfil 232
+INFO - Perfil 232 atualizado com sucesso!
+INFO - Processando perfil 233
+INFO - Perfil 233 salvo com sucesso!
+INFO - Processando perfil 236
+INFO - Perfil 236 salvo com sucesso!
+INFO - Processando perfil 238
+INFO - Perfil 238 salvo com sucesso!
+INFO - Processando perfil 240
+INFO - Perfil 240 salvo com sucesso!
+INFO - Processando perfil 248
+INFO - Perfil 248 salvo com sucesso!
+INFO - Processando perfil 250
+INFO - Perfil 250 salvo com sucesso!
+INFO - Processando perfil 251
+INFO - Perfil 251 salvo com sucesso!
+INFO - Processando perfil 253
+INFO - Perfil 253 salvo com sucesso!
+INFO - Processando perfil 254
+INFO - Perfil 254 salvo com sucesso!
+INFO - Processando perfil 256
+INFO - Perfil 256 atualizado com sucesso!
+INFO - Processando perfil 257
+INFO - Perfil 257 atualizado com sucesso!
+INFO - Processando perfil 258
+INFO - Perfil 258 salvo com sucesso!
+INFO - Processando perfil 261
+INFO - Perfil 261 salvo com sucesso!
+INFO - Processando perfil 262
+INFO - Perfil 262 salvo com sucesso!
+INFO - Processando perfil 264
+INFO - Perfil 264 atualizado com sucesso!
+INFO - Processando perfil 265
+INFO - Perfil 265 salvo com sucesso!
+INFO - Processando perfil 267
+INFO - Perfil 267 salvo com sucesso!
+INFO - Processando perfil 268
+INFO - Perfil 268 atualizado com sucesso!
+INFO - Processando perfil 269
+INFO - Perfil 269 salvo com sucesso!
+INFO - Processando perfil 270
+INFO - Perfil 270 salvo com sucesso!
+INFO - Processando perfil 273
+INFO - Perfil 273 salvo com sucesso!
+INFO - Processando perfil 274
+INFO - Perfil 274 salvo com sucesso!
+INFO - Processando perfil 276
+INFO - Perfil 276 salvo com sucesso!
+INFO - Processando perfil 277
+INFO - Perfil 277 salvo com sucesso!
+INFO - Processando perfil 278
+INFO - Perfil 278 salvo com sucesso!
+INFO - Processando perfil 280
+INFO - Perfil 280 salvo com sucesso!
+INFO - Processando perfil 281
+INFO - Perfil 281 salvo com sucesso!
+INFO - Processando perfil 282
+INFO - Perfil 282 salvo com sucesso!
+INFO - Processando perfil 283
+INFO - Perfil 283 salvo com sucesso!
+INFO - Processando perfil 284
+INFO - Perfil 284 atualizado com sucesso!
+INFO - Processando perfil 285
+INFO - Perfil 285 atualizado com sucesso!
+INFO - Processando perfil 286
+INFO - Perfil 286 salvo com sucesso!
+INFO - Processando perfil 287
+INFO - Perfil 287 salvo com sucesso!
+INFO - Total de perfis salvos: 61
+INFO - Total de perfis atualizados: 12
+INFO - Driver não está em execução
+INFO - Iniciando o processo de atualização dos perfis
+INFO - Fazendo login no site
+INFO - Driver iniciado com sucesso
+INFO - Capturando perfis para inserção/atualização no banco de dados
+INFO - Processando perfil 15
+INFO - Perfil 15 salvo com sucesso!
+INFO - Processando perfil 18
+INFO - Perfil 18 salvo com sucesso!
+INFO - Processando perfil 19
+INFO - Perfil 19 salvo com sucesso!
+INFO - Processando perfil 23
+INFO - Perfil 23 salvo com sucesso!
+INFO - Processando perfil 26
+INFO - Perfil 26 salvo com sucesso!
+INFO - Processando perfil 28
+INFO - Perfil 28 salvo com sucesso!
+INFO - Processando perfil 29
+INFO - Perfil 29 salvo com sucesso!
+INFO - Processando perfil 32
+INFO - Perfil 32 salvo com sucesso!
+INFO - Processando perfil 56
+INFO - Perfil 56 salvo com sucesso!
+INFO - Processando perfil 58
+INFO - Perfil 58 salvo com sucesso!
+INFO - Processando perfil 60
+INFO - Perfil 60 salvo com sucesso!
+INFO - Processando perfil 71
+INFO - Perfil 71 salvo com sucesso!
+INFO - Processando perfil 78
+INFO - Perfil 78 salvo com sucesso!
+INFO - Processando perfil 100
+INFO - Perfil 100 salvo com sucesso!
+INFO - Processando perfil 102
+INFO - Perfil 102 salvo com sucesso!
+INFO - Processando perfil 112
+INFO - Perfil 112 salvo com sucesso!
+INFO - Processando perfil 134
+INFO - Perfil 134 salvo com sucesso!
+INFO - Processando perfil 144
+INFO - Perfil 144 salvo com sucesso!
+INFO - Processando perfil 156
+INFO - Perfil 156 salvo com sucesso!
+INFO - Processando perfil 157
+INFO - Perfil 157 salvo com sucesso!
+INFO - Processando perfil 160
+INFO - Perfil 160 salvo com sucesso!
+INFO - Processando perfil 164
+INFO - Perfil 164 salvo com sucesso!
+INFO - Processando perfil 167
+INFO - Perfil 167 salvo com sucesso!
+INFO - Processando perfil 178
+INFO - Perfil 178 salvo com sucesso!
+INFO - Processando perfil 191
+INFO - Perfil 191 salvo com sucesso!
+INFO - Processando perfil 194
+INFO - Perfil 194 salvo com sucesso!
+INFO - Processando perfil 199
+INFO - Perfil 199 salvo com sucesso!
+INFO - Processando perfil 201
+INFO - Perfil 201 salvo com sucesso!
+INFO - Processando perfil 202
+INFO - Perfil 202 salvo com sucesso!
+INFO - Processando perfil 204
+INFO - Perfil 204 salvo com sucesso!
+INFO - Processando perfil 205
+INFO - Perfil 205 salvo com sucesso!
+INFO - Processando perfil 211
+INFO - Perfil 211 salvo com sucesso!
+INFO - Processando perfil 212
+INFO - Perfil 212 salvo com sucesso!
+INFO - Processando perfil 218
+INFO - Perfil 218 salvo com sucesso!
+INFO - Processando perfil 221
+INFO - Perfil 221 salvo com sucesso!
+INFO - Processando perfil 228
+INFO - Perfil 228 salvo com sucesso!
+INFO - Processando perfil 229
+INFO - Perfil 229 salvo com sucesso!
+INFO - Processando perfil 230
+INFO - Perfil 230 salvo com sucesso!
+INFO - Processando perfil 231
+INFO - Perfil 231 salvo com sucesso!
+INFO - Processando perfil 232
+INFO - Perfil 232 salvo com sucesso!
+INFO - Processando perfil 233
+INFO - Perfil 233 salvo com sucesso!
+INFO - Processando perfil 236
+INFO - Perfil 236 salvo com sucesso!
+INFO - Processando perfil 238
+INFO - Perfil 238 salvo com sucesso!
+INFO - Processando perfil 240
+INFO - Perfil 240 salvo com sucesso!
+INFO - Processando perfil 248
+INFO - Perfil 248 salvo com sucesso!
+INFO - Processando perfil 250
+INFO - Perfil 250 salvo com sucesso!
+INFO - Processando perfil 251
+INFO - Perfil 251 salvo com sucesso!
+INFO - Processando perfil 253
+INFO - Perfil 253 salvo com sucesso!
+INFO - Processando perfil 254
+INFO - Perfil 254 salvo com sucesso!
+INFO - Processando perfil 256
+INFO - Perfil 256 salvo com sucesso!
+INFO - Processando perfil 257
+INFO - Perfil 257 salvo com sucesso!
+INFO - Processando perfil 258
+INFO - Perfil 258 salvo com sucesso!
+INFO - Processando perfil 261
+INFO - Perfil 261 salvo com sucesso!
+INFO - Processando perfil 262
+INFO - Perfil 262 salvo com sucesso!
+INFO - Processando perfil 264
+INFO - Perfil 264 salvo com sucesso!
+INFO - Processando perfil 265
+INFO - Perfil 265 salvo com sucesso!
+INFO - Processando perfil 267
+INFO - Perfil 267 salvo com sucesso!
+INFO - Processando perfil 268
+INFO - Perfil 268 salvo com sucesso!
+INFO - Processando perfil 269
+INFO - Perfil 269 salvo com sucesso!
+INFO - Processando perfil 270
+INFO - Perfil 270 salvo com sucesso!
+INFO - Processando perfil 273
+INFO - Perfil 273 salvo com sucesso!
+INFO - Processando perfil 274
+INFO - Perfil 274 salvo com sucesso!
+INFO - Processando perfil 276
+INFO - Perfil 276 salvo com sucesso!
+INFO - Processando perfil 277
+INFO - Perfil 277 salvo com sucesso!
+INFO - Processando perfil 278
+INFO - Perfil 278 salvo com sucesso!
+INFO - Processando perfil 280
+INFO - Perfil 280 salvo com sucesso!
+INFO - Processando perfil 281
+INFO - Perfil 281 salvo com sucesso!
+INFO - Processando perfil 282
+INFO - Perfil 282 salvo com sucesso!
+INFO - Processando perfil 283
+INFO - Perfil 283 salvo com sucesso!
+INFO - Processando perfil 284
+INFO - Perfil 284 salvo com sucesso!
+INFO - Processando perfil 285
+INFO - Perfil 285 salvo com sucesso!
+INFO - Processando perfil 286
+INFO - Perfil 286 salvo com sucesso!
+INFO - Processando perfil 287
+INFO - Perfil 287 salvo com sucesso!
+INFO - Total de perfis salvos: 73
+INFO - Total de perfis atualizados: 0
+INFO - Driver não está em execução
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Iniciando o processo de atualização dos perfis
+INFO - Fazendo login no site
+INFO - Driver iniciado com sucesso
+INFO - Capturando perfis para inserção/atualização no banco de dados
+INFO - Processando perfil 26
+INFO - Iniciando o processo de atualização dos perfis
+INFO - Fazendo login no site
+INFO - Driver iniciado com sucesso
+INFO - Iniciando o processo de atualização dos perfis
+INFO - Fazendo login no site
+INFO - Driver iniciado com sucesso
+INFO - Capturando perfis para inserção/atualização no banco de dados
+INFO - Processando perfil 26
+INFO - Iniciando o processo de atualização dos perfis
+INFO - Fazendo login no site
+INFO - Driver iniciado com sucesso
+INFO - Iniciando o processo de atualização dos perfis
+INFO - Fazendo login no site
+INFO - Driver iniciado com sucesso
+INFO - Iniciando o processo de atualização dos perfis
+INFO - Fazendo login no site
+INFO - Driver iniciado com sucesso
+INFO - Capturando perfis para inserção/atualização no banco de dados
+INFO - Processando perfil 15
+INFO - Perfil 15 salvo com sucesso!
+INFO - Processando perfil 18
+INFO - Perfil 18 salvo com sucesso!
+INFO - Processando perfil 19
+INFO - Perfil 19 salvo com sucesso!
+INFO - Processando perfil 23
+INFO - Perfil 23 salvo com sucesso!
+INFO - Processando perfil 26
+INFO - Perfil 26 salvo com sucesso!
+INFO - Processando perfil 28
+INFO - Perfil 28 salvo com sucesso!
+INFO - Processando perfil 29
+INFO - Perfil 29 salvo com sucesso!
+INFO - Processando perfil 32
+INFO - Perfil 32 salvo com sucesso!
+INFO - Processando perfil 56
+INFO - Perfil 56 salvo com sucesso!
+INFO - Processando perfil 58
+INFO - Perfil 58 salvo com sucesso!
+INFO - Processando perfil 60
+INFO - Perfil 60 salvo com sucesso!
+INFO - Processando perfil 71
+INFO - Perfil 71 salvo com sucesso!
+INFO - Processando perfil 78
+INFO - Perfil 78 salvo com sucesso!
+INFO - Processando perfil 100
+INFO - Perfil 100 salvo com sucesso!
+INFO - Processando perfil 102
+INFO - Perfil 102 salvo com sucesso!
+INFO - Processando perfil 112
+INFO - Perfil 112 salvo com sucesso!
+INFO - Processando perfil 134
+INFO - Perfil 134 salvo com sucesso!
+INFO - Processando perfil 144
+INFO - Perfil 144 salvo com sucesso!
+INFO - Processando perfil 156
+INFO - Perfil 156 salvo com sucesso!
+INFO - Processando perfil 157
+INFO - Perfil 157 salvo com sucesso!
+INFO - Processando perfil 160
+INFO - Perfil 160 salvo com sucesso!
+INFO - Processando perfil 164
+INFO - Perfil 164 salvo com sucesso!
+INFO - Processando perfil 167
+INFO - Perfil 167 salvo com sucesso!
+INFO - Processando perfil 178
+INFO - Perfil 178 salvo com sucesso!
+INFO - Processando perfil 191
+INFO - Perfil 191 salvo com sucesso!
+INFO - Processando perfil 194
+INFO - Perfil 194 salvo com sucesso!
+INFO - Processando perfil 199
+INFO - Perfil 199 salvo com sucesso!
+INFO - Processando perfil 201
+INFO - Perfil 201 salvo com sucesso!
+INFO - Processando perfil 202
+INFO - Perfil 202 salvo com sucesso!
+INFO - Processando perfil 204
+INFO - Perfil 204 salvo com sucesso!
+INFO - Processando perfil 205
+INFO - Perfil 205 salvo com sucesso!
+INFO - Processando perfil 211
+INFO - Perfil 211 salvo com sucesso!
+INFO - Processando perfil 212
+INFO - Perfil 212 salvo com sucesso!
+INFO - Processando perfil 218
+INFO - Perfil 218 salvo com sucesso!
+INFO - Processando perfil 221
+INFO - Perfil 221 salvo com sucesso!
+INFO - Processando perfil 228
+INFO - Perfil 228 salvo com sucesso!
+INFO - Processando perfil 229
+INFO - Perfil 229 salvo com sucesso!
+INFO - Processando perfil 230
+INFO - Perfil 230 salvo com sucesso!
+INFO - Processando perfil 231
+INFO - Perfil 231 salvo com sucesso!
+INFO - Processando perfil 232
+INFO - Perfil 232 salvo com sucesso!
+INFO - Processando perfil 233
+INFO - Perfil 233 salvo com sucesso!
+INFO - Processando perfil 236
+INFO - Perfil 236 salvo com sucesso!
+INFO - Processando perfil 238
+INFO - Perfil 238 salvo com sucesso!
+INFO - Processando perfil 240
+INFO - Perfil 240 salvo com sucesso!
+INFO - Processando perfil 248
+INFO - Perfil 248 salvo com sucesso!
+INFO - Processando perfil 250
+INFO - Perfil 250 salvo com sucesso!
+INFO - Processando perfil 251
+INFO - Perfil 251 salvo com sucesso!
+INFO - Processando perfil 253
+INFO - Perfil 253 salvo com sucesso!
+INFO - Processando perfil 254
+INFO - Perfil 254 salvo com sucesso!
+INFO - Processando perfil 256
+INFO - Perfil 256 salvo com sucesso!
+INFO - Processando perfil 257
+INFO - Perfil 257 salvo com sucesso!
+INFO - Processando perfil 258
+INFO - Perfil 258 salvo com sucesso!
+INFO - Processando perfil 261
+INFO - Perfil 261 salvo com sucesso!
+INFO - Processando perfil 262
+INFO - Perfil 262 salvo com sucesso!
+INFO - Processando perfil 264
+INFO - Perfil 264 salvo com sucesso!
+INFO - Processando perfil 265
+INFO - Perfil 265 salvo com sucesso!
+INFO - Processando perfil 267
+INFO - Perfil 267 salvo com sucesso!
+INFO - Processando perfil 268
+INFO - Perfil 268 salvo com sucesso!
+INFO - Processando perfil 269
+INFO - Perfil 269 salvo com sucesso!
+INFO - Processando perfil 270
+INFO - Perfil 270 salvo com sucesso!
+INFO - Processando perfil 273
+INFO - Perfil 273 salvo com sucesso!
+INFO - Processando perfil 274
+INFO - Perfil 274 salvo com sucesso!
+INFO - Processando perfil 276
+INFO - Perfil 276 salvo com sucesso!
+INFO - Processando perfil 277
+INFO - Perfil 277 salvo com sucesso!
+INFO - Processando perfil 278
+INFO - Perfil 278 salvo com sucesso!
+INFO - Processando perfil 280
+INFO - Perfil 280 salvo com sucesso!
+INFO - Processando perfil 281
+INFO - Perfil 281 salvo com sucesso!
+INFO - Processando perfil 282
+INFO - Perfil 282 salvo com sucesso!
+INFO - Processando perfil 283
+INFO - Perfil 283 salvo com sucesso!
+INFO - Processando perfil 284
+INFO - Perfil 284 salvo com sucesso!
+INFO - Processando perfil 285
+INFO - Perfil 285 salvo com sucesso!
+INFO - Processando perfil 286
+INFO - Perfil 286 salvo com sucesso!
+INFO - Processando perfil 287
+INFO - Perfil 287 salvo com sucesso!
+INFO - Total de perfis salvos: 73
+INFO - Total de perfis atualizados: 0
+INFO - Driver não está em execução
+INFO - Iniciando o processo de atualização dos perfis
+INFO - Fazendo login no site
+INFO - Driver já está em execução
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Pagamento 1342 inserido no banco de dados
+INFO - Driver encerrado com sucesso
+INFO - Iniciando o processo de atualização dos perfis
+INFO - Fazendo login no site
+INFO - Driver iniciado com sucesso
+INFO - Capturando perfis para inserção/atualização no banco de dados
+INFO - Processando perfil 26
+INFO - Perfil 26 salvo com sucesso!
+INFO - Processando perfil 93
+INFO - Perfil 93 salvo com sucesso!
+INFO - Processando perfil 104
+INFO - Perfil 104 salvo com sucesso!
+INFO - Processando perfil 105
+INFO - Perfil 105 salvo com sucesso!
+INFO - Processando perfil 106
+INFO - Perfil 106 salvo com sucesso!
+INFO - Processando perfil 107
+INFO - Perfil 107 salvo com sucesso!
+INFO - Processando perfil 110
+INFO - Perfil 110 salvo com sucesso!
+INFO - Processando perfil 121
+INFO - Perfil 121 salvo com sucesso!
+INFO - Processando perfil 124
+INFO - Perfil 124 salvo com sucesso!
+INFO - Processando perfil 130
+INFO - Perfil 130 salvo com sucesso!
+INFO - Processando perfil 132
+INFO - Perfil 132 salvo com sucesso!
+INFO - Processando perfil 138
+INFO - Perfil 138 salvo com sucesso!
+INFO - Processando perfil 147
+INFO - Perfil 147 salvo com sucesso!
+INFO - Processando perfil 150
+INFO - Perfil 150 salvo com sucesso!
+INFO - Processando perfil 153
+INFO - Perfil 153 salvo com sucesso!
+INFO - Processando perfil 160
+INFO - Perfil 160 salvo com sucesso!
+INFO - Processando perfil 194
+INFO - Perfil 194 salvo com sucesso!
+INFO - Processando perfil 218
+INFO - Perfil 218 salvo com sucesso!
+INFO - Processando perfil 219
+INFO - Perfil 219 salvo com sucesso!
+INFO - Processando perfil 249
+INFO - Perfil 249 salvo com sucesso!
+INFO - Processando perfil 260
+INFO - Perfil 260 salvo com sucesso!
+INFO - Processando perfil 272
+INFO - Perfil 272 salvo com sucesso!
+INFO - Processando perfil 274
+INFO - Perfil 274 salvo com sucesso!
+INFO - Processando perfil 295
+INFO - Perfil 295 salvo com sucesso!
+INFO - Processando perfil 309
+INFO - Perfil 309 salvo com sucesso!
+INFO - Processando perfil 311
+INFO - Perfil 311 salvo com sucesso!
+INFO - Processando perfil 320
+INFO - Perfil 320 salvo com sucesso!
+INFO - Processando perfil 332
+INFO - Perfil 332 salvo com sucesso!
+INFO - Processando perfil 333
+INFO - Perfil 333 salvo com sucesso!
+INFO - Processando perfil 345
+INFO - Perfil 345 salvo com sucesso!
+INFO - Processando perfil 364
+INFO - Perfil 364 salvo com sucesso!
+INFO - Processando perfil 368
+INFO - Perfil 368 salvo com sucesso!
+INFO - Processando perfil 369
+INFO - Perfil 369 salvo com sucesso!
+INFO - Processando perfil 384
+INFO - Perfil 384 salvo com sucesso!
+INFO - Processando perfil 387
+INFO - Perfil 387 salvo com sucesso!
+INFO - Processando perfil 408
+INFO - Perfil 408 salvo com sucesso!
+INFO - Processando perfil 414
+INFO - Perfil 414 salvo com sucesso!
+INFO - Processando perfil 427
+INFO - Perfil 427 salvo com sucesso!
+INFO - Processando perfil 429
+INFO - Perfil 429 salvo com sucesso!
+INFO - Processando perfil 440
+INFO - Perfil 440 salvo com sucesso!
+INFO - Processando perfil 448
+INFO - Perfil 448 salvo com sucesso!
+INFO - Processando perfil 451
+INFO - Perfil 451 salvo com sucesso!
+INFO - Processando perfil 459
+INFO - Perfil 459 salvo com sucesso!
+INFO - Processando perfil 460
+INFO - Perfil 460 salvo com sucesso!
+INFO - Processando perfil 461
+INFO - Perfil 461 salvo com sucesso!
+INFO - Processando perfil 473
+INFO - Perfil 473 salvo com sucesso!
+INFO - Processando perfil 477
+INFO - Perfil 477 salvo com sucesso!
+INFO - Processando perfil 486
+INFO - Perfil 486 salvo com sucesso!
+INFO - Processando perfil 488
+INFO - Perfil 488 salvo com sucesso!
+INFO - Processando perfil 496
+INFO - Perfil 496 salvo com sucesso!
+INFO - Processando perfil 499
+INFO - Perfil 499 salvo com sucesso!
+INFO - Processando perfil 504
+INFO - Perfil 504 salvo com sucesso!
+INFO - Processando perfil 508
+INFO - Perfil 508 salvo com sucesso!
+INFO - Processando perfil 510
+INFO - Perfil 510 salvo com sucesso!
+INFO - Processando perfil 511
+INFO - Perfil 511 salvo com sucesso!
+INFO - Processando perfil 520
+INFO - Perfil 520 salvo com sucesso!
+INFO - Processando perfil 533
+INFO - Perfil 533 salvo com sucesso!
+INFO - Processando perfil 536
+INFO - Perfil 536 salvo com sucesso!
+INFO - Processando perfil 537
+INFO - Perfil 537 salvo com sucesso!
+INFO - Processando perfil 540
+INFO - Perfil 540 salvo com sucesso!
+INFO - Processando perfil 542
+INFO - Perfil 542 salvo com sucesso!
+INFO - Processando perfil 543
+INFO - Perfil 543 salvo com sucesso!
+INFO - Processando perfil 544
+INFO - Perfil 544 salvo com sucesso!
+INFO - Processando perfil 545
+INFO - Perfil 545 salvo com sucesso!
+INFO - Processando perfil 547
+INFO - Perfil 547 salvo com sucesso!
+INFO - Processando perfil 551
+INFO - Perfil 551 salvo com sucesso!
+INFO - Processando perfil 552
+INFO - Perfil 552 salvo com sucesso!
+INFO - Processando perfil 553
+INFO - Perfil 553 salvo com sucesso!
+INFO - Processando perfil 554
+INFO - Perfil 554 salvo com sucesso!
+INFO - Processando perfil 555
+INFO - Perfil 555 salvo com sucesso!
+INFO - Processando perfil 559
+INFO - Perfil 559 salvo com sucesso!
+INFO - Processando perfil 560
+INFO - Perfil 560 salvo com sucesso!
+INFO - Processando perfil 561
+INFO - Perfil 561 salvo com sucesso!
+INFO - Processando perfil 562
+INFO - Perfil 562 salvo com sucesso!
+INFO - Processando perfil 563
+INFO - Perfil 563 salvo com sucesso!
+INFO - Processando perfil 564
+INFO - Perfil 564 salvo com sucesso!
+INFO - Processando perfil 565
+INFO - Perfil 565 salvo com sucesso!
+INFO - Processando perfil 566
+INFO - Perfil 566 salvo com sucesso!
+INFO - Processando perfil 567
+INFO - Perfil 567 salvo com sucesso!
+INFO - Processando perfil 570
+INFO - Perfil 570 salvo com sucesso!
+INFO - Processando perfil 571
+INFO - Perfil 571 salvo com sucesso!
+INFO - Processando perfil 574
+INFO - Perfil 574 salvo com sucesso!
+INFO - Processando perfil 577
+INFO - Perfil 577 salvo com sucesso!
+INFO - Processando perfil 579
+INFO - Perfil 579 salvo com sucesso!
+INFO - Processando perfil 582
+INFO - Perfil 582 salvo com sucesso!
+INFO - Processando perfil 583
+INFO - Perfil 583 salvo com sucesso!
+INFO - Processando perfil 584
+INFO - Perfil 584 salvo com sucesso!
+INFO - Processando perfil 587
+INFO - Perfil 587 salvo com sucesso!
+INFO - Processando perfil 588
+INFO - Perfil 588 salvo com sucesso!
+INFO - Processando perfil 589
+INFO - Perfil 589 salvo com sucesso!
+INFO - Processando perfil 590
+INFO - Perfil 590 salvo com sucesso!
+INFO - Processando perfil 591
+INFO - Perfil 591 salvo com sucesso!
+INFO - Processando perfil 592
+INFO - Perfil 592 salvo com sucesso!
+INFO - Processando perfil 593
+INFO - Perfil 593 salvo com sucesso!
+INFO - Processando perfil 594
+INFO - Perfil 594 salvo com sucesso!
+INFO - Processando perfil 595
+INFO - Perfil 595 salvo com sucesso!
+INFO - Processando perfil 596
+INFO - Perfil 596 salvo com sucesso!
+INFO - Processando perfil 597
+INFO - Perfil 597 salvo com sucesso!
+INFO - Processando perfil 598
+INFO - Perfil 598 salvo com sucesso!
+INFO - Processando perfil 599
+INFO - Perfil 599 salvo com sucesso!
+INFO - Processando perfil 600
+INFO - Perfil 600 salvo com sucesso!
+INFO - Processando perfil 601
+INFO - Perfil 601 salvo com sucesso!
+INFO - Processando perfil 602
+INFO - Perfil 602 salvo com sucesso!
+INFO - Processando perfil 603
+INFO - Perfil 603 salvo com sucesso!
+INFO - Processando perfil 604
+INFO - Perfil 604 salvo com sucesso!
+INFO - Processando perfil 605
+INFO - Perfil 605 salvo com sucesso!
+INFO - Processando perfil 606
+INFO - Perfil 606 salvo com sucesso!
+INFO - Processando perfil 607
+INFO - Perfil 607 salvo com sucesso!
+INFO - Processando perfil 608
+INFO - Perfil 608 salvo com sucesso!
+INFO - Processando perfil 609
+INFO - Perfil 609 salvo com sucesso!
+INFO - Processando perfil 610
+INFO - Perfil 610 salvo com sucesso!
+INFO - Processando perfil 611
+INFO - Perfil 611 salvo com sucesso!
+INFO - Processando perfil 612
+INFO - Perfil 612 salvo com sucesso!
+INFO - Processando perfil 613
+INFO - Perfil 613 salvo com sucesso!
+INFO - Processando perfil 614
+INFO - Perfil 614 salvo com sucesso!
+INFO - Processando perfil 615
+INFO - Perfil 615 salvo com sucesso!
+INFO - Processando perfil 616
+INFO - Perfil 616 salvo com sucesso!
+INFO - Processando perfil 617
+INFO - Perfil 617 salvo com sucesso!
+INFO - Processando perfil 618
+INFO - Perfil 618 salvo com sucesso!
+INFO - Processando perfil 619
+INFO - Perfil 619 salvo com sucesso!
+INFO - Processando perfil 620
+INFO - Perfil 620 salvo com sucesso!
+INFO - Total de perfis salvos: 121
+INFO - Total de perfis atualizados: 0
+INFO - Driver não está em execução
+INFO - Iniciando o processo de atualização dos perfis
+INFO - Fazendo login no site
+INFO - Driver já está em execução
+INFO - Capturando perfis para inserção/atualização no banco de dados
+INFO - Processando perfil 15
+INFO - Perfil 15 atualizado com sucesso!
+INFO - Processando perfil 18
+INFO - Perfil 18 atualizado com sucesso!
+INFO - Processando perfil 19
+INFO - Perfil 19 atualizado com sucesso!
+INFO - Processando perfil 23
+INFO - Perfil 23 atualizado com sucesso!
+INFO - Processando perfil 26
+INFO - Perfil 26 atualizado com sucesso!
+INFO - Processando perfil 28
+INFO - Perfil 28 atualizado com sucesso!
+INFO - Processando perfil 29
+INFO - Perfil 29 atualizado com sucesso!
+INFO - Processando perfil 32
+INFO - Perfil 32 atualizado com sucesso!
+INFO - Processando perfil 56
+INFO - Perfil 56 atualizado com sucesso!
+INFO - Processando perfil 58
+INFO - Perfil 58 atualizado com sucesso!
+INFO - Processando perfil 60
+INFO - Perfil 60 atualizado com sucesso!
+INFO - Processando perfil 71
+INFO - Perfil 71 atualizado com sucesso!
+INFO - Processando perfil 78
+INFO - Perfil 78 atualizado com sucesso!
+INFO - Processando perfil 100
+INFO - Perfil 100 atualizado com sucesso!
+INFO - Processando perfil 102
+INFO - Perfil 102 atualizado com sucesso!
+INFO - Processando perfil 112
+INFO - Perfil 112 atualizado com sucesso!
+INFO - Processando perfil 134
+INFO - Perfil 134 atualizado com sucesso!
+INFO - Processando perfil 144
+INFO - Perfil 144 atualizado com sucesso!
+INFO - Processando perfil 156
+INFO - Perfil 156 atualizado com sucesso!
+INFO - Processando perfil 157
+INFO - Perfil 157 atualizado com sucesso!
+INFO - Processando perfil 160
+INFO - Perfil 160 atualizado com sucesso!
+INFO - Processando perfil 164
+INFO - Perfil 164 atualizado com sucesso!
+INFO - Processando perfil 167
+INFO - Perfil 167 atualizado com sucesso!
+INFO - Processando perfil 178
+INFO - Perfil 178 atualizado com sucesso!
+INFO - Processando perfil 191
+INFO - Perfil 191 atualizado com sucesso!
+INFO - Processando perfil 194
+INFO - Perfil 194 atualizado com sucesso!
+INFO - Processando perfil 199
+INFO - Perfil 199 atualizado com sucesso!
+INFO - Processando perfil 201
+INFO - Perfil 201 atualizado com sucesso!
+INFO - Processando perfil 202
+INFO - Perfil 202 atualizado com sucesso!
+INFO - Processando perfil 204
+INFO - Perfil 204 atualizado com sucesso!
+INFO - Processando perfil 205
+INFO - Perfil 205 atualizado com sucesso!
+INFO - Processando perfil 211
+INFO - Perfil 211 atualizado com sucesso!
+INFO - Processando perfil 212
+INFO - Perfil 212 atualizado com sucesso!
+INFO - Processando perfil 218
+INFO - Perfil 218 atualizado com sucesso!
+INFO - Processando perfil 221
+INFO - Perfil 221 atualizado com sucesso!
+INFO - Processando perfil 228
+INFO - Perfil 228 atualizado com sucesso!
+INFO - Processando perfil 229
+INFO - Perfil 229 atualizado com sucesso!
+INFO - Processando perfil 230
+INFO - Perfil 230 atualizado com sucesso!
+INFO - Processando perfil 231
+INFO - Perfil 231 atualizado com sucesso!
+INFO - Processando perfil 232
+INFO - Perfil 232 atualizado com sucesso!
+INFO - Processando perfil 233
+INFO - Perfil 233 atualizado com sucesso!
+INFO - Processando perfil 236
+INFO - Perfil 236 atualizado com sucesso!
+INFO - Processando perfil 238
+INFO - Perfil 238 atualizado com sucesso!
+INFO - Processando perfil 240
+INFO - Perfil 240 atualizado com sucesso!
+INFO - Processando perfil 248
+INFO - Perfil 248 atualizado com sucesso!
+INFO - Processando perfil 250
+INFO - Perfil 250 atualizado com sucesso!
+INFO - Processando perfil 251
+INFO - Perfil 251 atualizado com sucesso!
+INFO - Processando perfil 253
+INFO - Perfil 253 atualizado com sucesso!
+INFO - Processando perfil 254
+INFO - Perfil 254 atualizado com sucesso!
+INFO - Processando perfil 256
+INFO - Perfil 256 atualizado com sucesso!
+INFO - Processando perfil 257
+INFO - Perfil 257 atualizado com sucesso!
+INFO - Processando perfil 258
+INFO - Perfil 258 atualizado com sucesso!
+INFO - Processando perfil 261
+INFO - Perfil 261 atualizado com sucesso!
+INFO - Processando perfil 262
+INFO - Perfil 262 atualizado com sucesso!
+INFO - Processando perfil 264
+INFO - Perfil 264 atualizado com sucesso!
+INFO - Processando perfil 265
+INFO - Perfil 265 atualizado com sucesso!
+INFO - Processando perfil 267
+INFO - Perfil 267 atualizado com sucesso!
+INFO - Processando perfil 268
+INFO - Perfil 268 atualizado com sucesso!
+INFO - Processando perfil 269
+INFO - Perfil 269 atualizado com sucesso!
+INFO - Processando perfil 270
+INFO - Perfil 270 atualizado com sucesso!
+INFO - Processando perfil 273
+INFO - Perfil 273 atualizado com sucesso!
+INFO - Processando perfil 274
+INFO - Perfil 274 atualizado com sucesso!
+INFO - Processando perfil 276
+INFO - Perfil 276 atualizado com sucesso!
+INFO - Processando perfil 277
+INFO - Perfil 277 atualizado com sucesso!
+INFO - Processando perfil 278
+INFO - Perfil 278 atualizado com sucesso!
+INFO - Processando perfil 280
+INFO - Perfil 280 atualizado com sucesso!
+INFO - Processando perfil 281
+INFO - Perfil 281 atualizado com sucesso!
+INFO - Processando perfil 282
+INFO - Perfil 282 atualizado com sucesso!
+INFO - Processando perfil 283
+INFO - Perfil 283 atualizado com sucesso!
+INFO - Processando perfil 284
+INFO - Perfil 284 atualizado com sucesso!
+INFO - Processando perfil 285
+INFO - Perfil 285 atualizado com sucesso!
+INFO - Processando perfil 286
+INFO - Perfil 286 atualizado com sucesso!
+INFO - Processando perfil 287
+INFO - Perfil 287 atualizado com sucesso!
+INFO - Total de perfis salvos: 0
+INFO - Total de perfis atualizados: 73
+INFO - Driver não está em execução
+INFO - Iniciando o processo de atualização dos perfis
+INFO - Fazendo login no site
+INFO - Driver iniciado com sucesso
+INFO - Capturando perfis para inserção/atualização no banco de dados
+INFO - Processando perfil 328
+INFO - Perfil 328 salvo com sucesso!
+INFO - Processando perfil 346
+INFO - Perfil 346 salvo com sucesso!
+INFO - Processando perfil 308
+INFO - Perfil 308 salvo com sucesso!
+INFO - Processando perfil 409
+INFO - Perfil 409 salvo com sucesso!
+INFO - Processando perfil 450
+INFO - Perfil 450 salvo com sucesso!
+INFO - Processando perfil 268
+INFO - Perfil 268 salvo com sucesso!
+INFO - Processando perfil 413
+INFO - Perfil 413 salvo com sucesso!
+INFO - Processando perfil 343
+INFO - Perfil 343 salvo com sucesso!
+INFO - Processando perfil 404
+INFO - Perfil 404 salvo com sucesso!
+INFO - Processando perfil 232
+INFO - Perfil 232 salvo com sucesso!
+INFO - Processando perfil 241
+INFO - Perfil 241 salvo com sucesso!
+INFO - Processando perfil 336
+INFO - Perfil 336 salvo com sucesso!
+INFO - Processando perfil 14
+INFO - Perfil 14 salvo com sucesso!
+INFO - Processando perfil 256
+INFO - Perfil 256 salvo com sucesso!
+INFO - Processando perfil 443
+INFO - Perfil 443 salvo com sucesso!
+INFO - Processando perfil 86
+INFO - Perfil 86 salvo com sucesso!
+INFO - Processando perfil 386
+INFO - Perfil 386 salvo com sucesso!
+INFO - Processando perfil 385
+INFO - Perfil 385 salvo com sucesso!
+INFO - Processando perfil 384
+INFO - Perfil 384 salvo com sucesso!
+INFO - Processando perfil 360
+INFO - Perfil 360 salvo com sucesso!
+INFO - Processando perfil 214
+INFO - Perfil 214 salvo com sucesso!
+INFO - Processando perfil 231
+INFO - Perfil 231 salvo com sucesso!
+INFO - Processando perfil 388
+INFO - Perfil 388 salvo com sucesso!
+INFO - Processando perfil 353
+INFO - Perfil 353 salvo com sucesso!
+INFO - Processando perfil 399
+INFO - Perfil 399 salvo com sucesso!
+INFO - Processando perfil 218
+INFO - Perfil 218 salvo com sucesso!
+INFO - Processando perfil 284
+INFO - Perfil 284 salvo com sucesso!
+INFO - Processando perfil 349
+INFO - Perfil 349 salvo com sucesso!
+INFO - Processando perfil 359
+INFO - Perfil 359 salvo com sucesso!
+INFO - Processando perfil 315
+INFO - Perfil 315 salvo com sucesso!
+INFO - Processando perfil 414
+INFO - Perfil 414 salvo com sucesso!
+INFO - Processando perfil 362
+INFO - Perfil 362 salvo com sucesso!
+INFO - Processando perfil 197
+INFO - Perfil 197 salvo com sucesso!
+INFO - Processando perfil 198
+INFO - Perfil 198 salvo com sucesso!
+INFO - Processando perfil 390
+INFO - Perfil 390 salvo com sucesso!
+INFO - Processando perfil 321
+INFO - Perfil 321 salvo com sucesso!
+INFO - Processando perfil 371
+INFO - Perfil 371 salvo com sucesso!
+INFO - Processando perfil 230
+INFO - Perfil 230 salvo com sucesso!
+INFO - Processando perfil 383
+INFO - Perfil 383 salvo com sucesso!
+INFO - Processando perfil 423
+INFO - Perfil 423 salvo com sucesso!
+INFO - Processando perfil 213
+INFO - Perfil 213 salvo com sucesso!
+INFO - Processando perfil 417
+INFO - Perfil 417 salvo com sucesso!
+INFO - Processando perfil 264
+INFO - Perfil 264 salvo com sucesso!
+INFO - Processando perfil 422
+INFO - Perfil 422 salvo com sucesso!
+INFO - Processando perfil 401
+INFO - Perfil 401 salvo com sucesso!
+INFO - Processando perfil 396
+INFO - Perfil 396 salvo com sucesso!
+INFO - Processando perfil 228
+INFO - Perfil 228 salvo com sucesso!
+INFO - Processando perfil 372
+INFO - Perfil 372 salvo com sucesso!
+INFO - Processando perfil 428
+INFO - Perfil 428 salvo com sucesso!
+INFO - Processando perfil 400
+INFO - Perfil 400 salvo com sucesso!
+INFO - Total de perfis salvos: 50
+INFO - Total de perfis atualizados: 0
+INFO - Driver não está em execução
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Pagamento 1408 inserido no banco de dados
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Pagamento 1474 inserido no banco de dados
+INFO - Driver encerrado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver já está em execução
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Pagamento 1540 inserido no banco de dados
+INFO - Driver encerrado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Pagamento 1541 inserido no banco de dados
+INFO - Driver encerrado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Pagamento 1542 inserido no banco de dados
+INFO - Driver encerrado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Pagamento 1543 inserido no banco de dados
+INFO - Driver encerrado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Pagamento 1544 inserido no banco de dados
+INFO - Driver encerrado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Iniciando o processo de atualização dos perfis
+INFO - Fazendo login no site
+INFO - Driver iniciado com sucesso
+INFO - Capturando perfis para inserção/atualização no banco de dados
+INFO - Processando perfil 10
+INFO - Perfil 10 salvo com sucesso!
+INFO - Processando perfil 14
+INFO - Perfil 14 atualizado com sucesso!
+INFO - Processando perfil 39
+INFO - Perfil 39 salvo com sucesso!
+INFO - Processando perfil 46
+INFO - Perfil 46 salvo com sucesso!
+INFO - Processando perfil 47
+INFO - Perfil 47 salvo com sucesso!
+INFO - Processando perfil 67
+INFO - Perfil 67 salvo com sucesso!
+INFO - Processando perfil 68
+INFO - Perfil 68 salvo com sucesso!
+INFO - Processando perfil 70
+INFO - Perfil 70 salvo com sucesso!
+INFO - Processando perfil 72
+INFO - Perfil 72 salvo com sucesso!
+INFO - Processando perfil 73
+INFO - Perfil 73 salvo com sucesso!
+INFO - Processando perfil 79
+INFO - Perfil 79 salvo com sucesso!
+INFO - Processando perfil 86
+INFO - Perfil 86 atualizado com sucesso!
+INFO - Processando perfil 92
+INFO - Perfil 92 salvo com sucesso!
+INFO - Processando perfil 104
+INFO - Perfil 104 salvo com sucesso!
+INFO - Processando perfil 110
+INFO - Perfil 110 salvo com sucesso!
+INFO - Processando perfil 135
+INFO - Perfil 135 salvo com sucesso!
+INFO - Processando perfil 140
+INFO - Perfil 140 salvo com sucesso!
+INFO - Processando perfil 171
+INFO - Perfil 171 salvo com sucesso!
+INFO - Processando perfil 189
+INFO - Perfil 189 salvo com sucesso!
+INFO - Processando perfil 197
+INFO - Perfil 197 atualizado com sucesso!
+INFO - Processando perfil 198
+INFO - Perfil 198 atualizado com sucesso!
+INFO - Processando perfil 201
+INFO - Perfil 201 salvo com sucesso!
+INFO - Processando perfil 208
+INFO - Perfil 208 salvo com sucesso!
+INFO - Processando perfil 213
+INFO - Perfil 213 atualizado com sucesso!
+INFO - Processando perfil 214
+INFO - Perfil 214 atualizado com sucesso!
+INFO - Processando perfil 215
+INFO - Perfil 215 salvo com sucesso!
+INFO - Processando perfil 217
+INFO - Perfil 217 salvo com sucesso!
+INFO - Processando perfil 218
+INFO - Perfil 218 atualizado com sucesso!
+INFO - Processando perfil 228
+INFO - Perfil 228 atualizado com sucesso!
+INFO - Processando perfil 230
+INFO - Perfil 230 atualizado com sucesso!
+INFO - Processando perfil 231
+INFO - Perfil 231 atualizado com sucesso!
+INFO - Processando perfil 232
+INFO - Perfil 232 atualizado com sucesso!
+INFO - Processando perfil 241
+INFO - Perfil 241 atualizado com sucesso!
+INFO - Processando perfil 244
+INFO - Perfil 244 salvo com sucesso!
+INFO - Processando perfil 245
+INFO - Perfil 245 salvo com sucesso!
+INFO - Processando perfil 246
+INFO - Perfil 246 salvo com sucesso!
+INFO - Processando perfil 247
+INFO - Perfil 247 salvo com sucesso!
+INFO - Processando perfil 252
+INFO - Perfil 252 salvo com sucesso!
+INFO - Processando perfil 256
+INFO - Perfil 256 atualizado com sucesso!
+INFO - Processando perfil 257
+INFO - Perfil 257 salvo com sucesso!
+INFO - Processando perfil 264
+INFO - Perfil 264 atualizado com sucesso!
+INFO - Processando perfil 268
+INFO - Perfil 268 atualizado com sucesso!
+INFO - Processando perfil 284
+INFO - Perfil 284 atualizado com sucesso!
+INFO - Processando perfil 285
+INFO - Perfil 285 salvo com sucesso!
+INFO - Processando perfil 289
+INFO - Perfil 289 salvo com sucesso!
+INFO - Processando perfil 293
+INFO - Perfil 293 salvo com sucesso!
+INFO - Processando perfil 308
+INFO - Perfil 308 atualizado com sucesso!
+INFO - Processando perfil 311
+INFO - Perfil 311 salvo com sucesso!
+INFO - Processando perfil 312
+INFO - Perfil 312 salvo com sucesso!
+INFO - Processando perfil 315
+INFO - Perfil 315 atualizado com sucesso!
+INFO - Processando perfil 319
+INFO - Perfil 319 salvo com sucesso!
+INFO - Processando perfil 320
+INFO - Perfil 320 salvo com sucesso!
+INFO - Processando perfil 321
+INFO - Perfil 321 atualizado com sucesso!
+INFO - Processando perfil 322
+INFO - Perfil 322 salvo com sucesso!
+INFO - Processando perfil 328
+INFO - Perfil 328 atualizado com sucesso!
+INFO - Processando perfil 330
+INFO - Perfil 330 salvo com sucesso!
+INFO - Processando perfil 335
+INFO - Perfil 335 salvo com sucesso!
+INFO - Processando perfil 336
+INFO - Perfil 336 atualizado com sucesso!
+INFO - Processando perfil 339
+INFO - Perfil 339 salvo com sucesso!
+INFO - Processando perfil 340
+INFO - Perfil 340 salvo com sucesso!
+INFO - Processando perfil 343
+INFO - Perfil 343 atualizado com sucesso!
+INFO - Processando perfil 344
+INFO - Perfil 344 salvo com sucesso!
+INFO - Processando perfil 346
+INFO - Perfil 346 atualizado com sucesso!
+INFO - Processando perfil 349
+INFO - Perfil 349 atualizado com sucesso!
+INFO - Processando perfil 350
+INFO - Perfil 350 salvo com sucesso!
+INFO - Processando perfil 353
+INFO - Perfil 353 atualizado com sucesso!
+INFO - Processando perfil 356
+INFO - Perfil 356 salvo com sucesso!
+INFO - Processando perfil 357
+INFO - Perfil 357 salvo com sucesso!
+INFO - Processando perfil 359
+INFO - Perfil 359 atualizado com sucesso!
+INFO - Processando perfil 360
+INFO - Perfil 360 atualizado com sucesso!
+INFO - Processando perfil 362
+INFO - Perfil 362 atualizado com sucesso!
+INFO - Processando perfil 364
+INFO - Perfil 364 salvo com sucesso!
+INFO - Processando perfil 367
+INFO - Perfil 367 salvo com sucesso!
+INFO - Processando perfil 368
+INFO - Perfil 368 salvo com sucesso!
+INFO - Processando perfil 371
+INFO - Perfil 371 atualizado com sucesso!
+INFO - Processando perfil 372
+INFO - Perfil 372 atualizado com sucesso!
+INFO - Processando perfil 379
+INFO - Perfil 379 salvo com sucesso!
+INFO - Processando perfil 380
+INFO - Perfil 380 salvo com sucesso!
+INFO - Processando perfil 383
+INFO - Perfil 383 atualizado com sucesso!
+INFO - Processando perfil 384
+INFO - Perfil 384 atualizado com sucesso!
+INFO - Processando perfil 385
+INFO - Perfil 385 atualizado com sucesso!
+INFO - Processando perfil 386
+INFO - Perfil 386 atualizado com sucesso!
+INFO - Processando perfil 388
+INFO - Perfil 388 atualizado com sucesso!
+INFO - Processando perfil 389
+INFO - Perfil 389 salvo com sucesso!
+INFO - Processando perfil 390
+INFO - Perfil 390 atualizado com sucesso!
+INFO - Processando perfil 396
+INFO - Perfil 396 atualizado com sucesso!
+INFO - Processando perfil 398
+INFO - Perfil 398 salvo com sucesso!
+INFO - Processando perfil 399
+INFO - Perfil 399 atualizado com sucesso!
+INFO - Processando perfil 400
+INFO - Perfil 400 atualizado com sucesso!
+INFO - Processando perfil 401
+INFO - Perfil 401 atualizado com sucesso!
+INFO - Processando perfil 403
+INFO - Perfil 403 salvo com sucesso!
+INFO - Processando perfil 404
+INFO - Perfil 404 atualizado com sucesso!
+INFO - Processando perfil 405
+INFO - Perfil 405 salvo com sucesso!
+INFO - Processando perfil 407
+INFO - Perfil 407 salvo com sucesso!
+INFO - Processando perfil 408
+INFO - Perfil 408 salvo com sucesso!
+INFO - Processando perfil 409
+INFO - Perfil 409 atualizado com sucesso!
+INFO - Processando perfil 410
+INFO - Perfil 410 salvo com sucesso!
+INFO - Processando perfil 412
+INFO - Perfil 412 salvo com sucesso!
+INFO - Processando perfil 413
+INFO - Perfil 413 atualizado com sucesso!
+INFO - Processando perfil 414
+INFO - Perfil 414 atualizado com sucesso!
+INFO - Processando perfil 415
+INFO - Perfil 415 salvo com sucesso!
+INFO - Processando perfil 416
+INFO - Perfil 416 salvo com sucesso!
+INFO - Processando perfil 417
+INFO - Perfil 417 atualizado com sucesso!
+INFO - Processando perfil 418
+INFO - Perfil 418 salvo com sucesso!
+INFO - Processando perfil 419
+INFO - Perfil 419 salvo com sucesso!
+INFO - Processando perfil 420
+INFO - Perfil 420 salvo com sucesso!
+INFO - Processando perfil 421
+INFO - Perfil 421 salvo com sucesso!
+INFO - Processando perfil 422
+INFO - Perfil 422 atualizado com sucesso!
+INFO - Processando perfil 423
+INFO - Perfil 423 atualizado com sucesso!
+INFO - Processando perfil 424
+INFO - Perfil 424 salvo com sucesso!
+INFO - Processando perfil 425
+INFO - Perfil 425 salvo com sucesso!
+INFO - Processando perfil 426
+INFO - Perfil 426 salvo com sucesso!
+INFO - Processando perfil 427
+INFO - Perfil 427 salvo com sucesso!
+INFO - Processando perfil 428
+INFO - Perfil 428 atualizado com sucesso!
+INFO - Processando perfil 429
+INFO - Perfil 429 salvo com sucesso!
+INFO - Processando perfil 430
+INFO - Perfil 430 salvo com sucesso!
+INFO - Processando perfil 431
+INFO - Perfil 431 salvo com sucesso!
+INFO - Processando perfil 432
+INFO - Perfil 432 salvo com sucesso!
+INFO - Processando perfil 433
+INFO - Perfil 433 salvo com sucesso!
+INFO - Processando perfil 434
+INFO - Perfil 434 salvo com sucesso!
+INFO - Processando perfil 435
+INFO - Perfil 435 salvo com sucesso!
+INFO - Processando perfil 436
+INFO - Perfil 436 salvo com sucesso!
+INFO - Processando perfil 437
+INFO - Perfil 437 salvo com sucesso!
+INFO - Processando perfil 438
+INFO - Perfil 438 salvo com sucesso!
+INFO - Processando perfil 439
+INFO - Perfil 439 salvo com sucesso!
+INFO - Processando perfil 440
+INFO - Perfil 440 salvo com sucesso!
+INFO - Processando perfil 441
+INFO - Perfil 441 salvo com sucesso!
+INFO - Processando perfil 442
+INFO - Perfil 442 salvo com sucesso!
+INFO - Processando perfil 443
+INFO - Perfil 443 atualizado com sucesso!
+INFO - Processando perfil 444
+INFO - Perfil 444 salvo com sucesso!
+INFO - Processando perfil 445
+INFO - Perfil 445 salvo com sucesso!
+INFO - Processando perfil 446
+INFO - Perfil 446 salvo com sucesso!
+INFO - Processando perfil 447
+INFO - Perfil 447 salvo com sucesso!
+INFO - Processando perfil 448
+INFO - Perfil 448 salvo com sucesso!
+INFO - Processando perfil 449
+INFO - Perfil 449 salvo com sucesso!
+INFO - Processando perfil 450
+INFO - Perfil 450 atualizado com sucesso!
+INFO - Processando perfil 451
+INFO - Perfil 451 salvo com sucesso!
+INFO - Total de perfis salvos: 87
+INFO - Total de perfis atualizados: 50
+INFO - Driver não está em execução
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
+INFO - Pagamento 1616 inserido no banco de dados
+INFO - Driver encerrado com sucesso
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver já está em execução
+INFO - Capturando pagamentos para inserção/atualização no banco de dados
+INFO - Driver iniciado com sucesso
